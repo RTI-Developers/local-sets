@@ -12,4 +12,6 @@
 - Install VS Code recommended extensions
 - Run Task `Install Dependencies - All`
 - Run Task `Package Driver - Dev`
+- Locate resultant driver file in `/dist` folder
+- Include driver in RTI project
 - Tick `Enable Trace` in Integration Designer driver configuration
