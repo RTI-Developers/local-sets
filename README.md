@@ -5,6 +5,7 @@
 - Open project in VS Code
 - Run Task `Install Dependencies - All`
 - Run Task `Package Driver`
+- Locate resultant driver file in `/dist` folder
 
 ## Recommended Development/Debugging Steps
 
