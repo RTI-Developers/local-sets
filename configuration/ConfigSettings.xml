@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<category name="Hidden" hidden="true">
+        <setting type="integer" name="Local Set Count" variable="SetCount" countsourceid="Set" />
+    </category>
+	<category name="Set 1" sourceid="Set1" condition="$SetCount >= 1">
+		<setting name="Name" variable="Set1Name" type="string" description="Set name" default="Set 01" />
+		<setting name="Item Count" variable="Set1ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set1Item1Name" type="string" description="Item name" default="Item 01" condition="$Set1ItemCount >= 1" />
+		<setting name="Item Name" variable="Set1Item2Name" type="string" description="Item name" default="Item 02" condition="$Set1ItemCount >= 2" />
+		<setting name="Item Name" variable="Set1Item3Name" type="string" description="Item name" default="Item 03" condition="$Set1ItemCount >= 3" />
+		<setting name="Item Name" variable="Set1Item4Name" type="string" description="Item name" default="Item 04" condition="$Set1ItemCount >= 4" />
+		<setting name="Item Name" variable="Set1Item5Name" type="string" description="Item name" default="Item 05" condition="$Set1ItemCount >= 5" />
+		<setting name="Item Name" variable="Set1Item6Name" type="string" description="Item name" default="Item 06" condition="$Set1ItemCount >= 6" />
+		<setting name="Item Name" variable="Set1Item7Name" type="string" description="Item name" default="Item 07" condition="$Set1ItemCount >= 7" />
+		<setting name="Item Name" variable="Set1Item8Name" type="string" description="Item name" default="Item 08" condition="$Set1ItemCount >= 8" />
+		<setting name="Item Name" variable="Set1Item9Name" type="string" description="Item name" default="Item 09" condition="$Set1ItemCount >= 9" />
+		<setting name="Item Name" variable="Set1Item10Name" type="string" description="Item name" default="Item 10" condition="$Set1ItemCount >= 10" />
+		<setting name="Item Name" variable="Set1Item11Name" type="string" description="Item name" default="Item 11" condition="$Set1ItemCount >= 11" />
+		<setting name="Item Name" variable="Set1Item12Name" type="string" description="Item name" default="Item 12" condition="$Set1ItemCount >= 12" />
+		<setting name="Item Name" variable="Set1Item13Name" type="string" description="Item name" default="Item 13" condition="$Set1ItemCount >= 13" />
+		<setting name="Item Name" variable="Set1Item14Name" type="string" description="Item name" default="Item 14" condition="$Set1ItemCount >= 14" />
+		<setting name="Item Name" variable="Set1Item15Name" type="string" description="Item name" default="Item 15" condition="$Set1ItemCount >= 15" />
+		<setting name="Item Name" variable="Set1Item16Name" type="string" description="Item name" default="Item 16" condition="$Set1ItemCount >= 16" />
+		<setting name="Item Name" variable="Set1Item17Name" type="string" description="Item name" default="Item 17" condition="$Set1ItemCount >= 17" />
+		<setting name="Item Name" variable="Set1Item18Name" type="string" description="Item name" default="Item 18" condition="$Set1ItemCount >= 18" />
+		<setting name="Item Name" variable="Set1Item19Name" type="string" description="Item name" default="Item 19" condition="$Set1ItemCount >= 19" />
+		<setting name="Item Name" variable="Set1Item20Name" type="string" description="Item name" default="Item 20" condition="$Set1ItemCount >= 20" />
+	</category>
+	<category name="Set 2" sourceid="Set2" condition="$SetCount >= 2">
+		<setting name="Name" variable="Set2Name" type="string" description="Set name" default="Set 02" />
+		<setting name="Item Count" variable="Set2ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set2Item1Name" type="string" description="Item name" default="Item 01" condition="$Set2ItemCount >= 1" />
+		<setting name="Item Name" variable="Set2Item2Name" type="string" description="Item name" default="Item 02" condition="$Set2ItemCount >= 2" />
+		<setting name="Item Name" variable="Set2Item3Name" type="string" description="Item name" default="Item 03" condition="$Set2ItemCount >= 3" />
+		<setting name="Item Name" variable="Set2Item4Name" type="string" description="Item name" default="Item 04" condition="$Set2ItemCount >= 4" />
+		<setting name="Item Name" variable="Set2Item5Name" type="string" description="Item name" default="Item 05" condition="$Set2ItemCount >= 5" />
+		<setting name="Item Name" variable="Set2Item6Name" type="string" description="Item name" default="Item 06" condition="$Set2ItemCount >= 6" />
+		<setting name="Item Name" variable="Set2Item7Name" type="string" description="Item name" default="Item 07" condition="$Set2ItemCount >= 7" />
+		<setting name="Item Name" variable="Set2Item8Name" type="string" description="Item name" default="Item 08" condition="$Set2ItemCount >= 8" />
+		<setting name="Item Name" variable="Set2Item9Name" type="string" description="Item name" default="Item 09" condition="$Set2ItemCount >= 9" />
+		<setting name="Item Name" variable="Set2Item10Name" type="string" description="Item name" default="Item 10" condition="$Set2ItemCount >= 10" />
+		<setting name="Item Name" variable="Set2Item11Name" type="string" description="Item name" default="Item 11" condition="$Set2ItemCount >= 11" />
+		<setting name="Item Name" variable="Set2Item12Name" type="string" description="Item name" default="Item 12" condition="$Set2ItemCount >= 12" />
+		<setting name="Item Name" variable="Set2Item13Name" type="string" description="Item name" default="Item 13" condition="$Set2ItemCount >= 13" />
+		<setting name="Item Name" variable="Set2Item14Name" type="string" description="Item name" default="Item 14" condition="$Set2ItemCount >= 14" />
+		<setting name="Item Name" variable="Set2Item15Name" type="string" description="Item name" default="Item 15" condition="$Set2ItemCount >= 15" />
+		<setting name="Item Name" variable="Set2Item16Name" type="string" description="Item name" default="Item 16" condition="$Set2ItemCount >= 16" />
+		<setting name="Item Name" variable="Set2Item17Name" type="string" description="Item name" default="Item 17" condition="$Set2ItemCount >= 17" />
+		<setting name="Item Name" variable="Set2Item18Name" type="string" description="Item name" default="Item 18" condition="$Set2ItemCount >= 18" />
+		<setting name="Item Name" variable="Set2Item19Name" type="string" description="Item name" default="Item 19" condition="$Set2ItemCount >= 19" />
+		<setting name="Item Name" variable="Set2Item20Name" type="string" description="Item name" default="Item 20" condition="$Set2ItemCount >= 20" />
+	</category>
+	<category name="Set 3" sourceid="Set3" condition="$SetCount >= 3">
+		<setting name="Name" variable="Set3Name" type="string" description="Set name" default="Set 03" />
+		<setting name="Item Count" variable="Set3ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set3Item1Name" type="string" description="Item name" default="Item 01" condition="$Set3ItemCount >= 1" />
+		<setting name="Item Name" variable="Set3Item2Name" type="string" description="Item name" default="Item 02" condition="$Set3ItemCount >= 2" />
+		<setting name="Item Name" variable="Set3Item3Name" type="string" description="Item name" default="Item 03" condition="$Set3ItemCount >= 3" />
+		<setting name="Item Name" variable="Set3Item4Name" type="string" description="Item name" default="Item 04" condition="$Set3ItemCount >= 4" />
+		<setting name="Item Name" variable="Set3Item5Name" type="string" description="Item name" default="Item 05" condition="$Set3ItemCount >= 5" />
+		<setting name="Item Name" variable="Set3Item6Name" type="string" description="Item name" default="Item 06" condition="$Set3ItemCount >= 6" />
+		<setting name="Item Name" variable="Set3Item7Name" type="string" description="Item name" default="Item 07" condition="$Set3ItemCount >= 7" />
+		<setting name="Item Name" variable="Set3Item8Name" type="string" description="Item name" default="Item 08" condition="$Set3ItemCount >= 8" />
+		<setting name="Item Name" variable="Set3Item9Name" type="string" description="Item name" default="Item 09" condition="$Set3ItemCount >= 9" />
+		<setting name="Item Name" variable="Set3Item10Name" type="string" description="Item name" default="Item 10" condition="$Set3ItemCount >= 10" />
+		<setting name="Item Name" variable="Set3Item11Name" type="string" description="Item name" default="Item 11" condition="$Set3ItemCount >= 11" />
+		<setting name="Item Name" variable="Set3Item12Name" type="string" description="Item name" default="Item 12" condition="$Set3ItemCount >= 12" />
+		<setting name="Item Name" variable="Set3Item13Name" type="string" description="Item name" default="Item 13" condition="$Set3ItemCount >= 13" />
+		<setting name="Item Name" variable="Set3Item14Name" type="string" description="Item name" default="Item 14" condition="$Set3ItemCount >= 14" />
+		<setting name="Item Name" variable="Set3Item15Name" type="string" description="Item name" default="Item 15" condition="$Set3ItemCount >= 15" />
+		<setting name="Item Name" variable="Set3Item16Name" type="string" description="Item name" default="Item 16" condition="$Set3ItemCount >= 16" />
+		<setting name="Item Name" variable="Set3Item17Name" type="string" description="Item name" default="Item 17" condition="$Set3ItemCount >= 17" />
+		<setting name="Item Name" variable="Set3Item18Name" type="string" description="Item name" default="Item 18" condition="$Set3ItemCount >= 18" />
+		<setting name="Item Name" variable="Set3Item19Name" type="string" description="Item name" default="Item 19" condition="$Set3ItemCount >= 19" />
+		<setting name="Item Name" variable="Set3Item20Name" type="string" description="Item name" default="Item 20" condition="$Set3ItemCount >= 20" />
+	</category>
+	<category name="Set 4" sourceid="Set4" condition="$SetCount >= 4">
+		<setting name="Name" variable="Set4Name" type="string" description="Set name" default="Set 04" />
+		<setting name="Item Count" variable="Set4ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set4Item1Name" type="string" description="Item name" default="Item 01" condition="$Set4ItemCount >= 1" />
+		<setting name="Item Name" variable="Set4Item2Name" type="string" description="Item name" default="Item 02" condition="$Set4ItemCount >= 2" />
+		<setting name="Item Name" variable="Set4Item3Name" type="string" description="Item name" default="Item 03" condition="$Set4ItemCount >= 3" />
+		<setting name="Item Name" variable="Set4Item4Name" type="string" description="Item name" default="Item 04" condition="$Set4ItemCount >= 4" />
+		<setting name="Item Name" variable="Set4Item5Name" type="string" description="Item name" default="Item 05" condition="$Set4ItemCount >= 5" />
+		<setting name="Item Name" variable="Set4Item6Name" type="string" description="Item name" default="Item 06" condition="$Set4ItemCount >= 6" />
+		<setting name="Item Name" variable="Set4Item7Name" type="string" description="Item name" default="Item 07" condition="$Set4ItemCount >= 7" />
+		<setting name="Item Name" variable="Set4Item8Name" type="string" description="Item name" default="Item 08" condition="$Set4ItemCount >= 8" />
+		<setting name="Item Name" variable="Set4Item9Name" type="string" description="Item name" default="Item 09" condition="$Set4ItemCount >= 9" />
+		<setting name="Item Name" variable="Set4Item10Name" type="string" description="Item name" default="Item 10" condition="$Set4ItemCount >= 10" />
+		<setting name="Item Name" variable="Set4Item11Name" type="string" description="Item name" default="Item 11" condition="$Set4ItemCount >= 11" />
+		<setting name="Item Name" variable="Set4Item12Name" type="string" description="Item name" default="Item 12" condition="$Set4ItemCount >= 12" />
+		<setting name="Item Name" variable="Set4Item13Name" type="string" description="Item name" default="Item 13" condition="$Set4ItemCount >= 13" />
+		<setting name="Item Name" variable="Set4Item14Name" type="string" description="Item name" default="Item 14" condition="$Set4ItemCount >= 14" />
+		<setting name="Item Name" variable="Set4Item15Name" type="string" description="Item name" default="Item 15" condition="$Set4ItemCount >= 15" />
+		<setting name="Item Name" variable="Set4Item16Name" type="string" description="Item name" default="Item 16" condition="$Set4ItemCount >= 16" />
+		<setting name="Item Name" variable="Set4Item17Name" type="string" description="Item name" default="Item 17" condition="$Set4ItemCount >= 17" />
+		<setting name="Item Name" variable="Set4Item18Name" type="string" description="Item name" default="Item 18" condition="$Set4ItemCount >= 18" />
+		<setting name="Item Name" variable="Set4Item19Name" type="string" description="Item name" default="Item 19" condition="$Set4ItemCount >= 19" />
+		<setting name="Item Name" variable="Set4Item20Name" type="string" description="Item name" default="Item 20" condition="$Set4ItemCount >= 20" />
+	</category>
+	<category name="Set 5" sourceid="Set5" condition="$SetCount >= 5">
+		<setting name="Name" variable="Set5Name" type="string" description="Set name" default="Set 05" />
+		<setting name="Item Count" variable="Set5ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set5Item1Name" type="string" description="Item name" default="Item 01" condition="$Set5ItemCount >= 1" />
+		<setting name="Item Name" variable="Set5Item2Name" type="string" description="Item name" default="Item 02" condition="$Set5ItemCount >= 2" />
+		<setting name="Item Name" variable="Set5Item3Name" type="string" description="Item name" default="Item 03" condition="$Set5ItemCount >= 3" />
+		<setting name="Item Name" variable="Set5Item4Name" type="string" description="Item name" default="Item 04" condition="$Set5ItemCount >= 4" />
+		<setting name="Item Name" variable="Set5Item5Name" type="string" description="Item name" default="Item 05" condition="$Set5ItemCount >= 5" />
+		<setting name="Item Name" variable="Set5Item6Name" type="string" description="Item name" default="Item 06" condition="$Set5ItemCount >= 6" />
+		<setting name="Item Name" variable="Set5Item7Name" type="string" description="Item name" default="Item 07" condition="$Set5ItemCount >= 7" />
+		<setting name="Item Name" variable="Set5Item8Name" type="string" description="Item name" default="Item 08" condition="$Set5ItemCount >= 8" />
+		<setting name="Item Name" variable="Set5Item9Name" type="string" description="Item name" default="Item 09" condition="$Set5ItemCount >= 9" />
+		<setting name="Item Name" variable="Set5Item10Name" type="string" description="Item name" default="Item 10" condition="$Set5ItemCount >= 10" />
+		<setting name="Item Name" variable="Set5Item11Name" type="string" description="Item name" default="Item 11" condition="$Set5ItemCount >= 11" />
+		<setting name="Item Name" variable="Set5Item12Name" type="string" description="Item name" default="Item 12" condition="$Set5ItemCount >= 12" />
+		<setting name="Item Name" variable="Set5Item13Name" type="string" description="Item name" default="Item 13" condition="$Set5ItemCount >= 13" />
+		<setting name="Item Name" variable="Set5Item14Name" type="string" description="Item name" default="Item 14" condition="$Set5ItemCount >= 14" />
+		<setting name="Item Name" variable="Set5Item15Name" type="string" description="Item name" default="Item 15" condition="$Set5ItemCount >= 15" />
+		<setting name="Item Name" variable="Set5Item16Name" type="string" description="Item name" default="Item 16" condition="$Set5ItemCount >= 16" />
+		<setting name="Item Name" variable="Set5Item17Name" type="string" description="Item name" default="Item 17" condition="$Set5ItemCount >= 17" />
+		<setting name="Item Name" variable="Set5Item18Name" type="string" description="Item name" default="Item 18" condition="$Set5ItemCount >= 18" />
+		<setting name="Item Name" variable="Set5Item19Name" type="string" description="Item name" default="Item 19" condition="$Set5ItemCount >= 19" />
+		<setting name="Item Name" variable="Set5Item20Name" type="string" description="Item name" default="Item 20" condition="$Set5ItemCount >= 20" />
+	</category>
+	<category name="Set 6" sourceid="Set6" condition="$SetCount >= 6">
+		<setting name="Name" variable="Set6Name" type="string" description="Set name" default="Set 06" />
+		<setting name="Item Count" variable="Set6ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set6Item1Name" type="string" description="Item name" default="Item 01" condition="$Set6ItemCount >= 1" />
+		<setting name="Item Name" variable="Set6Item2Name" type="string" description="Item name" default="Item 02" condition="$Set6ItemCount >= 2" />
+		<setting name="Item Name" variable="Set6Item3Name" type="string" description="Item name" default="Item 03" condition="$Set6ItemCount >= 3" />
+		<setting name="Item Name" variable="Set6Item4Name" type="string" description="Item name" default="Item 04" condition="$Set6ItemCount >= 4" />
+		<setting name="Item Name" variable="Set6Item5Name" type="string" description="Item name" default="Item 05" condition="$Set6ItemCount >= 5" />
+		<setting name="Item Name" variable="Set6Item6Name" type="string" description="Item name" default="Item 06" condition="$Set6ItemCount >= 6" />
+		<setting name="Item Name" variable="Set6Item7Name" type="string" description="Item name" default="Item 07" condition="$Set6ItemCount >= 7" />
+		<setting name="Item Name" variable="Set6Item8Name" type="string" description="Item name" default="Item 08" condition="$Set6ItemCount >= 8" />
+		<setting name="Item Name" variable="Set6Item9Name" type="string" description="Item name" default="Item 09" condition="$Set6ItemCount >= 9" />
+		<setting name="Item Name" variable="Set6Item10Name" type="string" description="Item name" default="Item 10" condition="$Set6ItemCount >= 10" />
+		<setting name="Item Name" variable="Set6Item11Name" type="string" description="Item name" default="Item 11" condition="$Set6ItemCount >= 11" />
+		<setting name="Item Name" variable="Set6Item12Name" type="string" description="Item name" default="Item 12" condition="$Set6ItemCount >= 12" />
+		<setting name="Item Name" variable="Set6Item13Name" type="string" description="Item name" default="Item 13" condition="$Set6ItemCount >= 13" />
+		<setting name="Item Name" variable="Set6Item14Name" type="string" description="Item name" default="Item 14" condition="$Set6ItemCount >= 14" />
+		<setting name="Item Name" variable="Set6Item15Name" type="string" description="Item name" default="Item 15" condition="$Set6ItemCount >= 15" />
+		<setting name="Item Name" variable="Set6Item16Name" type="string" description="Item name" default="Item 16" condition="$Set6ItemCount >= 16" />
+		<setting name="Item Name" variable="Set6Item17Name" type="string" description="Item name" default="Item 17" condition="$Set6ItemCount >= 17" />
+		<setting name="Item Name" variable="Set6Item18Name" type="string" description="Item name" default="Item 18" condition="$Set6ItemCount >= 18" />
+		<setting name="Item Name" variable="Set6Item19Name" type="string" description="Item name" default="Item 19" condition="$Set6ItemCount >= 19" />
+		<setting name="Item Name" variable="Set6Item20Name" type="string" description="Item name" default="Item 20" condition="$Set6ItemCount >= 20" />
+	</category>
+	<category name="Set 7" sourceid="Set7" condition="$SetCount >= 7">
+		<setting name="Name" variable="Set7Name" type="string" description="Set name" default="Set 07" />
+		<setting name="Item Count" variable="Set7ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set7Item1Name" type="string" description="Item name" default="Item 01" condition="$Set7ItemCount >= 1" />
+		<setting name="Item Name" variable="Set7Item2Name" type="string" description="Item name" default="Item 02" condition="$Set7ItemCount >= 2" />
+		<setting name="Item Name" variable="Set7Item3Name" type="string" description="Item name" default="Item 03" condition="$Set7ItemCount >= 3" />
+		<setting name="Item Name" variable="Set7Item4Name" type="string" description="Item name" default="Item 04" condition="$Set7ItemCount >= 4" />
+		<setting name="Item Name" variable="Set7Item5Name" type="string" description="Item name" default="Item 05" condition="$Set7ItemCount >= 5" />
+		<setting name="Item Name" variable="Set7Item6Name" type="string" description="Item name" default="Item 06" condition="$Set7ItemCount >= 6" />
+		<setting name="Item Name" variable="Set7Item7Name" type="string" description="Item name" default="Item 07" condition="$Set7ItemCount >= 7" />
+		<setting name="Item Name" variable="Set7Item8Name" type="string" description="Item name" default="Item 08" condition="$Set7ItemCount >= 8" />
+		<setting name="Item Name" variable="Set7Item9Name" type="string" description="Item name" default="Item 09" condition="$Set7ItemCount >= 9" />
+		<setting name="Item Name" variable="Set7Item10Name" type="string" description="Item name" default="Item 10" condition="$Set7ItemCount >= 10" />
+		<setting name="Item Name" variable="Set7Item11Name" type="string" description="Item name" default="Item 11" condition="$Set7ItemCount >= 11" />
+		<setting name="Item Name" variable="Set7Item12Name" type="string" description="Item name" default="Item 12" condition="$Set7ItemCount >= 12" />
+		<setting name="Item Name" variable="Set7Item13Name" type="string" description="Item name" default="Item 13" condition="$Set7ItemCount >= 13" />
+		<setting name="Item Name" variable="Set7Item14Name" type="string" description="Item name" default="Item 14" condition="$Set7ItemCount >= 14" />
+		<setting name="Item Name" variable="Set7Item15Name" type="string" description="Item name" default="Item 15" condition="$Set7ItemCount >= 15" />
+		<setting name="Item Name" variable="Set7Item16Name" type="string" description="Item name" default="Item 16" condition="$Set7ItemCount >= 16" />
+		<setting name="Item Name" variable="Set7Item17Name" type="string" description="Item name" default="Item 17" condition="$Set7ItemCount >= 17" />
+		<setting name="Item Name" variable="Set7Item18Name" type="string" description="Item name" default="Item 18" condition="$Set7ItemCount >= 18" />
+		<setting name="Item Name" variable="Set7Item19Name" type="string" description="Item name" default="Item 19" condition="$Set7ItemCount >= 19" />
+		<setting name="Item Name" variable="Set7Item20Name" type="string" description="Item name" default="Item 20" condition="$Set7ItemCount >= 20" />
+	</category>
+	<category name="Set 8" sourceid="Set8" condition="$SetCount >= 8">
+		<setting name="Name" variable="Set8Name" type="string" description="Set name" default="Set 08" />
+		<setting name="Item Count" variable="Set8ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set8Item1Name" type="string" description="Item name" default="Item 01" condition="$Set8ItemCount >= 1" />
+		<setting name="Item Name" variable="Set8Item2Name" type="string" description="Item name" default="Item 02" condition="$Set8ItemCount >= 2" />
+		<setting name="Item Name" variable="Set8Item3Name" type="string" description="Item name" default="Item 03" condition="$Set8ItemCount >= 3" />
+		<setting name="Item Name" variable="Set8Item4Name" type="string" description="Item name" default="Item 04" condition="$Set8ItemCount >= 4" />
+		<setting name="Item Name" variable="Set8Item5Name" type="string" description="Item name" default="Item 05" condition="$Set8ItemCount >= 5" />
+		<setting name="Item Name" variable="Set8Item6Name" type="string" description="Item name" default="Item 06" condition="$Set8ItemCount >= 6" />
+		<setting name="Item Name" variable="Set8Item7Name" type="string" description="Item name" default="Item 07" condition="$Set8ItemCount >= 7" />
+		<setting name="Item Name" variable="Set8Item8Name" type="string" description="Item name" default="Item 08" condition="$Set8ItemCount >= 8" />
+		<setting name="Item Name" variable="Set8Item9Name" type="string" description="Item name" default="Item 09" condition="$Set8ItemCount >= 9" />
+		<setting name="Item Name" variable="Set8Item10Name" type="string" description="Item name" default="Item 10" condition="$Set8ItemCount >= 10" />
+		<setting name="Item Name" variable="Set8Item11Name" type="string" description="Item name" default="Item 11" condition="$Set8ItemCount >= 11" />
+		<setting name="Item Name" variable="Set8Item12Name" type="string" description="Item name" default="Item 12" condition="$Set8ItemCount >= 12" />
+		<setting name="Item Name" variable="Set8Item13Name" type="string" description="Item name" default="Item 13" condition="$Set8ItemCount >= 13" />
+		<setting name="Item Name" variable="Set8Item14Name" type="string" description="Item name" default="Item 14" condition="$Set8ItemCount >= 14" />
+		<setting name="Item Name" variable="Set8Item15Name" type="string" description="Item name" default="Item 15" condition="$Set8ItemCount >= 15" />
+		<setting name="Item Name" variable="Set8Item16Name" type="string" description="Item name" default="Item 16" condition="$Set8ItemCount >= 16" />
+		<setting name="Item Name" variable="Set8Item17Name" type="string" description="Item name" default="Item 17" condition="$Set8ItemCount >= 17" />
+		<setting name="Item Name" variable="Set8Item18Name" type="string" description="Item name" default="Item 18" condition="$Set8ItemCount >= 18" />
+		<setting name="Item Name" variable="Set8Item19Name" type="string" description="Item name" default="Item 19" condition="$Set8ItemCount >= 19" />
+		<setting name="Item Name" variable="Set8Item20Name" type="string" description="Item name" default="Item 20" condition="$Set8ItemCount >= 20" />
+	</category>
+	<category name="Set 9" sourceid="Set9" condition="$SetCount >= 9">
+		<setting name="Name" variable="Set9Name" type="string" description="Set name" default="Set 09" />
+		<setting name="Item Count" variable="Set9ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set9Item1Name" type="string" description="Item name" default="Item 01" condition="$Set9ItemCount >= 1" />
+		<setting name="Item Name" variable="Set9Item2Name" type="string" description="Item name" default="Item 02" condition="$Set9ItemCount >= 2" />
+		<setting name="Item Name" variable="Set9Item3Name" type="string" description="Item name" default="Item 03" condition="$Set9ItemCount >= 3" />
+		<setting name="Item Name" variable="Set9Item4Name" type="string" description="Item name" default="Item 04" condition="$Set9ItemCount >= 4" />
+		<setting name="Item Name" variable="Set9Item5Name" type="string" description="Item name" default="Item 05" condition="$Set9ItemCount >= 5" />
+		<setting name="Item Name" variable="Set9Item6Name" type="string" description="Item name" default="Item 06" condition="$Set9ItemCount >= 6" />
+		<setting name="Item Name" variable="Set9Item7Name" type="string" description="Item name" default="Item 07" condition="$Set9ItemCount >= 7" />
+		<setting name="Item Name" variable="Set9Item8Name" type="string" description="Item name" default="Item 08" condition="$Set9ItemCount >= 8" />
+		<setting name="Item Name" variable="Set9Item9Name" type="string" description="Item name" default="Item 09" condition="$Set9ItemCount >= 9" />
+		<setting name="Item Name" variable="Set9Item10Name" type="string" description="Item name" default="Item 10" condition="$Set9ItemCount >= 10" />
+		<setting name="Item Name" variable="Set9Item11Name" type="string" description="Item name" default="Item 11" condition="$Set9ItemCount >= 11" />
+		<setting name="Item Name" variable="Set9Item12Name" type="string" description="Item name" default="Item 12" condition="$Set9ItemCount >= 12" />
+		<setting name="Item Name" variable="Set9Item13Name" type="string" description="Item name" default="Item 13" condition="$Set9ItemCount >= 13" />
+		<setting name="Item Name" variable="Set9Item14Name" type="string" description="Item name" default="Item 14" condition="$Set9ItemCount >= 14" />
+		<setting name="Item Name" variable="Set9Item15Name" type="string" description="Item name" default="Item 15" condition="$Set9ItemCount >= 15" />
+		<setting name="Item Name" variable="Set9Item16Name" type="string" description="Item name" default="Item 16" condition="$Set9ItemCount >= 16" />
+		<setting name="Item Name" variable="Set9Item17Name" type="string" description="Item name" default="Item 17" condition="$Set9ItemCount >= 17" />
+		<setting name="Item Name" variable="Set9Item18Name" type="string" description="Item name" default="Item 18" condition="$Set9ItemCount >= 18" />
+		<setting name="Item Name" variable="Set9Item19Name" type="string" description="Item name" default="Item 19" condition="$Set9ItemCount >= 19" />
+		<setting name="Item Name" variable="Set9Item20Name" type="string" description="Item name" default="Item 20" condition="$Set9ItemCount >= 20" />
+	</category>
+	<category name="Set 10" sourceid="Set10" condition="$SetCount >= 10">
+		<setting name="Name" variable="Set10Name" type="string" description="Set name" default="Set 10" />
+		<setting name="Item Count" variable="Set10ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set10Item1Name" type="string" description="Item name" default="Item 01" condition="$Set10ItemCount >= 1" />
+		<setting name="Item Name" variable="Set10Item2Name" type="string" description="Item name" default="Item 02" condition="$Set10ItemCount >= 2" />
+		<setting name="Item Name" variable="Set10Item3Name" type="string" description="Item name" default="Item 03" condition="$Set10ItemCount >= 3" />
+		<setting name="Item Name" variable="Set10Item4Name" type="string" description="Item name" default="Item 04" condition="$Set10ItemCount >= 4" />
+		<setting name="Item Name" variable="Set10Item5Name" type="string" description="Item name" default="Item 05" condition="$Set10ItemCount >= 5" />
+		<setting name="Item Name" variable="Set10Item6Name" type="string" description="Item name" default="Item 06" condition="$Set10ItemCount >= 6" />
+		<setting name="Item Name" variable="Set10Item7Name" type="string" description="Item name" default="Item 07" condition="$Set10ItemCount >= 7" />
+		<setting name="Item Name" variable="Set10Item8Name" type="string" description="Item name" default="Item 08" condition="$Set10ItemCount >= 8" />
+		<setting name="Item Name" variable="Set10Item9Name" type="string" description="Item name" default="Item 09" condition="$Set10ItemCount >= 9" />
+		<setting name="Item Name" variable="Set10Item10Name" type="string" description="Item name" default="Item 10" condition="$Set10ItemCount >= 10" />
+		<setting name="Item Name" variable="Set10Item11Name" type="string" description="Item name" default="Item 11" condition="$Set10ItemCount >= 11" />
+		<setting name="Item Name" variable="Set10Item12Name" type="string" description="Item name" default="Item 12" condition="$Set10ItemCount >= 12" />
+		<setting name="Item Name" variable="Set10Item13Name" type="string" description="Item name" default="Item 13" condition="$Set10ItemCount >= 13" />
+		<setting name="Item Name" variable="Set10Item14Name" type="string" description="Item name" default="Item 14" condition="$Set10ItemCount >= 14" />
+		<setting name="Item Name" variable="Set10Item15Name" type="string" description="Item name" default="Item 15" condition="$Set10ItemCount >= 15" />
+		<setting name="Item Name" variable="Set10Item16Name" type="string" description="Item name" default="Item 16" condition="$Set10ItemCount >= 16" />
+		<setting name="Item Name" variable="Set10Item17Name" type="string" description="Item name" default="Item 17" condition="$Set10ItemCount >= 17" />
+		<setting name="Item Name" variable="Set10Item18Name" type="string" description="Item name" default="Item 18" condition="$Set10ItemCount >= 18" />
+		<setting name="Item Name" variable="Set10Item19Name" type="string" description="Item name" default="Item 19" condition="$Set10ItemCount >= 19" />
+		<setting name="Item Name" variable="Set10Item20Name" type="string" description="Item name" default="Item 20" condition="$Set10ItemCount >= 20" />
+	</category>
+	<category name="Set 11" sourceid="Set11" condition="$SetCount >= 11">
+		<setting name="Name" variable="Set11Name" type="string" description="Set name" default="Set 11" />
+		<setting name="Item Count" variable="Set11ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set11Item1Name" type="string" description="Item name" default="Item 01" condition="$Set11ItemCount >= 1" />
+		<setting name="Item Name" variable="Set11Item2Name" type="string" description="Item name" default="Item 02" condition="$Set11ItemCount >= 2" />
+		<setting name="Item Name" variable="Set11Item3Name" type="string" description="Item name" default="Item 03" condition="$Set11ItemCount >= 3" />
+		<setting name="Item Name" variable="Set11Item4Name" type="string" description="Item name" default="Item 04" condition="$Set11ItemCount >= 4" />
+		<setting name="Item Name" variable="Set11Item5Name" type="string" description="Item name" default="Item 05" condition="$Set11ItemCount >= 5" />
+		<setting name="Item Name" variable="Set11Item6Name" type="string" description="Item name" default="Item 06" condition="$Set11ItemCount >= 6" />
+		<setting name="Item Name" variable="Set11Item7Name" type="string" description="Item name" default="Item 07" condition="$Set11ItemCount >= 7" />
+		<setting name="Item Name" variable="Set11Item8Name" type="string" description="Item name" default="Item 08" condition="$Set11ItemCount >= 8" />
+		<setting name="Item Name" variable="Set11Item9Name" type="string" description="Item name" default="Item 09" condition="$Set11ItemCount >= 9" />
+		<setting name="Item Name" variable="Set11Item10Name" type="string" description="Item name" default="Item 10" condition="$Set11ItemCount >= 10" />
+		<setting name="Item Name" variable="Set11Item11Name" type="string" description="Item name" default="Item 11" condition="$Set11ItemCount >= 11" />
+		<setting name="Item Name" variable="Set11Item12Name" type="string" description="Item name" default="Item 12" condition="$Set11ItemCount >= 12" />
+		<setting name="Item Name" variable="Set11Item13Name" type="string" description="Item name" default="Item 13" condition="$Set11ItemCount >= 13" />
+		<setting name="Item Name" variable="Set11Item14Name" type="string" description="Item name" default="Item 14" condition="$Set11ItemCount >= 14" />
+		<setting name="Item Name" variable="Set11Item15Name" type="string" description="Item name" default="Item 15" condition="$Set11ItemCount >= 15" />
+		<setting name="Item Name" variable="Set11Item16Name" type="string" description="Item name" default="Item 16" condition="$Set11ItemCount >= 16" />
+		<setting name="Item Name" variable="Set11Item17Name" type="string" description="Item name" default="Item 17" condition="$Set11ItemCount >= 17" />
+		<setting name="Item Name" variable="Set11Item18Name" type="string" description="Item name" default="Item 18" condition="$Set11ItemCount >= 18" />
+		<setting name="Item Name" variable="Set11Item19Name" type="string" description="Item name" default="Item 19" condition="$Set11ItemCount >= 19" />
+		<setting name="Item Name" variable="Set11Item20Name" type="string" description="Item name" default="Item 20" condition="$Set11ItemCount >= 20" />
+	</category>
+	<category name="Set 12" sourceid="Set12" condition="$SetCount >= 12">
+		<setting name="Name" variable="Set12Name" type="string" description="Set name" default="Set 12" />
+		<setting name="Item Count" variable="Set12ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set12Item1Name" type="string" description="Item name" default="Item 01" condition="$Set12ItemCount >= 1" />
+		<setting name="Item Name" variable="Set12Item2Name" type="string" description="Item name" default="Item 02" condition="$Set12ItemCount >= 2" />
+		<setting name="Item Name" variable="Set12Item3Name" type="string" description="Item name" default="Item 03" condition="$Set12ItemCount >= 3" />
+		<setting name="Item Name" variable="Set12Item4Name" type="string" description="Item name" default="Item 04" condition="$Set12ItemCount >= 4" />
+		<setting name="Item Name" variable="Set12Item5Name" type="string" description="Item name" default="Item 05" condition="$Set12ItemCount >= 5" />
+		<setting name="Item Name" variable="Set12Item6Name" type="string" description="Item name" default="Item 06" condition="$Set12ItemCount >= 6" />
+		<setting name="Item Name" variable="Set12Item7Name" type="string" description="Item name" default="Item 07" condition="$Set12ItemCount >= 7" />
+		<setting name="Item Name" variable="Set12Item8Name" type="string" description="Item name" default="Item 08" condition="$Set12ItemCount >= 8" />
+		<setting name="Item Name" variable="Set12Item9Name" type="string" description="Item name" default="Item 09" condition="$Set12ItemCount >= 9" />
+		<setting name="Item Name" variable="Set12Item10Name" type="string" description="Item name" default="Item 10" condition="$Set12ItemCount >= 10" />
+		<setting name="Item Name" variable="Set12Item11Name" type="string" description="Item name" default="Item 11" condition="$Set12ItemCount >= 11" />
+		<setting name="Item Name" variable="Set12Item12Name" type="string" description="Item name" default="Item 12" condition="$Set12ItemCount >= 12" />
+		<setting name="Item Name" variable="Set12Item13Name" type="string" description="Item name" default="Item 13" condition="$Set12ItemCount >= 13" />
+		<setting name="Item Name" variable="Set12Item14Name" type="string" description="Item name" default="Item 14" condition="$Set12ItemCount >= 14" />
+		<setting name="Item Name" variable="Set12Item15Name" type="string" description="Item name" default="Item 15" condition="$Set12ItemCount >= 15" />
+		<setting name="Item Name" variable="Set12Item16Name" type="string" description="Item name" default="Item 16" condition="$Set12ItemCount >= 16" />
+		<setting name="Item Name" variable="Set12Item17Name" type="string" description="Item name" default="Item 17" condition="$Set12ItemCount >= 17" />
+		<setting name="Item Name" variable="Set12Item18Name" type="string" description="Item name" default="Item 18" condition="$Set12ItemCount >= 18" />
+		<setting name="Item Name" variable="Set12Item19Name" type="string" description="Item name" default="Item 19" condition="$Set12ItemCount >= 19" />
+		<setting name="Item Name" variable="Set12Item20Name" type="string" description="Item name" default="Item 20" condition="$Set12ItemCount >= 20" />
+	</category>
+	<category name="Set 13" sourceid="Set13" condition="$SetCount >= 13">
+		<setting name="Name" variable="Set13Name" type="string" description="Set name" default="Set 13" />
+		<setting name="Item Count" variable="Set13ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set13Item1Name" type="string" description="Item name" default="Item 01" condition="$Set13ItemCount >= 1" />
+		<setting name="Item Name" variable="Set13Item2Name" type="string" description="Item name" default="Item 02" condition="$Set13ItemCount >= 2" />
+		<setting name="Item Name" variable="Set13Item3Name" type="string" description="Item name" default="Item 03" condition="$Set13ItemCount >= 3" />
+		<setting name="Item Name" variable="Set13Item4Name" type="string" description="Item name" default="Item 04" condition="$Set13ItemCount >= 4" />
+		<setting name="Item Name" variable="Set13Item5Name" type="string" description="Item name" default="Item 05" condition="$Set13ItemCount >= 5" />
+		<setting name="Item Name" variable="Set13Item6Name" type="string" description="Item name" default="Item 06" condition="$Set13ItemCount >= 6" />
+		<setting name="Item Name" variable="Set13Item7Name" type="string" description="Item name" default="Item 07" condition="$Set13ItemCount >= 7" />
+		<setting name="Item Name" variable="Set13Item8Name" type="string" description="Item name" default="Item 08" condition="$Set13ItemCount >= 8" />
+		<setting name="Item Name" variable="Set13Item9Name" type="string" description="Item name" default="Item 09" condition="$Set13ItemCount >= 9" />
+		<setting name="Item Name" variable="Set13Item10Name" type="string" description="Item name" default="Item 10" condition="$Set13ItemCount >= 10" />
+		<setting name="Item Name" variable="Set13Item11Name" type="string" description="Item name" default="Item 11" condition="$Set13ItemCount >= 11" />
+		<setting name="Item Name" variable="Set13Item12Name" type="string" description="Item name" default="Item 12" condition="$Set13ItemCount >= 12" />
+		<setting name="Item Name" variable="Set13Item13Name" type="string" description="Item name" default="Item 13" condition="$Set13ItemCount >= 13" />
+		<setting name="Item Name" variable="Set13Item14Name" type="string" description="Item name" default="Item 14" condition="$Set13ItemCount >= 14" />
+		<setting name="Item Name" variable="Set13Item15Name" type="string" description="Item name" default="Item 15" condition="$Set13ItemCount >= 15" />
+		<setting name="Item Name" variable="Set13Item16Name" type="string" description="Item name" default="Item 16" condition="$Set13ItemCount >= 16" />
+		<setting name="Item Name" variable="Set13Item17Name" type="string" description="Item name" default="Item 17" condition="$Set13ItemCount >= 17" />
+		<setting name="Item Name" variable="Set13Item18Name" type="string" description="Item name" default="Item 18" condition="$Set13ItemCount >= 18" />
+		<setting name="Item Name" variable="Set13Item19Name" type="string" description="Item name" default="Item 19" condition="$Set13ItemCount >= 19" />
+		<setting name="Item Name" variable="Set13Item20Name" type="string" description="Item name" default="Item 20" condition="$Set13ItemCount >= 20" />
+	</category>
+	<category name="Set 14" sourceid="Set14" condition="$SetCount >= 14">
+		<setting name="Name" variable="Set14Name" type="string" description="Set name" default="Set 14" />
+		<setting name="Item Count" variable="Set14ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set14Item1Name" type="string" description="Item name" default="Item 01" condition="$Set14ItemCount >= 1" />
+		<setting name="Item Name" variable="Set14Item2Name" type="string" description="Item name" default="Item 02" condition="$Set14ItemCount >= 2" />
+		<setting name="Item Name" variable="Set14Item3Name" type="string" description="Item name" default="Item 03" condition="$Set14ItemCount >= 3" />
+		<setting name="Item Name" variable="Set14Item4Name" type="string" description="Item name" default="Item 04" condition="$Set14ItemCount >= 4" />
+		<setting name="Item Name" variable="Set14Item5Name" type="string" description="Item name" default="Item 05" condition="$Set14ItemCount >= 5" />
+		<setting name="Item Name" variable="Set14Item6Name" type="string" description="Item name" default="Item 06" condition="$Set14ItemCount >= 6" />
+		<setting name="Item Name" variable="Set14Item7Name" type="string" description="Item name" default="Item 07" condition="$Set14ItemCount >= 7" />
+		<setting name="Item Name" variable="Set14Item8Name" type="string" description="Item name" default="Item 08" condition="$Set14ItemCount >= 8" />
+		<setting name="Item Name" variable="Set14Item9Name" type="string" description="Item name" default="Item 09" condition="$Set14ItemCount >= 9" />
+		<setting name="Item Name" variable="Set14Item10Name" type="string" description="Item name" default="Item 10" condition="$Set14ItemCount >= 10" />
+		<setting name="Item Name" variable="Set14Item11Name" type="string" description="Item name" default="Item 11" condition="$Set14ItemCount >= 11" />
+		<setting name="Item Name" variable="Set14Item12Name" type="string" description="Item name" default="Item 12" condition="$Set14ItemCount >= 12" />
+		<setting name="Item Name" variable="Set14Item13Name" type="string" description="Item name" default="Item 13" condition="$Set14ItemCount >= 13" />
+		<setting name="Item Name" variable="Set14Item14Name" type="string" description="Item name" default="Item 14" condition="$Set14ItemCount >= 14" />
+		<setting name="Item Name" variable="Set14Item15Name" type="string" description="Item name" default="Item 15" condition="$Set14ItemCount >= 15" />
+		<setting name="Item Name" variable="Set14Item16Name" type="string" description="Item name" default="Item 16" condition="$Set14ItemCount >= 16" />
+		<setting name="Item Name" variable="Set14Item17Name" type="string" description="Item name" default="Item 17" condition="$Set14ItemCount >= 17" />
+		<setting name="Item Name" variable="Set14Item18Name" type="string" description="Item name" default="Item 18" condition="$Set14ItemCount >= 18" />
+		<setting name="Item Name" variable="Set14Item19Name" type="string" description="Item name" default="Item 19" condition="$Set14ItemCount >= 19" />
+		<setting name="Item Name" variable="Set14Item20Name" type="string" description="Item name" default="Item 20" condition="$Set14ItemCount >= 20" />
+	</category>
+	<category name="Set 15" sourceid="Set15" condition="$SetCount >= 15">
+		<setting name="Name" variable="Set15Name" type="string" description="Set name" default="Set 15" />
+		<setting name="Item Count" variable="Set15ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set15Item1Name" type="string" description="Item name" default="Item 01" condition="$Set15ItemCount >= 1" />
+		<setting name="Item Name" variable="Set15Item2Name" type="string" description="Item name" default="Item 02" condition="$Set15ItemCount >= 2" />
+		<setting name="Item Name" variable="Set15Item3Name" type="string" description="Item name" default="Item 03" condition="$Set15ItemCount >= 3" />
+		<setting name="Item Name" variable="Set15Item4Name" type="string" description="Item name" default="Item 04" condition="$Set15ItemCount >= 4" />
+		<setting name="Item Name" variable="Set15Item5Name" type="string" description="Item name" default="Item 05" condition="$Set15ItemCount >= 5" />
+		<setting name="Item Name" variable="Set15Item6Name" type="string" description="Item name" default="Item 06" condition="$Set15ItemCount >= 6" />
+		<setting name="Item Name" variable="Set15Item7Name" type="string" description="Item name" default="Item 07" condition="$Set15ItemCount >= 7" />
+		<setting name="Item Name" variable="Set15Item8Name" type="string" description="Item name" default="Item 08" condition="$Set15ItemCount >= 8" />
+		<setting name="Item Name" variable="Set15Item9Name" type="string" description="Item name" default="Item 09" condition="$Set15ItemCount >= 9" />
+		<setting name="Item Name" variable="Set15Item10Name" type="string" description="Item name" default="Item 10" condition="$Set15ItemCount >= 10" />
+		<setting name="Item Name" variable="Set15Item11Name" type="string" description="Item name" default="Item 11" condition="$Set15ItemCount >= 11" />
+		<setting name="Item Name" variable="Set15Item12Name" type="string" description="Item name" default="Item 12" condition="$Set15ItemCount >= 12" />
+		<setting name="Item Name" variable="Set15Item13Name" type="string" description="Item name" default="Item 13" condition="$Set15ItemCount >= 13" />
+		<setting name="Item Name" variable="Set15Item14Name" type="string" description="Item name" default="Item 14" condition="$Set15ItemCount >= 14" />
+		<setting name="Item Name" variable="Set15Item15Name" type="string" description="Item name" default="Item 15" condition="$Set15ItemCount >= 15" />
+		<setting name="Item Name" variable="Set15Item16Name" type="string" description="Item name" default="Item 16" condition="$Set15ItemCount >= 16" />
+		<setting name="Item Name" variable="Set15Item17Name" type="string" description="Item name" default="Item 17" condition="$Set15ItemCount >= 17" />
+		<setting name="Item Name" variable="Set15Item18Name" type="string" description="Item name" default="Item 18" condition="$Set15ItemCount >= 18" />
+		<setting name="Item Name" variable="Set15Item19Name" type="string" description="Item name" default="Item 19" condition="$Set15ItemCount >= 19" />
+		<setting name="Item Name" variable="Set15Item20Name" type="string" description="Item name" default="Item 20" condition="$Set15ItemCount >= 20" />
+	</category>
+	<category name="Set 16" sourceid="Set16" condition="$SetCount >= 16">
+		<setting name="Name" variable="Set16Name" type="string" description="Set name" default="Set 16" />
+		<setting name="Item Count" variable="Set16ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set16Item1Name" type="string" description="Item name" default="Item 01" condition="$Set16ItemCount >= 1" />
+		<setting name="Item Name" variable="Set16Item2Name" type="string" description="Item name" default="Item 02" condition="$Set16ItemCount >= 2" />
+		<setting name="Item Name" variable="Set16Item3Name" type="string" description="Item name" default="Item 03" condition="$Set16ItemCount >= 3" />
+		<setting name="Item Name" variable="Set16Item4Name" type="string" description="Item name" default="Item 04" condition="$Set16ItemCount >= 4" />
+		<setting name="Item Name" variable="Set16Item5Name" type="string" description="Item name" default="Item 05" condition="$Set16ItemCount >= 5" />
+		<setting name="Item Name" variable="Set16Item6Name" type="string" description="Item name" default="Item 06" condition="$Set16ItemCount >= 6" />
+		<setting name="Item Name" variable="Set16Item7Name" type="string" description="Item name" default="Item 07" condition="$Set16ItemCount >= 7" />
+		<setting name="Item Name" variable="Set16Item8Name" type="string" description="Item name" default="Item 08" condition="$Set16ItemCount >= 8" />
+		<setting name="Item Name" variable="Set16Item9Name" type="string" description="Item name" default="Item 09" condition="$Set16ItemCount >= 9" />
+		<setting name="Item Name" variable="Set16Item10Name" type="string" description="Item name" default="Item 10" condition="$Set16ItemCount >= 10" />
+		<setting name="Item Name" variable="Set16Item11Name" type="string" description="Item name" default="Item 11" condition="$Set16ItemCount >= 11" />
+		<setting name="Item Name" variable="Set16Item12Name" type="string" description="Item name" default="Item 12" condition="$Set16ItemCount >= 12" />
+		<setting name="Item Name" variable="Set16Item13Name" type="string" description="Item name" default="Item 13" condition="$Set16ItemCount >= 13" />
+		<setting name="Item Name" variable="Set16Item14Name" type="string" description="Item name" default="Item 14" condition="$Set16ItemCount >= 14" />
+		<setting name="Item Name" variable="Set16Item15Name" type="string" description="Item name" default="Item 15" condition="$Set16ItemCount >= 15" />
+		<setting name="Item Name" variable="Set16Item16Name" type="string" description="Item name" default="Item 16" condition="$Set16ItemCount >= 16" />
+		<setting name="Item Name" variable="Set16Item17Name" type="string" description="Item name" default="Item 17" condition="$Set16ItemCount >= 17" />
+		<setting name="Item Name" variable="Set16Item18Name" type="string" description="Item name" default="Item 18" condition="$Set16ItemCount >= 18" />
+		<setting name="Item Name" variable="Set16Item19Name" type="string" description="Item name" default="Item 19" condition="$Set16ItemCount >= 19" />
+		<setting name="Item Name" variable="Set16Item20Name" type="string" description="Item name" default="Item 20" condition="$Set16ItemCount >= 20" />
+	</category>
+	<category name="Set 17" sourceid="Set17" condition="$SetCount >= 17">
+		<setting name="Name" variable="Set17Name" type="string" description="Set name" default="Set 17" />
+		<setting name="Item Count" variable="Set17ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set17Item1Name" type="string" description="Item name" default="Item 01" condition="$Set17ItemCount >= 1" />
+		<setting name="Item Name" variable="Set17Item2Name" type="string" description="Item name" default="Item 02" condition="$Set17ItemCount >= 2" />
+		<setting name="Item Name" variable="Set17Item3Name" type="string" description="Item name" default="Item 03" condition="$Set17ItemCount >= 3" />
+		<setting name="Item Name" variable="Set17Item4Name" type="string" description="Item name" default="Item 04" condition="$Set17ItemCount >= 4" />
+		<setting name="Item Name" variable="Set17Item5Name" type="string" description="Item name" default="Item 05" condition="$Set17ItemCount >= 5" />
+		<setting name="Item Name" variable="Set17Item6Name" type="string" description="Item name" default="Item 06" condition="$Set17ItemCount >= 6" />
+		<setting name="Item Name" variable="Set17Item7Name" type="string" description="Item name" default="Item 07" condition="$Set17ItemCount >= 7" />
+		<setting name="Item Name" variable="Set17Item8Name" type="string" description="Item name" default="Item 08" condition="$Set17ItemCount >= 8" />
+		<setting name="Item Name" variable="Set17Item9Name" type="string" description="Item name" default="Item 09" condition="$Set17ItemCount >= 9" />
+		<setting name="Item Name" variable="Set17Item10Name" type="string" description="Item name" default="Item 10" condition="$Set17ItemCount >= 10" />
+		<setting name="Item Name" variable="Set17Item11Name" type="string" description="Item name" default="Item 11" condition="$Set17ItemCount >= 11" />
+		<setting name="Item Name" variable="Set17Item12Name" type="string" description="Item name" default="Item 12" condition="$Set17ItemCount >= 12" />
+		<setting name="Item Name" variable="Set17Item13Name" type="string" description="Item name" default="Item 13" condition="$Set17ItemCount >= 13" />
+		<setting name="Item Name" variable="Set17Item14Name" type="string" description="Item name" default="Item 14" condition="$Set17ItemCount >= 14" />
+		<setting name="Item Name" variable="Set17Item15Name" type="string" description="Item name" default="Item 15" condition="$Set17ItemCount >= 15" />
+		<setting name="Item Name" variable="Set17Item16Name" type="string" description="Item name" default="Item 16" condition="$Set17ItemCount >= 16" />
+		<setting name="Item Name" variable="Set17Item17Name" type="string" description="Item name" default="Item 17" condition="$Set17ItemCount >= 17" />
+		<setting name="Item Name" variable="Set17Item18Name" type="string" description="Item name" default="Item 18" condition="$Set17ItemCount >= 18" />
+		<setting name="Item Name" variable="Set17Item19Name" type="string" description="Item name" default="Item 19" condition="$Set17ItemCount >= 19" />
+		<setting name="Item Name" variable="Set17Item20Name" type="string" description="Item name" default="Item 20" condition="$Set17ItemCount >= 20" />
+	</category>
+	<category name="Set 18" sourceid="Set18" condition="$SetCount >= 18">
+		<setting name="Name" variable="Set18Name" type="string" description="Set name" default="Set 18" />
+		<setting name="Item Count" variable="Set18ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set18Item1Name" type="string" description="Item name" default="Item 01" condition="$Set18ItemCount >= 1" />
+		<setting name="Item Name" variable="Set18Item2Name" type="string" description="Item name" default="Item 02" condition="$Set18ItemCount >= 2" />
+		<setting name="Item Name" variable="Set18Item3Name" type="string" description="Item name" default="Item 03" condition="$Set18ItemCount >= 3" />
+		<setting name="Item Name" variable="Set18Item4Name" type="string" description="Item name" default="Item 04" condition="$Set18ItemCount >= 4" />
+		<setting name="Item Name" variable="Set18Item5Name" type="string" description="Item name" default="Item 05" condition="$Set18ItemCount >= 5" />
+		<setting name="Item Name" variable="Set18Item6Name" type="string" description="Item name" default="Item 06" condition="$Set18ItemCount >= 6" />
+		<setting name="Item Name" variable="Set18Item7Name" type="string" description="Item name" default="Item 07" condition="$Set18ItemCount >= 7" />
+		<setting name="Item Name" variable="Set18Item8Name" type="string" description="Item name" default="Item 08" condition="$Set18ItemCount >= 8" />
+		<setting name="Item Name" variable="Set18Item9Name" type="string" description="Item name" default="Item 09" condition="$Set18ItemCount >= 9" />
+		<setting name="Item Name" variable="Set18Item10Name" type="string" description="Item name" default="Item 10" condition="$Set18ItemCount >= 10" />
+		<setting name="Item Name" variable="Set18Item11Name" type="string" description="Item name" default="Item 11" condition="$Set18ItemCount >= 11" />
+		<setting name="Item Name" variable="Set18Item12Name" type="string" description="Item name" default="Item 12" condition="$Set18ItemCount >= 12" />
+		<setting name="Item Name" variable="Set18Item13Name" type="string" description="Item name" default="Item 13" condition="$Set18ItemCount >= 13" />
+		<setting name="Item Name" variable="Set18Item14Name" type="string" description="Item name" default="Item 14" condition="$Set18ItemCount >= 14" />
+		<setting name="Item Name" variable="Set18Item15Name" type="string" description="Item name" default="Item 15" condition="$Set18ItemCount >= 15" />
+		<setting name="Item Name" variable="Set18Item16Name" type="string" description="Item name" default="Item 16" condition="$Set18ItemCount >= 16" />
+		<setting name="Item Name" variable="Set18Item17Name" type="string" description="Item name" default="Item 17" condition="$Set18ItemCount >= 17" />
+		<setting name="Item Name" variable="Set18Item18Name" type="string" description="Item name" default="Item 18" condition="$Set18ItemCount >= 18" />
+		<setting name="Item Name" variable="Set18Item19Name" type="string" description="Item name" default="Item 19" condition="$Set18ItemCount >= 19" />
+		<setting name="Item Name" variable="Set18Item20Name" type="string" description="Item name" default="Item 20" condition="$Set18ItemCount >= 20" />
+	</category>
+	<category name="Set 19" sourceid="Set19" condition="$SetCount >= 19">
+		<setting name="Name" variable="Set19Name" type="string" description="Set name" default="Set 19" />
+		<setting name="Item Count" variable="Set19ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set19Item1Name" type="string" description="Item name" default="Item 01" condition="$Set19ItemCount >= 1" />
+		<setting name="Item Name" variable="Set19Item2Name" type="string" description="Item name" default="Item 02" condition="$Set19ItemCount >= 2" />
+		<setting name="Item Name" variable="Set19Item3Name" type="string" description="Item name" default="Item 03" condition="$Set19ItemCount >= 3" />
+		<setting name="Item Name" variable="Set19Item4Name" type="string" description="Item name" default="Item 04" condition="$Set19ItemCount >= 4" />
+		<setting name="Item Name" variable="Set19Item5Name" type="string" description="Item name" default="Item 05" condition="$Set19ItemCount >= 5" />
+		<setting name="Item Name" variable="Set19Item6Name" type="string" description="Item name" default="Item 06" condition="$Set19ItemCount >= 6" />
+		<setting name="Item Name" variable="Set19Item7Name" type="string" description="Item name" default="Item 07" condition="$Set19ItemCount >= 7" />
+		<setting name="Item Name" variable="Set19Item8Name" type="string" description="Item name" default="Item 08" condition="$Set19ItemCount >= 8" />
+		<setting name="Item Name" variable="Set19Item9Name" type="string" description="Item name" default="Item 09" condition="$Set19ItemCount >= 9" />
+		<setting name="Item Name" variable="Set19Item10Name" type="string" description="Item name" default="Item 10" condition="$Set19ItemCount >= 10" />
+		<setting name="Item Name" variable="Set19Item11Name" type="string" description="Item name" default="Item 11" condition="$Set19ItemCount >= 11" />
+		<setting name="Item Name" variable="Set19Item12Name" type="string" description="Item name" default="Item 12" condition="$Set19ItemCount >= 12" />
+		<setting name="Item Name" variable="Set19Item13Name" type="string" description="Item name" default="Item 13" condition="$Set19ItemCount >= 13" />
+		<setting name="Item Name" variable="Set19Item14Name" type="string" description="Item name" default="Item 14" condition="$Set19ItemCount >= 14" />
+		<setting name="Item Name" variable="Set19Item15Name" type="string" description="Item name" default="Item 15" condition="$Set19ItemCount >= 15" />
+		<setting name="Item Name" variable="Set19Item16Name" type="string" description="Item name" default="Item 16" condition="$Set19ItemCount >= 16" />
+		<setting name="Item Name" variable="Set19Item17Name" type="string" description="Item name" default="Item 17" condition="$Set19ItemCount >= 17" />
+		<setting name="Item Name" variable="Set19Item18Name" type="string" description="Item name" default="Item 18" condition="$Set19ItemCount >= 18" />
+		<setting name="Item Name" variable="Set19Item19Name" type="string" description="Item name" default="Item 19" condition="$Set19ItemCount >= 19" />
+		<setting name="Item Name" variable="Set19Item20Name" type="string" description="Item name" default="Item 20" condition="$Set19ItemCount >= 20" />
+	</category>
+	<category name="Set 20" sourceid="Set20" condition="$SetCount >= 20">
+		<setting name="Name" variable="Set20Name" type="string" description="Set name" default="Set 20" />
+		<setting name="Item Count" variable="Set20ItemCount" type="mcinteger" default="3">
+		  <choice name="1" value="1"></choice>
+		  <choice name="2" value="2"></choice>
+		  <choice name="3" value="3"></choice>
+		  <choice name="4" value="4"></choice>
+		  <choice name="5" value="5"></choice>
+		  <choice name="6" value="6"></choice>
+		  <choice name="7" value="7"></choice>
+		  <choice name="8" value="8"></choice>
+		  <choice name="9" value="9"></choice>
+		  <choice name="10" value="10"></choice>
+		  <choice name="11" value="11"></choice>
+		  <choice name="12" value="12"></choice>
+		  <choice name="13" value="13"></choice>
+		  <choice name="14" value="14"></choice>
+		  <choice name="15" value="15"></choice>
+		  <choice name="16" value="16"></choice>
+		  <choice name="17" value="17"></choice>
+		  <choice name="18" value="18"></choice>
+		  <choice name="19" value="19"></choice>
+		  <choice name="20" value="20"></choice>
+    	</setting>
+		<setting name="Item Name" variable="Set20Item1Name" type="string" description="Item name" default="Item 01" condition="$Set20ItemCount >= 1" />
+		<setting name="Item Name" variable="Set20Item2Name" type="string" description="Item name" default="Item 02" condition="$Set20ItemCount >= 2" />
+		<setting name="Item Name" variable="Set20Item3Name" type="string" description="Item name" default="Item 03" condition="$Set20ItemCount >= 3" />
+		<setting name="Item Name" variable="Set20Item4Name" type="string" description="Item name" default="Item 04" condition="$Set20ItemCount >= 4" />
+		<setting name="Item Name" variable="Set20Item5Name" type="string" description="Item name" default="Item 05" condition="$Set20ItemCount >= 5" />
+		<setting name="Item Name" variable="Set20Item6Name" type="string" description="Item name" default="Item 06" condition="$Set20ItemCount >= 6" />
+		<setting name="Item Name" variable="Set20Item7Name" type="string" description="Item name" default="Item 07" condition="$Set20ItemCount >= 7" />
+		<setting name="Item Name" variable="Set20Item8Name" type="string" description="Item name" default="Item 08" condition="$Set20ItemCount >= 8" />
+		<setting name="Item Name" variable="Set20Item9Name" type="string" description="Item name" default="Item 09" condition="$Set20ItemCount >= 9" />
+		<setting name="Item Name" variable="Set20Item10Name" type="string" description="Item name" default="Item 10" condition="$Set20ItemCount >= 10" />
+		<setting name="Item Name" variable="Set20Item11Name" type="string" description="Item name" default="Item 11" condition="$Set20ItemCount >= 11" />
+		<setting name="Item Name" variable="Set20Item12Name" type="string" description="Item name" default="Item 12" condition="$Set20ItemCount >= 12" />
+		<setting name="Item Name" variable="Set20Item13Name" type="string" description="Item name" default="Item 13" condition="$Set20ItemCount >= 13" />
+		<setting name="Item Name" variable="Set20Item14Name" type="string" description="Item name" default="Item 14" condition="$Set20ItemCount >= 14" />
+		<setting name="Item Name" variable="Set20Item15Name" type="string" description="Item name" default="Item 15" condition="$Set20ItemCount >= 15" />
+		<setting name="Item Name" variable="Set20Item16Name" type="string" description="Item name" default="Item 16" condition="$Set20ItemCount >= 16" />
+		<setting name="Item Name" variable="Set20Item17Name" type="string" description="Item name" default="Item 17" condition="$Set20ItemCount >= 17" />
+		<setting name="Item Name" variable="Set20Item18Name" type="string" description="Item name" default="Item 18" condition="$Set20ItemCount >= 18" />
+		<setting name="Item Name" variable="Set20Item19Name" type="string" description="Item name" default="Item 19" condition="$Set20ItemCount >= 19" />
+		<setting name="Item Name" variable="Set20Item20Name" type="string" description="Item name" default="Item 20" condition="$Set20ItemCount >= 20" />
+	</category>
+	<category name="Debug Settings" description="Driver debug options" hidden="true">
+		<setting type="boolean" name="Enable Trace" variable="DebugTrace" description="Enable verbose debug output" />
+	</category>
+</configuration>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+	<category name="Local Set Events">
+		<event name="Initialized" tag="Initialized" />
+	</category>
+</events>

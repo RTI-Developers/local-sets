@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variables>
+	<category name="%%Set1Name%% State" condition="$SetCount >= 1">
+		<variable name="Has Selection" sysvar="Set1HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set1HasNoSelection%" type="boolean" />
+		<variable name="%%Set1Item1Name%% Selected" sysvar="Set1Item1Selected%" type="boolean" condition="$Set1ItemCount >= 1" />
+		<variable name="%%Set1Item1Name%% NOT Selected" sysvar="Set1Item1NotSelected%" type="boolean" condition="$Set1ItemCount >= 1" />
+		<variable name="%%Set1Item2Name%% Selected" sysvar="Set1Item2Selected%" type="boolean" condition="$Set1ItemCount >= 2" />
+		<variable name="%%Set1Item2Name%% NOT Selected" sysvar="Set1Item2NotSelected%" type="boolean" condition="$Set1ItemCount >= 2" />
+		<variable name="%%Set1Item3Name%% Selected" sysvar="Set1Item3Selected%" type="boolean" condition="$Set1ItemCount >= 3" />
+		<variable name="%%Set1Item3Name%% NOT Selected" sysvar="Set1Item3NotSelected%" type="boolean" condition="$Set1ItemCount >= 3" />
+		<variable name="%%Set1Item4Name%% Selected" sysvar="Set1Item4Selected%" type="boolean" condition="$Set1ItemCount >= 4" />
+		<variable name="%%Set1Item4Name%% NOT Selected" sysvar="Set1Item4NotSelected%" type="boolean" condition="$Set1ItemCount >= 4" />
+		<variable name="%%Set1Item5Name%% Selected" sysvar="Set1Item5Selected%" type="boolean" condition="$Set1ItemCount >= 5" />
+		<variable name="%%Set1Item5Name%% NOT Selected" sysvar="Set1Item5NotSelected%" type="boolean" condition="$Set1ItemCount >= 5" />
+		<variable name="%%Set1Item6Name%% Selected" sysvar="Set1Item6Selected%" type="boolean" condition="$Set1ItemCount >= 6" />
+		<variable name="%%Set1Item6Name%% NOT Selected" sysvar="Set1Item6NotSelected%" type="boolean" condition="$Set1ItemCount >= 6" />
+		<variable name="%%Set1Item7Name%% Selected" sysvar="Set1Item7Selected%" type="boolean" condition="$Set1ItemCount >= 7" />
+		<variable name="%%Set1Item7Name%% NOT Selected" sysvar="Set1Item7NotSelected%" type="boolean" condition="$Set1ItemCount >= 7" />
+		<variable name="%%Set1Item8Name%% Selected" sysvar="Set1Item8Selected%" type="boolean" condition="$Set1ItemCount >= 8" />
+		<variable name="%%Set1Item8Name%% NOT Selected" sysvar="Set1Item8NotSelected%" type="boolean" condition="$Set1ItemCount >= 8" />
+		<variable name="%%Set1Item9Name%% Selected" sysvar="Set1Item9Selected%" type="boolean" condition="$Set1ItemCount >= 9" />
+		<variable name="%%Set1Item9Name%% NOT Selected" sysvar="Set1Item9NotSelected%" type="boolean" condition="$Set1ItemCount >= 9" />
+		<variable name="%%Set1Item10Name%% Selected" sysvar="Set1Item10Selected%" type="boolean" condition="$Set1ItemCount >= 10" />
+		<variable name="%%Set1Item10Name%% NOT Selected" sysvar="Set1Item10NotSelected%" type="boolean" condition="$Set1ItemCount >= 10" />
+		<variable name="%%Set1Item11Name%% Selected" sysvar="Set1Item11Selected%" type="boolean" condition="$Set1ItemCount >= 11" />
+		<variable name="%%Set1Item11Name%% NOT Selected" sysvar="Set1Item11NotSelected%" type="boolean" condition="$Set1ItemCount >= 11" />
+		<variable name="%%Set1Item12Name%% Selected" sysvar="Set1Item12Selected%" type="boolean" condition="$Set1ItemCount >= 12" />
+		<variable name="%%Set1Item12Name%% NOT Selected" sysvar="Set1Item12NotSelected%" type="boolean" condition="$Set1ItemCount >= 12" />
+		<variable name="%%Set1Item13Name%% Selected" sysvar="Set1Item13Selected%" type="boolean" condition="$Set1ItemCount >= 13" />
+		<variable name="%%Set1Item13Name%% NOT Selected" sysvar="Set1Item13NotSelected%" type="boolean" condition="$Set1ItemCount >= 13" />
+		<variable name="%%Set1Item14Name%% Selected" sysvar="Set1Item14Selected%" type="boolean" condition="$Set1ItemCount >= 14" />
+		<variable name="%%Set1Item14Name%% NOT Selected" sysvar="Set1Item14NotSelected%" type="boolean" condition="$Set1ItemCount >= 14" />
+		<variable name="%%Set1Item15Name%% Selected" sysvar="Set1Item15Selected%" type="boolean" condition="$Set1ItemCount >= 15" />
+		<variable name="%%Set1Item15Name%% NOT Selected" sysvar="Set1Item15NotSelected%" type="boolean" condition="$Set1ItemCount >= 15" />
+		<variable name="%%Set1Item16Name%% Selected" sysvar="Set1Item16Selected%" type="boolean" condition="$Set1ItemCount >= 16" />
+		<variable name="%%Set1Item16Name%% NOT Selected" sysvar="Set1Item16NotSelected%" type="boolean" condition="$Set1ItemCount >= 16" />
+		<variable name="%%Set1Item17Name%% Selected" sysvar="Set1Item17Selected%" type="boolean" condition="$Set1ItemCount >= 17" />
+		<variable name="%%Set1Item17Name%% NOT Selected" sysvar="Set1Item17NotSelected%" type="boolean" condition="$Set1ItemCount >= 17" />
+		<variable name="%%Set1Item18Name%% Selected" sysvar="Set1Item18Selected%" type="boolean" condition="$Set1ItemCount >= 18" />
+		<variable name="%%Set1Item18Name%% NOT Selected" sysvar="Set1Item18NotSelected%" type="boolean" condition="$Set1ItemCount >= 18" />
+		<variable name="%%Set1Item19Name%% Selected" sysvar="Set1Item19Selected%" type="boolean" condition="$Set1ItemCount >= 19" />
+		<variable name="%%Set1Item19Name%% NOT Selected" sysvar="Set1Item19NotSelected%" type="boolean" condition="$Set1ItemCount >= 19" />
+		<variable name="%%Set1Item20Name%% Selected" sysvar="Set1Item20Selected%" type="boolean" condition="$Set1ItemCount >= 20" />
+		<variable name="%%Set1Item20Name%% NOT Selected" sysvar="Set1Item20NotSelected%" type="boolean" condition="$Set1ItemCount >= 20" />
+	</category>
+	<category name="%%Set2Name%% State" condition="$SetCount >= 2">
+		<variable name="Has Selection" sysvar="Set2HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set2HasNoSelection%" type="boolean" />
+		<variable name="%%Set2Item1Name%% Selected" sysvar="Set2Item1Selected%" type="boolean" condition="$Set2ItemCount >= 1" />
+		<variable name="%%Set2Item1Name%% NOT Selected" sysvar="Set2Item1NotSelected%" type="boolean" condition="$Set2ItemCount >= 1" />
+		<variable name="%%Set2Item2Name%% Selected" sysvar="Set2Item2Selected%" type="boolean" condition="$Set2ItemCount >= 2" />
+		<variable name="%%Set2Item2Name%% NOT Selected" sysvar="Set2Item2NotSelected%" type="boolean" condition="$Set2ItemCount >= 2" />
+		<variable name="%%Set2Item3Name%% Selected" sysvar="Set2Item3Selected%" type="boolean" condition="$Set2ItemCount >= 3" />
+		<variable name="%%Set2Item3Name%% NOT Selected" sysvar="Set2Item3NotSelected%" type="boolean" condition="$Set2ItemCount >= 3" />
+		<variable name="%%Set2Item4Name%% Selected" sysvar="Set2Item4Selected%" type="boolean" condition="$Set2ItemCount >= 4" />
+		<variable name="%%Set2Item4Name%% NOT Selected" sysvar="Set2Item4NotSelected%" type="boolean" condition="$Set2ItemCount >= 4" />
+		<variable name="%%Set2Item5Name%% Selected" sysvar="Set2Item5Selected%" type="boolean" condition="$Set2ItemCount >= 5" />
+		<variable name="%%Set2Item5Name%% NOT Selected" sysvar="Set2Item5NotSelected%" type="boolean" condition="$Set2ItemCount >= 5" />
+		<variable name="%%Set2Item6Name%% Selected" sysvar="Set2Item6Selected%" type="boolean" condition="$Set2ItemCount >= 6" />
+		<variable name="%%Set2Item6Name%% NOT Selected" sysvar="Set2Item6NotSelected%" type="boolean" condition="$Set2ItemCount >= 6" />
+		<variable name="%%Set2Item7Name%% Selected" sysvar="Set2Item7Selected%" type="boolean" condition="$Set2ItemCount >= 7" />
+		<variable name="%%Set2Item7Name%% NOT Selected" sysvar="Set2Item7NotSelected%" type="boolean" condition="$Set2ItemCount >= 7" />
+		<variable name="%%Set2Item8Name%% Selected" sysvar="Set2Item8Selected%" type="boolean" condition="$Set2ItemCount >= 8" />
+		<variable name="%%Set2Item8Name%% NOT Selected" sysvar="Set2Item8NotSelected%" type="boolean" condition="$Set2ItemCount >= 8" />
+		<variable name="%%Set2Item9Name%% Selected" sysvar="Set2Item9Selected%" type="boolean" condition="$Set2ItemCount >= 9" />
+		<variable name="%%Set2Item9Name%% NOT Selected" sysvar="Set2Item9NotSelected%" type="boolean" condition="$Set2ItemCount >= 9" />
+		<variable name="%%Set2Item10Name%% Selected" sysvar="Set2Item10Selected%" type="boolean" condition="$Set2ItemCount >= 10" />
+		<variable name="%%Set2Item10Name%% NOT Selected" sysvar="Set2Item10NotSelected%" type="boolean" condition="$Set2ItemCount >= 10" />
+		<variable name="%%Set2Item11Name%% Selected" sysvar="Set2Item11Selected%" type="boolean" condition="$Set2ItemCount >= 11" />
+		<variable name="%%Set2Item11Name%% NOT Selected" sysvar="Set2Item11NotSelected%" type="boolean" condition="$Set2ItemCount >= 11" />
+		<variable name="%%Set2Item12Name%% Selected" sysvar="Set2Item12Selected%" type="boolean" condition="$Set2ItemCount >= 12" />
+		<variable name="%%Set2Item12Name%% NOT Selected" sysvar="Set2Item12NotSelected%" type="boolean" condition="$Set2ItemCount >= 12" />
+		<variable name="%%Set2Item13Name%% Selected" sysvar="Set2Item13Selected%" type="boolean" condition="$Set2ItemCount >= 13" />
+		<variable name="%%Set2Item13Name%% NOT Selected" sysvar="Set2Item13NotSelected%" type="boolean" condition="$Set2ItemCount >= 13" />
+		<variable name="%%Set2Item14Name%% Selected" sysvar="Set2Item14Selected%" type="boolean" condition="$Set2ItemCount >= 14" />
+		<variable name="%%Set2Item14Name%% NOT Selected" sysvar="Set2Item14NotSelected%" type="boolean" condition="$Set2ItemCount >= 14" />
+		<variable name="%%Set2Item15Name%% Selected" sysvar="Set2Item15Selected%" type="boolean" condition="$Set2ItemCount >= 15" />
+		<variable name="%%Set2Item15Name%% NOT Selected" sysvar="Set2Item15NotSelected%" type="boolean" condition="$Set2ItemCount >= 15" />
+		<variable name="%%Set2Item16Name%% Selected" sysvar="Set2Item16Selected%" type="boolean" condition="$Set2ItemCount >= 16" />
+		<variable name="%%Set2Item16Name%% NOT Selected" sysvar="Set2Item16NotSelected%" type="boolean" condition="$Set2ItemCount >= 16" />
+		<variable name="%%Set2Item17Name%% Selected" sysvar="Set2Item17Selected%" type="boolean" condition="$Set2ItemCount >= 17" />
+		<variable name="%%Set2Item17Name%% NOT Selected" sysvar="Set2Item17NotSelected%" type="boolean" condition="$Set2ItemCount >= 17" />
+		<variable name="%%Set2Item18Name%% Selected" sysvar="Set2Item18Selected%" type="boolean" condition="$Set2ItemCount >= 18" />
+		<variable name="%%Set2Item18Name%% NOT Selected" sysvar="Set2Item18NotSelected%" type="boolean" condition="$Set2ItemCount >= 18" />
+		<variable name="%%Set2Item19Name%% Selected" sysvar="Set2Item19Selected%" type="boolean" condition="$Set2ItemCount >= 19" />
+		<variable name="%%Set2Item19Name%% NOT Selected" sysvar="Set2Item19NotSelected%" type="boolean" condition="$Set2ItemCount >= 19" />
+		<variable name="%%Set2Item20Name%% Selected" sysvar="Set2Item20Selected%" type="boolean" condition="$Set2ItemCount >= 20" />
+		<variable name="%%Set2Item20Name%% NOT Selected" sysvar="Set2Item20NotSelected%" type="boolean" condition="$Set2ItemCount >= 20" />
+	</category>
+	<category name="%%Set3Name%% State" condition="$SetCount >= 3">
+		<variable name="Has Selection" sysvar="Set3HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set3HasNoSelection%" type="boolean" />
+		<variable name="%%Set3Item1Name%% Selected" sysvar="Set3Item1Selected%" type="boolean" condition="$Set3ItemCount >= 1" />
+		<variable name="%%Set3Item1Name%% NOT Selected" sysvar="Set3Item1NotSelected%" type="boolean" condition="$Set3ItemCount >= 1" />
+		<variable name="%%Set3Item2Name%% Selected" sysvar="Set3Item2Selected%" type="boolean" condition="$Set3ItemCount >= 2" />
+		<variable name="%%Set3Item2Name%% NOT Selected" sysvar="Set3Item2NotSelected%" type="boolean" condition="$Set3ItemCount >= 2" />
+		<variable name="%%Set3Item3Name%% Selected" sysvar="Set3Item3Selected%" type="boolean" condition="$Set3ItemCount >= 3" />
+		<variable name="%%Set3Item3Name%% NOT Selected" sysvar="Set3Item3NotSelected%" type="boolean" condition="$Set3ItemCount >= 3" />
+		<variable name="%%Set3Item4Name%% Selected" sysvar="Set3Item4Selected%" type="boolean" condition="$Set3ItemCount >= 4" />
+		<variable name="%%Set3Item4Name%% NOT Selected" sysvar="Set3Item4NotSelected%" type="boolean" condition="$Set3ItemCount >= 4" />
+		<variable name="%%Set3Item5Name%% Selected" sysvar="Set3Item5Selected%" type="boolean" condition="$Set3ItemCount >= 5" />
+		<variable name="%%Set3Item5Name%% NOT Selected" sysvar="Set3Item5NotSelected%" type="boolean" condition="$Set3ItemCount >= 5" />
+		<variable name="%%Set3Item6Name%% Selected" sysvar="Set3Item6Selected%" type="boolean" condition="$Set3ItemCount >= 6" />
+		<variable name="%%Set3Item6Name%% NOT Selected" sysvar="Set3Item6NotSelected%" type="boolean" condition="$Set3ItemCount >= 6" />
+		<variable name="%%Set3Item7Name%% Selected" sysvar="Set3Item7Selected%" type="boolean" condition="$Set3ItemCount >= 7" />
+		<variable name="%%Set3Item7Name%% NOT Selected" sysvar="Set3Item7NotSelected%" type="boolean" condition="$Set3ItemCount >= 7" />
+		<variable name="%%Set3Item8Name%% Selected" sysvar="Set3Item8Selected%" type="boolean" condition="$Set3ItemCount >= 8" />
+		<variable name="%%Set3Item8Name%% NOT Selected" sysvar="Set3Item8NotSelected%" type="boolean" condition="$Set3ItemCount >= 8" />
+		<variable name="%%Set3Item9Name%% Selected" sysvar="Set3Item9Selected%" type="boolean" condition="$Set3ItemCount >= 9" />
+		<variable name="%%Set3Item9Name%% NOT Selected" sysvar="Set3Item9NotSelected%" type="boolean" condition="$Set3ItemCount >= 9" />
+		<variable name="%%Set3Item10Name%% Selected" sysvar="Set3Item10Selected%" type="boolean" condition="$Set3ItemCount >= 10" />
+		<variable name="%%Set3Item10Name%% NOT Selected" sysvar="Set3Item10NotSelected%" type="boolean" condition="$Set3ItemCount >= 10" />
+		<variable name="%%Set3Item11Name%% Selected" sysvar="Set3Item11Selected%" type="boolean" condition="$Set3ItemCount >= 11" />
+		<variable name="%%Set3Item11Name%% NOT Selected" sysvar="Set3Item11NotSelected%" type="boolean" condition="$Set3ItemCount >= 11" />
+		<variable name="%%Set3Item12Name%% Selected" sysvar="Set3Item12Selected%" type="boolean" condition="$Set3ItemCount >= 12" />
+		<variable name="%%Set3Item12Name%% NOT Selected" sysvar="Set3Item12NotSelected%" type="boolean" condition="$Set3ItemCount >= 12" />
+		<variable name="%%Set3Item13Name%% Selected" sysvar="Set3Item13Selected%" type="boolean" condition="$Set3ItemCount >= 13" />
+		<variable name="%%Set3Item13Name%% NOT Selected" sysvar="Set3Item13NotSelected%" type="boolean" condition="$Set3ItemCount >= 13" />
+		<variable name="%%Set3Item14Name%% Selected" sysvar="Set3Item14Selected%" type="boolean" condition="$Set3ItemCount >= 14" />
+		<variable name="%%Set3Item14Name%% NOT Selected" sysvar="Set3Item14NotSelected%" type="boolean" condition="$Set3ItemCount >= 14" />
+		<variable name="%%Set3Item15Name%% Selected" sysvar="Set3Item15Selected%" type="boolean" condition="$Set3ItemCount >= 15" />
+		<variable name="%%Set3Item15Name%% NOT Selected" sysvar="Set3Item15NotSelected%" type="boolean" condition="$Set3ItemCount >= 15" />
+		<variable name="%%Set3Item16Name%% Selected" sysvar="Set3Item16Selected%" type="boolean" condition="$Set3ItemCount >= 16" />
+		<variable name="%%Set3Item16Name%% NOT Selected" sysvar="Set3Item16NotSelected%" type="boolean" condition="$Set3ItemCount >= 16" />
+		<variable name="%%Set3Item17Name%% Selected" sysvar="Set3Item17Selected%" type="boolean" condition="$Set3ItemCount >= 17" />
+		<variable name="%%Set3Item17Name%% NOT Selected" sysvar="Set3Item17NotSelected%" type="boolean" condition="$Set3ItemCount >= 17" />
+		<variable name="%%Set3Item18Name%% Selected" sysvar="Set3Item18Selected%" type="boolean" condition="$Set3ItemCount >= 18" />
+		<variable name="%%Set3Item18Name%% NOT Selected" sysvar="Set3Item18NotSelected%" type="boolean" condition="$Set3ItemCount >= 18" />
+		<variable name="%%Set3Item19Name%% Selected" sysvar="Set3Item19Selected%" type="boolean" condition="$Set3ItemCount >= 19" />
+		<variable name="%%Set3Item19Name%% NOT Selected" sysvar="Set3Item19NotSelected%" type="boolean" condition="$Set3ItemCount >= 19" />
+		<variable name="%%Set3Item20Name%% Selected" sysvar="Set3Item20Selected%" type="boolean" condition="$Set3ItemCount >= 20" />
+		<variable name="%%Set3Item20Name%% NOT Selected" sysvar="Set3Item20NotSelected%" type="boolean" condition="$Set3ItemCount >= 20" />
+	</category>
+	<category name="%%Set4Name%% State" condition="$SetCount >= 4">
+		<variable name="Has Selection" sysvar="Set4HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set4HasNoSelection%" type="boolean" />
+		<variable name="%%Set4Item1Name%% Selected" sysvar="Set4Item1Selected%" type="boolean" condition="$Set4ItemCount >= 1" />
+		<variable name="%%Set4Item1Name%% NOT Selected" sysvar="Set4Item1NotSelected%" type="boolean" condition="$Set4ItemCount >= 1" />
+		<variable name="%%Set4Item2Name%% Selected" sysvar="Set4Item2Selected%" type="boolean" condition="$Set4ItemCount >= 2" />
+		<variable name="%%Set4Item2Name%% NOT Selected" sysvar="Set4Item2NotSelected%" type="boolean" condition="$Set4ItemCount >= 2" />
+		<variable name="%%Set4Item3Name%% Selected" sysvar="Set4Item3Selected%" type="boolean" condition="$Set4ItemCount >= 3" />
+		<variable name="%%Set4Item3Name%% NOT Selected" sysvar="Set4Item3NotSelected%" type="boolean" condition="$Set4ItemCount >= 3" />
+		<variable name="%%Set4Item4Name%% Selected" sysvar="Set4Item4Selected%" type="boolean" condition="$Set4ItemCount >= 4" />
+		<variable name="%%Set4Item4Name%% NOT Selected" sysvar="Set4Item4NotSelected%" type="boolean" condition="$Set4ItemCount >= 4" />
+		<variable name="%%Set4Item5Name%% Selected" sysvar="Set4Item5Selected%" type="boolean" condition="$Set4ItemCount >= 5" />
+		<variable name="%%Set4Item5Name%% NOT Selected" sysvar="Set4Item5NotSelected%" type="boolean" condition="$Set4ItemCount >= 5" />
+		<variable name="%%Set4Item6Name%% Selected" sysvar="Set4Item6Selected%" type="boolean" condition="$Set4ItemCount >= 6" />
+		<variable name="%%Set4Item6Name%% NOT Selected" sysvar="Set4Item6NotSelected%" type="boolean" condition="$Set4ItemCount >= 6" />
+		<variable name="%%Set4Item7Name%% Selected" sysvar="Set4Item7Selected%" type="boolean" condition="$Set4ItemCount >= 7" />
+		<variable name="%%Set4Item7Name%% NOT Selected" sysvar="Set4Item7NotSelected%" type="boolean" condition="$Set4ItemCount >= 7" />
+		<variable name="%%Set4Item8Name%% Selected" sysvar="Set4Item8Selected%" type="boolean" condition="$Set4ItemCount >= 8" />
+		<variable name="%%Set4Item8Name%% NOT Selected" sysvar="Set4Item8NotSelected%" type="boolean" condition="$Set4ItemCount >= 8" />
+		<variable name="%%Set4Item9Name%% Selected" sysvar="Set4Item9Selected%" type="boolean" condition="$Set4ItemCount >= 9" />
+		<variable name="%%Set4Item9Name%% NOT Selected" sysvar="Set4Item9NotSelected%" type="boolean" condition="$Set4ItemCount >= 9" />
+		<variable name="%%Set4Item10Name%% Selected" sysvar="Set4Item10Selected%" type="boolean" condition="$Set4ItemCount >= 10" />
+		<variable name="%%Set4Item10Name%% NOT Selected" sysvar="Set4Item10NotSelected%" type="boolean" condition="$Set4ItemCount >= 10" />
+		<variable name="%%Set4Item11Name%% Selected" sysvar="Set4Item11Selected%" type="boolean" condition="$Set4ItemCount >= 11" />
+		<variable name="%%Set4Item11Name%% NOT Selected" sysvar="Set4Item11NotSelected%" type="boolean" condition="$Set4ItemCount >= 11" />
+		<variable name="%%Set4Item12Name%% Selected" sysvar="Set4Item12Selected%" type="boolean" condition="$Set4ItemCount >= 12" />
+		<variable name="%%Set4Item12Name%% NOT Selected" sysvar="Set4Item12NotSelected%" type="boolean" condition="$Set4ItemCount >= 12" />
+		<variable name="%%Set4Item13Name%% Selected" sysvar="Set4Item13Selected%" type="boolean" condition="$Set4ItemCount >= 13" />
+		<variable name="%%Set4Item13Name%% NOT Selected" sysvar="Set4Item13NotSelected%" type="boolean" condition="$Set4ItemCount >= 13" />
+		<variable name="%%Set4Item14Name%% Selected" sysvar="Set4Item14Selected%" type="boolean" condition="$Set4ItemCount >= 14" />
+		<variable name="%%Set4Item14Name%% NOT Selected" sysvar="Set4Item14NotSelected%" type="boolean" condition="$Set4ItemCount >= 14" />
+		<variable name="%%Set4Item15Name%% Selected" sysvar="Set4Item15Selected%" type="boolean" condition="$Set4ItemCount >= 15" />
+		<variable name="%%Set4Item15Name%% NOT Selected" sysvar="Set4Item15NotSelected%" type="boolean" condition="$Set4ItemCount >= 15" />
+		<variable name="%%Set4Item16Name%% Selected" sysvar="Set4Item16Selected%" type="boolean" condition="$Set4ItemCount >= 16" />
+		<variable name="%%Set4Item16Name%% NOT Selected" sysvar="Set4Item16NotSelected%" type="boolean" condition="$Set4ItemCount >= 16" />
+		<variable name="%%Set4Item17Name%% Selected" sysvar="Set4Item17Selected%" type="boolean" condition="$Set4ItemCount >= 17" />
+		<variable name="%%Set4Item17Name%% NOT Selected" sysvar="Set4Item17NotSelected%" type="boolean" condition="$Set4ItemCount >= 17" />
+		<variable name="%%Set4Item18Name%% Selected" sysvar="Set4Item18Selected%" type="boolean" condition="$Set4ItemCount >= 18" />
+		<variable name="%%Set4Item18Name%% NOT Selected" sysvar="Set4Item18NotSelected%" type="boolean" condition="$Set4ItemCount >= 18" />
+		<variable name="%%Set4Item19Name%% Selected" sysvar="Set4Item19Selected%" type="boolean" condition="$Set4ItemCount >= 19" />
+		<variable name="%%Set4Item19Name%% NOT Selected" sysvar="Set4Item19NotSelected%" type="boolean" condition="$Set4ItemCount >= 19" />
+		<variable name="%%Set4Item20Name%% Selected" sysvar="Set4Item20Selected%" type="boolean" condition="$Set4ItemCount >= 20" />
+		<variable name="%%Set4Item20Name%% NOT Selected" sysvar="Set4Item20NotSelected%" type="boolean" condition="$Set4ItemCount >= 20" />
+	</category>
+	<category name="%%Set5Name%% State" condition="$SetCount >= 5">
+		<variable name="Has Selection" sysvar="Set5HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set5HasNoSelection%" type="boolean" />
+		<variable name="%%Set5Item1Name%% Selected" sysvar="Set5Item1Selected%" type="boolean" condition="$Set5ItemCount >= 1" />
+		<variable name="%%Set5Item1Name%% NOT Selected" sysvar="Set5Item1NotSelected%" type="boolean" condition="$Set5ItemCount >= 1" />
+		<variable name="%%Set5Item2Name%% Selected" sysvar="Set5Item2Selected%" type="boolean" condition="$Set5ItemCount >= 2" />
+		<variable name="%%Set5Item2Name%% NOT Selected" sysvar="Set5Item2NotSelected%" type="boolean" condition="$Set5ItemCount >= 2" />
+		<variable name="%%Set5Item3Name%% Selected" sysvar="Set5Item3Selected%" type="boolean" condition="$Set5ItemCount >= 3" />
+		<variable name="%%Set5Item3Name%% NOT Selected" sysvar="Set5Item3NotSelected%" type="boolean" condition="$Set5ItemCount >= 3" />
+		<variable name="%%Set5Item4Name%% Selected" sysvar="Set5Item4Selected%" type="boolean" condition="$Set5ItemCount >= 4" />
+		<variable name="%%Set5Item4Name%% NOT Selected" sysvar="Set5Item4NotSelected%" type="boolean" condition="$Set5ItemCount >= 4" />
+		<variable name="%%Set5Item5Name%% Selected" sysvar="Set5Item5Selected%" type="boolean" condition="$Set5ItemCount >= 5" />
+		<variable name="%%Set5Item5Name%% NOT Selected" sysvar="Set5Item5NotSelected%" type="boolean" condition="$Set5ItemCount >= 5" />
+		<variable name="%%Set5Item6Name%% Selected" sysvar="Set5Item6Selected%" type="boolean" condition="$Set5ItemCount >= 6" />
+		<variable name="%%Set5Item6Name%% NOT Selected" sysvar="Set5Item6NotSelected%" type="boolean" condition="$Set5ItemCount >= 6" />
+		<variable name="%%Set5Item7Name%% Selected" sysvar="Set5Item7Selected%" type="boolean" condition="$Set5ItemCount >= 7" />
+		<variable name="%%Set5Item7Name%% NOT Selected" sysvar="Set5Item7NotSelected%" type="boolean" condition="$Set5ItemCount >= 7" />
+		<variable name="%%Set5Item8Name%% Selected" sysvar="Set5Item8Selected%" type="boolean" condition="$Set5ItemCount >= 8" />
+		<variable name="%%Set5Item8Name%% NOT Selected" sysvar="Set5Item8NotSelected%" type="boolean" condition="$Set5ItemCount >= 8" />
+		<variable name="%%Set5Item9Name%% Selected" sysvar="Set5Item9Selected%" type="boolean" condition="$Set5ItemCount >= 9" />
+		<variable name="%%Set5Item9Name%% NOT Selected" sysvar="Set5Item9NotSelected%" type="boolean" condition="$Set5ItemCount >= 9" />
+		<variable name="%%Set5Item10Name%% Selected" sysvar="Set5Item10Selected%" type="boolean" condition="$Set5ItemCount >= 10" />
+		<variable name="%%Set5Item10Name%% NOT Selected" sysvar="Set5Item10NotSelected%" type="boolean" condition="$Set5ItemCount >= 10" />
+		<variable name="%%Set5Item11Name%% Selected" sysvar="Set5Item11Selected%" type="boolean" condition="$Set5ItemCount >= 11" />
+		<variable name="%%Set5Item11Name%% NOT Selected" sysvar="Set5Item11NotSelected%" type="boolean" condition="$Set5ItemCount >= 11" />
+		<variable name="%%Set5Item12Name%% Selected" sysvar="Set5Item12Selected%" type="boolean" condition="$Set5ItemCount >= 12" />
+		<variable name="%%Set5Item12Name%% NOT Selected" sysvar="Set5Item12NotSelected%" type="boolean" condition="$Set5ItemCount >= 12" />
+		<variable name="%%Set5Item13Name%% Selected" sysvar="Set5Item13Selected%" type="boolean" condition="$Set5ItemCount >= 13" />
+		<variable name="%%Set5Item13Name%% NOT Selected" sysvar="Set5Item13NotSelected%" type="boolean" condition="$Set5ItemCount >= 13" />
+		<variable name="%%Set5Item14Name%% Selected" sysvar="Set5Item14Selected%" type="boolean" condition="$Set5ItemCount >= 14" />
+		<variable name="%%Set5Item14Name%% NOT Selected" sysvar="Set5Item14NotSelected%" type="boolean" condition="$Set5ItemCount >= 14" />
+		<variable name="%%Set5Item15Name%% Selected" sysvar="Set5Item15Selected%" type="boolean" condition="$Set5ItemCount >= 15" />
+		<variable name="%%Set5Item15Name%% NOT Selected" sysvar="Set5Item15NotSelected%" type="boolean" condition="$Set5ItemCount >= 15" />
+		<variable name="%%Set5Item16Name%% Selected" sysvar="Set5Item16Selected%" type="boolean" condition="$Set5ItemCount >= 16" />
+		<variable name="%%Set5Item16Name%% NOT Selected" sysvar="Set5Item16NotSelected%" type="boolean" condition="$Set5ItemCount >= 16" />
+		<variable name="%%Set5Item17Name%% Selected" sysvar="Set5Item17Selected%" type="boolean" condition="$Set5ItemCount >= 17" />
+		<variable name="%%Set5Item17Name%% NOT Selected" sysvar="Set5Item17NotSelected%" type="boolean" condition="$Set5ItemCount >= 17" />
+		<variable name="%%Set5Item18Name%% Selected" sysvar="Set5Item18Selected%" type="boolean" condition="$Set5ItemCount >= 18" />
+		<variable name="%%Set5Item18Name%% NOT Selected" sysvar="Set5Item18NotSelected%" type="boolean" condition="$Set5ItemCount >= 18" />
+		<variable name="%%Set5Item19Name%% Selected" sysvar="Set5Item19Selected%" type="boolean" condition="$Set5ItemCount >= 19" />
+		<variable name="%%Set5Item19Name%% NOT Selected" sysvar="Set5Item19NotSelected%" type="boolean" condition="$Set5ItemCount >= 19" />
+		<variable name="%%Set5Item20Name%% Selected" sysvar="Set5Item20Selected%" type="boolean" condition="$Set5ItemCount >= 20" />
+		<variable name="%%Set5Item20Name%% NOT Selected" sysvar="Set5Item20NotSelected%" type="boolean" condition="$Set5ItemCount >= 20" />
+	</category>
+	<category name="%%Set6Name%% State" condition="$SetCount >= 6">
+		<variable name="Has Selection" sysvar="Set6HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set6HasNoSelection%" type="boolean" />
+		<variable name="%%Set6Item1Name%% Selected" sysvar="Set6Item1Selected%" type="boolean" condition="$Set6ItemCount >= 1" />
+		<variable name="%%Set6Item1Name%% NOT Selected" sysvar="Set6Item1NotSelected%" type="boolean" condition="$Set6ItemCount >= 1" />
+		<variable name="%%Set6Item2Name%% Selected" sysvar="Set6Item2Selected%" type="boolean" condition="$Set6ItemCount >= 2" />
+		<variable name="%%Set6Item2Name%% NOT Selected" sysvar="Set6Item2NotSelected%" type="boolean" condition="$Set6ItemCount >= 2" />
+		<variable name="%%Set6Item3Name%% Selected" sysvar="Set6Item3Selected%" type="boolean" condition="$Set6ItemCount >= 3" />
+		<variable name="%%Set6Item3Name%% NOT Selected" sysvar="Set6Item3NotSelected%" type="boolean" condition="$Set6ItemCount >= 3" />
+		<variable name="%%Set6Item4Name%% Selected" sysvar="Set6Item4Selected%" type="boolean" condition="$Set6ItemCount >= 4" />
+		<variable name="%%Set6Item4Name%% NOT Selected" sysvar="Set6Item4NotSelected%" type="boolean" condition="$Set6ItemCount >= 4" />
+		<variable name="%%Set6Item5Name%% Selected" sysvar="Set6Item5Selected%" type="boolean" condition="$Set6ItemCount >= 5" />
+		<variable name="%%Set6Item5Name%% NOT Selected" sysvar="Set6Item5NotSelected%" type="boolean" condition="$Set6ItemCount >= 5" />
+		<variable name="%%Set6Item6Name%% Selected" sysvar="Set6Item6Selected%" type="boolean" condition="$Set6ItemCount >= 6" />
+		<variable name="%%Set6Item6Name%% NOT Selected" sysvar="Set6Item6NotSelected%" type="boolean" condition="$Set6ItemCount >= 6" />
+		<variable name="%%Set6Item7Name%% Selected" sysvar="Set6Item7Selected%" type="boolean" condition="$Set6ItemCount >= 7" />
+		<variable name="%%Set6Item7Name%% NOT Selected" sysvar="Set6Item7NotSelected%" type="boolean" condition="$Set6ItemCount >= 7" />
+		<variable name="%%Set6Item8Name%% Selected" sysvar="Set6Item8Selected%" type="boolean" condition="$Set6ItemCount >= 8" />
+		<variable name="%%Set6Item8Name%% NOT Selected" sysvar="Set6Item8NotSelected%" type="boolean" condition="$Set6ItemCount >= 8" />
+		<variable name="%%Set6Item9Name%% Selected" sysvar="Set6Item9Selected%" type="boolean" condition="$Set6ItemCount >= 9" />
+		<variable name="%%Set6Item9Name%% NOT Selected" sysvar="Set6Item9NotSelected%" type="boolean" condition="$Set6ItemCount >= 9" />
+		<variable name="%%Set6Item10Name%% Selected" sysvar="Set6Item10Selected%" type="boolean" condition="$Set6ItemCount >= 10" />
+		<variable name="%%Set6Item10Name%% NOT Selected" sysvar="Set6Item10NotSelected%" type="boolean" condition="$Set6ItemCount >= 10" />
+		<variable name="%%Set6Item11Name%% Selected" sysvar="Set6Item11Selected%" type="boolean" condition="$Set6ItemCount >= 11" />
+		<variable name="%%Set6Item11Name%% NOT Selected" sysvar="Set6Item11NotSelected%" type="boolean" condition="$Set6ItemCount >= 11" />
+		<variable name="%%Set6Item12Name%% Selected" sysvar="Set6Item12Selected%" type="boolean" condition="$Set6ItemCount >= 12" />
+		<variable name="%%Set6Item12Name%% NOT Selected" sysvar="Set6Item12NotSelected%" type="boolean" condition="$Set6ItemCount >= 12" />
+		<variable name="%%Set6Item13Name%% Selected" sysvar="Set6Item13Selected%" type="boolean" condition="$Set6ItemCount >= 13" />
+		<variable name="%%Set6Item13Name%% NOT Selected" sysvar="Set6Item13NotSelected%" type="boolean" condition="$Set6ItemCount >= 13" />
+		<variable name="%%Set6Item14Name%% Selected" sysvar="Set6Item14Selected%" type="boolean" condition="$Set6ItemCount >= 14" />
+		<variable name="%%Set6Item14Name%% NOT Selected" sysvar="Set6Item14NotSelected%" type="boolean" condition="$Set6ItemCount >= 14" />
+		<variable name="%%Set6Item15Name%% Selected" sysvar="Set6Item15Selected%" type="boolean" condition="$Set6ItemCount >= 15" />
+		<variable name="%%Set6Item15Name%% NOT Selected" sysvar="Set6Item15NotSelected%" type="boolean" condition="$Set6ItemCount >= 15" />
+		<variable name="%%Set6Item16Name%% Selected" sysvar="Set6Item16Selected%" type="boolean" condition="$Set6ItemCount >= 16" />
+		<variable name="%%Set6Item16Name%% NOT Selected" sysvar="Set6Item16NotSelected%" type="boolean" condition="$Set6ItemCount >= 16" />
+		<variable name="%%Set6Item17Name%% Selected" sysvar="Set6Item17Selected%" type="boolean" condition="$Set6ItemCount >= 17" />
+		<variable name="%%Set6Item17Name%% NOT Selected" sysvar="Set6Item17NotSelected%" type="boolean" condition="$Set6ItemCount >= 17" />
+		<variable name="%%Set6Item18Name%% Selected" sysvar="Set6Item18Selected%" type="boolean" condition="$Set6ItemCount >= 18" />
+		<variable name="%%Set6Item18Name%% NOT Selected" sysvar="Set6Item18NotSelected%" type="boolean" condition="$Set6ItemCount >= 18" />
+		<variable name="%%Set6Item19Name%% Selected" sysvar="Set6Item19Selected%" type="boolean" condition="$Set6ItemCount >= 19" />
+		<variable name="%%Set6Item19Name%% NOT Selected" sysvar="Set6Item19NotSelected%" type="boolean" condition="$Set6ItemCount >= 19" />
+		<variable name="%%Set6Item20Name%% Selected" sysvar="Set6Item20Selected%" type="boolean" condition="$Set6ItemCount >= 20" />
+		<variable name="%%Set6Item20Name%% NOT Selected" sysvar="Set6Item20NotSelected%" type="boolean" condition="$Set6ItemCount >= 20" />
+	</category>
+	<category name="%%Set7Name%% State" condition="$SetCount >= 7">
+		<variable name="Has Selection" sysvar="Set7HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set7HasNoSelection%" type="boolean" />
+		<variable name="%%Set7Item1Name%% Selected" sysvar="Set7Item1Selected%" type="boolean" condition="$Set7ItemCount >= 1" />
+		<variable name="%%Set7Item1Name%% NOT Selected" sysvar="Set7Item1NotSelected%" type="boolean" condition="$Set7ItemCount >= 1" />
+		<variable name="%%Set7Item2Name%% Selected" sysvar="Set7Item2Selected%" type="boolean" condition="$Set7ItemCount >= 2" />
+		<variable name="%%Set7Item2Name%% NOT Selected" sysvar="Set7Item2NotSelected%" type="boolean" condition="$Set7ItemCount >= 2" />
+		<variable name="%%Set7Item3Name%% Selected" sysvar="Set7Item3Selected%" type="boolean" condition="$Set7ItemCount >= 3" />
+		<variable name="%%Set7Item3Name%% NOT Selected" sysvar="Set7Item3NotSelected%" type="boolean" condition="$Set7ItemCount >= 3" />
+		<variable name="%%Set7Item4Name%% Selected" sysvar="Set7Item4Selected%" type="boolean" condition="$Set7ItemCount >= 4" />
+		<variable name="%%Set7Item4Name%% NOT Selected" sysvar="Set7Item4NotSelected%" type="boolean" condition="$Set7ItemCount >= 4" />
+		<variable name="%%Set7Item5Name%% Selected" sysvar="Set7Item5Selected%" type="boolean" condition="$Set7ItemCount >= 5" />
+		<variable name="%%Set7Item5Name%% NOT Selected" sysvar="Set7Item5NotSelected%" type="boolean" condition="$Set7ItemCount >= 5" />
+		<variable name="%%Set7Item6Name%% Selected" sysvar="Set7Item6Selected%" type="boolean" condition="$Set7ItemCount >= 6" />
+		<variable name="%%Set7Item6Name%% NOT Selected" sysvar="Set7Item6NotSelected%" type="boolean" condition="$Set7ItemCount >= 6" />
+		<variable name="%%Set7Item7Name%% Selected" sysvar="Set7Item7Selected%" type="boolean" condition="$Set7ItemCount >= 7" />
+		<variable name="%%Set7Item7Name%% NOT Selected" sysvar="Set7Item7NotSelected%" type="boolean" condition="$Set7ItemCount >= 7" />
+		<variable name="%%Set7Item8Name%% Selected" sysvar="Set7Item8Selected%" type="boolean" condition="$Set7ItemCount >= 8" />
+		<variable name="%%Set7Item8Name%% NOT Selected" sysvar="Set7Item8NotSelected%" type="boolean" condition="$Set7ItemCount >= 8" />
+		<variable name="%%Set7Item9Name%% Selected" sysvar="Set7Item9Selected%" type="boolean" condition="$Set7ItemCount >= 9" />
+		<variable name="%%Set7Item9Name%% NOT Selected" sysvar="Set7Item9NotSelected%" type="boolean" condition="$Set7ItemCount >= 9" />
+		<variable name="%%Set7Item10Name%% Selected" sysvar="Set7Item10Selected%" type="boolean" condition="$Set7ItemCount >= 10" />
+		<variable name="%%Set7Item10Name%% NOT Selected" sysvar="Set7Item10NotSelected%" type="boolean" condition="$Set7ItemCount >= 10" />
+		<variable name="%%Set7Item11Name%% Selected" sysvar="Set7Item11Selected%" type="boolean" condition="$Set7ItemCount >= 11" />
+		<variable name="%%Set7Item11Name%% NOT Selected" sysvar="Set7Item11NotSelected%" type="boolean" condition="$Set7ItemCount >= 11" />
+		<variable name="%%Set7Item12Name%% Selected" sysvar="Set7Item12Selected%" type="boolean" condition="$Set7ItemCount >= 12" />
+		<variable name="%%Set7Item12Name%% NOT Selected" sysvar="Set7Item12NotSelected%" type="boolean" condition="$Set7ItemCount >= 12" />
+		<variable name="%%Set7Item13Name%% Selected" sysvar="Set7Item13Selected%" type="boolean" condition="$Set7ItemCount >= 13" />
+		<variable name="%%Set7Item13Name%% NOT Selected" sysvar="Set7Item13NotSelected%" type="boolean" condition="$Set7ItemCount >= 13" />
+		<variable name="%%Set7Item14Name%% Selected" sysvar="Set7Item14Selected%" type="boolean" condition="$Set7ItemCount >= 14" />
+		<variable name="%%Set7Item14Name%% NOT Selected" sysvar="Set7Item14NotSelected%" type="boolean" condition="$Set7ItemCount >= 14" />
+		<variable name="%%Set7Item15Name%% Selected" sysvar="Set7Item15Selected%" type="boolean" condition="$Set7ItemCount >= 15" />
+		<variable name="%%Set7Item15Name%% NOT Selected" sysvar="Set7Item15NotSelected%" type="boolean" condition="$Set7ItemCount >= 15" />
+		<variable name="%%Set7Item16Name%% Selected" sysvar="Set7Item16Selected%" type="boolean" condition="$Set7ItemCount >= 16" />
+		<variable name="%%Set7Item16Name%% NOT Selected" sysvar="Set7Item16NotSelected%" type="boolean" condition="$Set7ItemCount >= 16" />
+		<variable name="%%Set7Item17Name%% Selected" sysvar="Set7Item17Selected%" type="boolean" condition="$Set7ItemCount >= 17" />
+		<variable name="%%Set7Item17Name%% NOT Selected" sysvar="Set7Item17NotSelected%" type="boolean" condition="$Set7ItemCount >= 17" />
+		<variable name="%%Set7Item18Name%% Selected" sysvar="Set7Item18Selected%" type="boolean" condition="$Set7ItemCount >= 18" />
+		<variable name="%%Set7Item18Name%% NOT Selected" sysvar="Set7Item18NotSelected%" type="boolean" condition="$Set7ItemCount >= 18" />
+		<variable name="%%Set7Item19Name%% Selected" sysvar="Set7Item19Selected%" type="boolean" condition="$Set7ItemCount >= 19" />
+		<variable name="%%Set7Item19Name%% NOT Selected" sysvar="Set7Item19NotSelected%" type="boolean" condition="$Set7ItemCount >= 19" />
+		<variable name="%%Set7Item20Name%% Selected" sysvar="Set7Item20Selected%" type="boolean" condition="$Set7ItemCount >= 20" />
+		<variable name="%%Set7Item20Name%% NOT Selected" sysvar="Set7Item20NotSelected%" type="boolean" condition="$Set7ItemCount >= 20" />
+	</category>
+	<category name="%%Set8Name%% State" condition="$SetCount >= 8">
+		<variable name="Has Selection" sysvar="Set8HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set8HasNoSelection%" type="boolean" />
+		<variable name="%%Set8Item1Name%% Selected" sysvar="Set8Item1Selected%" type="boolean" condition="$Set8ItemCount >= 1" />
+		<variable name="%%Set8Item1Name%% NOT Selected" sysvar="Set8Item1NotSelected%" type="boolean" condition="$Set8ItemCount >= 1" />
+		<variable name="%%Set8Item2Name%% Selected" sysvar="Set8Item2Selected%" type="boolean" condition="$Set8ItemCount >= 2" />
+		<variable name="%%Set8Item2Name%% NOT Selected" sysvar="Set8Item2NotSelected%" type="boolean" condition="$Set8ItemCount >= 2" />
+		<variable name="%%Set8Item3Name%% Selected" sysvar="Set8Item3Selected%" type="boolean" condition="$Set8ItemCount >= 3" />
+		<variable name="%%Set8Item3Name%% NOT Selected" sysvar="Set8Item3NotSelected%" type="boolean" condition="$Set8ItemCount >= 3" />
+		<variable name="%%Set8Item4Name%% Selected" sysvar="Set8Item4Selected%" type="boolean" condition="$Set8ItemCount >= 4" />
+		<variable name="%%Set8Item4Name%% NOT Selected" sysvar="Set8Item4NotSelected%" type="boolean" condition="$Set8ItemCount >= 4" />
+		<variable name="%%Set8Item5Name%% Selected" sysvar="Set8Item5Selected%" type="boolean" condition="$Set8ItemCount >= 5" />
+		<variable name="%%Set8Item5Name%% NOT Selected" sysvar="Set8Item5NotSelected%" type="boolean" condition="$Set8ItemCount >= 5" />
+		<variable name="%%Set8Item6Name%% Selected" sysvar="Set8Item6Selected%" type="boolean" condition="$Set8ItemCount >= 6" />
+		<variable name="%%Set8Item6Name%% NOT Selected" sysvar="Set8Item6NotSelected%" type="boolean" condition="$Set8ItemCount >= 6" />
+		<variable name="%%Set8Item7Name%% Selected" sysvar="Set8Item7Selected%" type="boolean" condition="$Set8ItemCount >= 7" />
+		<variable name="%%Set8Item7Name%% NOT Selected" sysvar="Set8Item7NotSelected%" type="boolean" condition="$Set8ItemCount >= 7" />
+		<variable name="%%Set8Item8Name%% Selected" sysvar="Set8Item8Selected%" type="boolean" condition="$Set8ItemCount >= 8" />
+		<variable name="%%Set8Item8Name%% NOT Selected" sysvar="Set8Item8NotSelected%" type="boolean" condition="$Set8ItemCount >= 8" />
+		<variable name="%%Set8Item9Name%% Selected" sysvar="Set8Item9Selected%" type="boolean" condition="$Set8ItemCount >= 9" />
+		<variable name="%%Set8Item9Name%% NOT Selected" sysvar="Set8Item9NotSelected%" type="boolean" condition="$Set8ItemCount >= 9" />
+		<variable name="%%Set8Item10Name%% Selected" sysvar="Set8Item10Selected%" type="boolean" condition="$Set8ItemCount >= 10" />
+		<variable name="%%Set8Item10Name%% NOT Selected" sysvar="Set8Item10NotSelected%" type="boolean" condition="$Set8ItemCount >= 10" />
+		<variable name="%%Set8Item11Name%% Selected" sysvar="Set8Item11Selected%" type="boolean" condition="$Set8ItemCount >= 11" />
+		<variable name="%%Set8Item11Name%% NOT Selected" sysvar="Set8Item11NotSelected%" type="boolean" condition="$Set8ItemCount >= 11" />
+		<variable name="%%Set8Item12Name%% Selected" sysvar="Set8Item12Selected%" type="boolean" condition="$Set8ItemCount >= 12" />
+		<variable name="%%Set8Item12Name%% NOT Selected" sysvar="Set8Item12NotSelected%" type="boolean" condition="$Set8ItemCount >= 12" />
+		<variable name="%%Set8Item13Name%% Selected" sysvar="Set8Item13Selected%" type="boolean" condition="$Set8ItemCount >= 13" />
+		<variable name="%%Set8Item13Name%% NOT Selected" sysvar="Set8Item13NotSelected%" type="boolean" condition="$Set8ItemCount >= 13" />
+		<variable name="%%Set8Item14Name%% Selected" sysvar="Set8Item14Selected%" type="boolean" condition="$Set8ItemCount >= 14" />
+		<variable name="%%Set8Item14Name%% NOT Selected" sysvar="Set8Item14NotSelected%" type="boolean" condition="$Set8ItemCount >= 14" />
+		<variable name="%%Set8Item15Name%% Selected" sysvar="Set8Item15Selected%" type="boolean" condition="$Set8ItemCount >= 15" />
+		<variable name="%%Set8Item15Name%% NOT Selected" sysvar="Set8Item15NotSelected%" type="boolean" condition="$Set8ItemCount >= 15" />
+		<variable name="%%Set8Item16Name%% Selected" sysvar="Set8Item16Selected%" type="boolean" condition="$Set8ItemCount >= 16" />
+		<variable name="%%Set8Item16Name%% NOT Selected" sysvar="Set8Item16NotSelected%" type="boolean" condition="$Set8ItemCount >= 16" />
+		<variable name="%%Set8Item17Name%% Selected" sysvar="Set8Item17Selected%" type="boolean" condition="$Set8ItemCount >= 17" />
+		<variable name="%%Set8Item17Name%% NOT Selected" sysvar="Set8Item17NotSelected%" type="boolean" condition="$Set8ItemCount >= 17" />
+		<variable name="%%Set8Item18Name%% Selected" sysvar="Set8Item18Selected%" type="boolean" condition="$Set8ItemCount >= 18" />
+		<variable name="%%Set8Item18Name%% NOT Selected" sysvar="Set8Item18NotSelected%" type="boolean" condition="$Set8ItemCount >= 18" />
+		<variable name="%%Set8Item19Name%% Selected" sysvar="Set8Item19Selected%" type="boolean" condition="$Set8ItemCount >= 19" />
+		<variable name="%%Set8Item19Name%% NOT Selected" sysvar="Set8Item19NotSelected%" type="boolean" condition="$Set8ItemCount >= 19" />
+		<variable name="%%Set8Item20Name%% Selected" sysvar="Set8Item20Selected%" type="boolean" condition="$Set8ItemCount >= 20" />
+		<variable name="%%Set8Item20Name%% NOT Selected" sysvar="Set8Item20NotSelected%" type="boolean" condition="$Set8ItemCount >= 20" />
+	</category>
+	<category name="%%Set9Name%% State" condition="$SetCount >= 9">
+		<variable name="Has Selection" sysvar="Set9HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set9HasNoSelection%" type="boolean" />
+		<variable name="%%Set9Item1Name%% Selected" sysvar="Set9Item1Selected%" type="boolean" condition="$Set9ItemCount >= 1" />
+		<variable name="%%Set9Item1Name%% NOT Selected" sysvar="Set9Item1NotSelected%" type="boolean" condition="$Set9ItemCount >= 1" />
+		<variable name="%%Set9Item2Name%% Selected" sysvar="Set9Item2Selected%" type="boolean" condition="$Set9ItemCount >= 2" />
+		<variable name="%%Set9Item2Name%% NOT Selected" sysvar="Set9Item2NotSelected%" type="boolean" condition="$Set9ItemCount >= 2" />
+		<variable name="%%Set9Item3Name%% Selected" sysvar="Set9Item3Selected%" type="boolean" condition="$Set9ItemCount >= 3" />
+		<variable name="%%Set9Item3Name%% NOT Selected" sysvar="Set9Item3NotSelected%" type="boolean" condition="$Set9ItemCount >= 3" />
+		<variable name="%%Set9Item4Name%% Selected" sysvar="Set9Item4Selected%" type="boolean" condition="$Set9ItemCount >= 4" />
+		<variable name="%%Set9Item4Name%% NOT Selected" sysvar="Set9Item4NotSelected%" type="boolean" condition="$Set9ItemCount >= 4" />
+		<variable name="%%Set9Item5Name%% Selected" sysvar="Set9Item5Selected%" type="boolean" condition="$Set9ItemCount >= 5" />
+		<variable name="%%Set9Item5Name%% NOT Selected" sysvar="Set9Item5NotSelected%" type="boolean" condition="$Set9ItemCount >= 5" />
+		<variable name="%%Set9Item6Name%% Selected" sysvar="Set9Item6Selected%" type="boolean" condition="$Set9ItemCount >= 6" />
+		<variable name="%%Set9Item6Name%% NOT Selected" sysvar="Set9Item6NotSelected%" type="boolean" condition="$Set9ItemCount >= 6" />
+		<variable name="%%Set9Item7Name%% Selected" sysvar="Set9Item7Selected%" type="boolean" condition="$Set9ItemCount >= 7" />
+		<variable name="%%Set9Item7Name%% NOT Selected" sysvar="Set9Item7NotSelected%" type="boolean" condition="$Set9ItemCount >= 7" />
+		<variable name="%%Set9Item8Name%% Selected" sysvar="Set9Item8Selected%" type="boolean" condition="$Set9ItemCount >= 8" />
+		<variable name="%%Set9Item8Name%% NOT Selected" sysvar="Set9Item8NotSelected%" type="boolean" condition="$Set9ItemCount >= 8" />
+		<variable name="%%Set9Item9Name%% Selected" sysvar="Set9Item9Selected%" type="boolean" condition="$Set9ItemCount >= 9" />
+		<variable name="%%Set9Item9Name%% NOT Selected" sysvar="Set9Item9NotSelected%" type="boolean" condition="$Set9ItemCount >= 9" />
+		<variable name="%%Set9Item10Name%% Selected" sysvar="Set9Item10Selected%" type="boolean" condition="$Set9ItemCount >= 10" />
+		<variable name="%%Set9Item10Name%% NOT Selected" sysvar="Set9Item10NotSelected%" type="boolean" condition="$Set9ItemCount >= 10" />
+		<variable name="%%Set9Item11Name%% Selected" sysvar="Set9Item11Selected%" type="boolean" condition="$Set9ItemCount >= 11" />
+		<variable name="%%Set9Item11Name%% NOT Selected" sysvar="Set9Item11NotSelected%" type="boolean" condition="$Set9ItemCount >= 11" />
+		<variable name="%%Set9Item12Name%% Selected" sysvar="Set9Item12Selected%" type="boolean" condition="$Set9ItemCount >= 12" />
+		<variable name="%%Set9Item12Name%% NOT Selected" sysvar="Set9Item12NotSelected%" type="boolean" condition="$Set9ItemCount >= 12" />
+		<variable name="%%Set9Item13Name%% Selected" sysvar="Set9Item13Selected%" type="boolean" condition="$Set9ItemCount >= 13" />
+		<variable name="%%Set9Item13Name%% NOT Selected" sysvar="Set9Item13NotSelected%" type="boolean" condition="$Set9ItemCount >= 13" />
+		<variable name="%%Set9Item14Name%% Selected" sysvar="Set9Item14Selected%" type="boolean" condition="$Set9ItemCount >= 14" />
+		<variable name="%%Set9Item14Name%% NOT Selected" sysvar="Set9Item14NotSelected%" type="boolean" condition="$Set9ItemCount >= 14" />
+		<variable name="%%Set9Item15Name%% Selected" sysvar="Set9Item15Selected%" type="boolean" condition="$Set9ItemCount >= 15" />
+		<variable name="%%Set9Item15Name%% NOT Selected" sysvar="Set9Item15NotSelected%" type="boolean" condition="$Set9ItemCount >= 15" />
+		<variable name="%%Set9Item16Name%% Selected" sysvar="Set9Item16Selected%" type="boolean" condition="$Set9ItemCount >= 16" />
+		<variable name="%%Set9Item16Name%% NOT Selected" sysvar="Set9Item16NotSelected%" type="boolean" condition="$Set9ItemCount >= 16" />
+		<variable name="%%Set9Item17Name%% Selected" sysvar="Set9Item17Selected%" type="boolean" condition="$Set9ItemCount >= 17" />
+		<variable name="%%Set9Item17Name%% NOT Selected" sysvar="Set9Item17NotSelected%" type="boolean" condition="$Set9ItemCount >= 17" />
+		<variable name="%%Set9Item18Name%% Selected" sysvar="Set9Item18Selected%" type="boolean" condition="$Set9ItemCount >= 18" />
+		<variable name="%%Set9Item18Name%% NOT Selected" sysvar="Set9Item18NotSelected%" type="boolean" condition="$Set9ItemCount >= 18" />
+		<variable name="%%Set9Item19Name%% Selected" sysvar="Set9Item19Selected%" type="boolean" condition="$Set9ItemCount >= 19" />
+		<variable name="%%Set9Item19Name%% NOT Selected" sysvar="Set9Item19NotSelected%" type="boolean" condition="$Set9ItemCount >= 19" />
+		<variable name="%%Set9Item20Name%% Selected" sysvar="Set9Item20Selected%" type="boolean" condition="$Set9ItemCount >= 20" />
+		<variable name="%%Set9Item20Name%% NOT Selected" sysvar="Set9Item20NotSelected%" type="boolean" condition="$Set9ItemCount >= 20" />
+	</category>
+	<category name="%%Set10Name%% State" condition="$SetCount >= 10">
+		<variable name="Has Selection" sysvar="Set10HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set10HasNoSelection%" type="boolean" />
+		<variable name="%%Set10Item1Name%% Selected" sysvar="Set10Item1Selected%" type="boolean" condition="$Set10ItemCount >= 1" />
+		<variable name="%%Set10Item1Name%% NOT Selected" sysvar="Set10Item1NotSelected%" type="boolean" condition="$Set10ItemCount >= 1" />
+		<variable name="%%Set10Item2Name%% Selected" sysvar="Set10Item2Selected%" type="boolean" condition="$Set10ItemCount >= 2" />
+		<variable name="%%Set10Item2Name%% NOT Selected" sysvar="Set10Item2NotSelected%" type="boolean" condition="$Set10ItemCount >= 2" />
+		<variable name="%%Set10Item3Name%% Selected" sysvar="Set10Item3Selected%" type="boolean" condition="$Set10ItemCount >= 3" />
+		<variable name="%%Set10Item3Name%% NOT Selected" sysvar="Set10Item3NotSelected%" type="boolean" condition="$Set10ItemCount >= 3" />
+		<variable name="%%Set10Item4Name%% Selected" sysvar="Set10Item4Selected%" type="boolean" condition="$Set10ItemCount >= 4" />
+		<variable name="%%Set10Item4Name%% NOT Selected" sysvar="Set10Item4NotSelected%" type="boolean" condition="$Set10ItemCount >= 4" />
+		<variable name="%%Set10Item5Name%% Selected" sysvar="Set10Item5Selected%" type="boolean" condition="$Set10ItemCount >= 5" />
+		<variable name="%%Set10Item5Name%% NOT Selected" sysvar="Set10Item5NotSelected%" type="boolean" condition="$Set10ItemCount >= 5" />
+		<variable name="%%Set10Item6Name%% Selected" sysvar="Set10Item6Selected%" type="boolean" condition="$Set10ItemCount >= 6" />
+		<variable name="%%Set10Item6Name%% NOT Selected" sysvar="Set10Item6NotSelected%" type="boolean" condition="$Set10ItemCount >= 6" />
+		<variable name="%%Set10Item7Name%% Selected" sysvar="Set10Item7Selected%" type="boolean" condition="$Set10ItemCount >= 7" />
+		<variable name="%%Set10Item7Name%% NOT Selected" sysvar="Set10Item7NotSelected%" type="boolean" condition="$Set10ItemCount >= 7" />
+		<variable name="%%Set10Item8Name%% Selected" sysvar="Set10Item8Selected%" type="boolean" condition="$Set10ItemCount >= 8" />
+		<variable name="%%Set10Item8Name%% NOT Selected" sysvar="Set10Item8NotSelected%" type="boolean" condition="$Set10ItemCount >= 8" />
+		<variable name="%%Set10Item9Name%% Selected" sysvar="Set10Item9Selected%" type="boolean" condition="$Set10ItemCount >= 9" />
+		<variable name="%%Set10Item9Name%% NOT Selected" sysvar="Set10Item9NotSelected%" type="boolean" condition="$Set10ItemCount >= 9" />
+		<variable name="%%Set10Item10Name%% Selected" sysvar="Set10Item10Selected%" type="boolean" condition="$Set10ItemCount >= 10" />
+		<variable name="%%Set10Item10Name%% NOT Selected" sysvar="Set10Item10NotSelected%" type="boolean" condition="$Set10ItemCount >= 10" />
+		<variable name="%%Set10Item11Name%% Selected" sysvar="Set10Item11Selected%" type="boolean" condition="$Set10ItemCount >= 11" />
+		<variable name="%%Set10Item11Name%% NOT Selected" sysvar="Set10Item11NotSelected%" type="boolean" condition="$Set10ItemCount >= 11" />
+		<variable name="%%Set10Item12Name%% Selected" sysvar="Set10Item12Selected%" type="boolean" condition="$Set10ItemCount >= 12" />
+		<variable name="%%Set10Item12Name%% NOT Selected" sysvar="Set10Item12NotSelected%" type="boolean" condition="$Set10ItemCount >= 12" />
+		<variable name="%%Set10Item13Name%% Selected" sysvar="Set10Item13Selected%" type="boolean" condition="$Set10ItemCount >= 13" />
+		<variable name="%%Set10Item13Name%% NOT Selected" sysvar="Set10Item13NotSelected%" type="boolean" condition="$Set10ItemCount >= 13" />
+		<variable name="%%Set10Item14Name%% Selected" sysvar="Set10Item14Selected%" type="boolean" condition="$Set10ItemCount >= 14" />
+		<variable name="%%Set10Item14Name%% NOT Selected" sysvar="Set10Item14NotSelected%" type="boolean" condition="$Set10ItemCount >= 14" />
+		<variable name="%%Set10Item15Name%% Selected" sysvar="Set10Item15Selected%" type="boolean" condition="$Set10ItemCount >= 15" />
+		<variable name="%%Set10Item15Name%% NOT Selected" sysvar="Set10Item15NotSelected%" type="boolean" condition="$Set10ItemCount >= 15" />
+		<variable name="%%Set10Item16Name%% Selected" sysvar="Set10Item16Selected%" type="boolean" condition="$Set10ItemCount >= 16" />
+		<variable name="%%Set10Item16Name%% NOT Selected" sysvar="Set10Item16NotSelected%" type="boolean" condition="$Set10ItemCount >= 16" />
+		<variable name="%%Set10Item17Name%% Selected" sysvar="Set10Item17Selected%" type="boolean" condition="$Set10ItemCount >= 17" />
+		<variable name="%%Set10Item17Name%% NOT Selected" sysvar="Set10Item17NotSelected%" type="boolean" condition="$Set10ItemCount >= 17" />
+		<variable name="%%Set10Item18Name%% Selected" sysvar="Set10Item18Selected%" type="boolean" condition="$Set10ItemCount >= 18" />
+		<variable name="%%Set10Item18Name%% NOT Selected" sysvar="Set10Item18NotSelected%" type="boolean" condition="$Set10ItemCount >= 18" />
+		<variable name="%%Set10Item19Name%% Selected" sysvar="Set10Item19Selected%" type="boolean" condition="$Set10ItemCount >= 19" />
+		<variable name="%%Set10Item19Name%% NOT Selected" sysvar="Set10Item19NotSelected%" type="boolean" condition="$Set10ItemCount >= 19" />
+		<variable name="%%Set10Item20Name%% Selected" sysvar="Set10Item20Selected%" type="boolean" condition="$Set10ItemCount >= 20" />
+		<variable name="%%Set10Item20Name%% NOT Selected" sysvar="Set10Item20NotSelected%" type="boolean" condition="$Set10ItemCount >= 20" />
+	</category>
+	<category name="%%Set11Name%% State" condition="$SetCount >= 11">
+		<variable name="Has Selection" sysvar="Set11HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set11HasNoSelection%" type="boolean" />
+		<variable name="%%Set11Item1Name%% Selected" sysvar="Set11Item1Selected%" type="boolean" condition="$Set11ItemCount >= 1" />
+		<variable name="%%Set11Item1Name%% NOT Selected" sysvar="Set11Item1NotSelected%" type="boolean" condition="$Set11ItemCount >= 1" />
+		<variable name="%%Set11Item2Name%% Selected" sysvar="Set11Item2Selected%" type="boolean" condition="$Set11ItemCount >= 2" />
+		<variable name="%%Set11Item2Name%% NOT Selected" sysvar="Set11Item2NotSelected%" type="boolean" condition="$Set11ItemCount >= 2" />
+		<variable name="%%Set11Item3Name%% Selected" sysvar="Set11Item3Selected%" type="boolean" condition="$Set11ItemCount >= 3" />
+		<variable name="%%Set11Item3Name%% NOT Selected" sysvar="Set11Item3NotSelected%" type="boolean" condition="$Set11ItemCount >= 3" />
+		<variable name="%%Set11Item4Name%% Selected" sysvar="Set11Item4Selected%" type="boolean" condition="$Set11ItemCount >= 4" />
+		<variable name="%%Set11Item4Name%% NOT Selected" sysvar="Set11Item4NotSelected%" type="boolean" condition="$Set11ItemCount >= 4" />
+		<variable name="%%Set11Item5Name%% Selected" sysvar="Set11Item5Selected%" type="boolean" condition="$Set11ItemCount >= 5" />
+		<variable name="%%Set11Item5Name%% NOT Selected" sysvar="Set11Item5NotSelected%" type="boolean" condition="$Set11ItemCount >= 5" />
+		<variable name="%%Set11Item6Name%% Selected" sysvar="Set11Item6Selected%" type="boolean" condition="$Set11ItemCount >= 6" />
+		<variable name="%%Set11Item6Name%% NOT Selected" sysvar="Set11Item6NotSelected%" type="boolean" condition="$Set11ItemCount >= 6" />
+		<variable name="%%Set11Item7Name%% Selected" sysvar="Set11Item7Selected%" type="boolean" condition="$Set11ItemCount >= 7" />
+		<variable name="%%Set11Item7Name%% NOT Selected" sysvar="Set11Item7NotSelected%" type="boolean" condition="$Set11ItemCount >= 7" />
+		<variable name="%%Set11Item8Name%% Selected" sysvar="Set11Item8Selected%" type="boolean" condition="$Set11ItemCount >= 8" />
+		<variable name="%%Set11Item8Name%% NOT Selected" sysvar="Set11Item8NotSelected%" type="boolean" condition="$Set11ItemCount >= 8" />
+		<variable name="%%Set11Item9Name%% Selected" sysvar="Set11Item9Selected%" type="boolean" condition="$Set11ItemCount >= 9" />
+		<variable name="%%Set11Item9Name%% NOT Selected" sysvar="Set11Item9NotSelected%" type="boolean" condition="$Set11ItemCount >= 9" />
+		<variable name="%%Set11Item10Name%% Selected" sysvar="Set11Item10Selected%" type="boolean" condition="$Set11ItemCount >= 10" />
+		<variable name="%%Set11Item10Name%% NOT Selected" sysvar="Set11Item10NotSelected%" type="boolean" condition="$Set11ItemCount >= 10" />
+		<variable name="%%Set11Item11Name%% Selected" sysvar="Set11Item11Selected%" type="boolean" condition="$Set11ItemCount >= 11" />
+		<variable name="%%Set11Item11Name%% NOT Selected" sysvar="Set11Item11NotSelected%" type="boolean" condition="$Set11ItemCount >= 11" />
+		<variable name="%%Set11Item12Name%% Selected" sysvar="Set11Item12Selected%" type="boolean" condition="$Set11ItemCount >= 12" />
+		<variable name="%%Set11Item12Name%% NOT Selected" sysvar="Set11Item12NotSelected%" type="boolean" condition="$Set11ItemCount >= 12" />
+		<variable name="%%Set11Item13Name%% Selected" sysvar="Set11Item13Selected%" type="boolean" condition="$Set11ItemCount >= 13" />
+		<variable name="%%Set11Item13Name%% NOT Selected" sysvar="Set11Item13NotSelected%" type="boolean" condition="$Set11ItemCount >= 13" />
+		<variable name="%%Set11Item14Name%% Selected" sysvar="Set11Item14Selected%" type="boolean" condition="$Set11ItemCount >= 14" />
+		<variable name="%%Set11Item14Name%% NOT Selected" sysvar="Set11Item14NotSelected%" type="boolean" condition="$Set11ItemCount >= 14" />
+		<variable name="%%Set11Item15Name%% Selected" sysvar="Set11Item15Selected%" type="boolean" condition="$Set11ItemCount >= 15" />
+		<variable name="%%Set11Item15Name%% NOT Selected" sysvar="Set11Item15NotSelected%" type="boolean" condition="$Set11ItemCount >= 15" />
+		<variable name="%%Set11Item16Name%% Selected" sysvar="Set11Item16Selected%" type="boolean" condition="$Set11ItemCount >= 16" />
+		<variable name="%%Set11Item16Name%% NOT Selected" sysvar="Set11Item16NotSelected%" type="boolean" condition="$Set11ItemCount >= 16" />
+		<variable name="%%Set11Item17Name%% Selected" sysvar="Set11Item17Selected%" type="boolean" condition="$Set11ItemCount >= 17" />
+		<variable name="%%Set11Item17Name%% NOT Selected" sysvar="Set11Item17NotSelected%" type="boolean" condition="$Set11ItemCount >= 17" />
+		<variable name="%%Set11Item18Name%% Selected" sysvar="Set11Item18Selected%" type="boolean" condition="$Set11ItemCount >= 18" />
+		<variable name="%%Set11Item18Name%% NOT Selected" sysvar="Set11Item18NotSelected%" type="boolean" condition="$Set11ItemCount >= 18" />
+		<variable name="%%Set11Item19Name%% Selected" sysvar="Set11Item19Selected%" type="boolean" condition="$Set11ItemCount >= 19" />
+		<variable name="%%Set11Item19Name%% NOT Selected" sysvar="Set11Item19NotSelected%" type="boolean" condition="$Set11ItemCount >= 19" />
+		<variable name="%%Set11Item20Name%% Selected" sysvar="Set11Item20Selected%" type="boolean" condition="$Set11ItemCount >= 20" />
+		<variable name="%%Set11Item20Name%% NOT Selected" sysvar="Set11Item20NotSelected%" type="boolean" condition="$Set11ItemCount >= 20" />
+	</category>
+	<category name="%%Set12Name%% State" condition="$SetCount >= 12">
+		<variable name="Has Selection" sysvar="Set12HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set12HasNoSelection%" type="boolean" />
+		<variable name="%%Set12Item1Name%% Selected" sysvar="Set12Item1Selected%" type="boolean" condition="$Set12ItemCount >= 1" />
+		<variable name="%%Set12Item1Name%% NOT Selected" sysvar="Set12Item1NotSelected%" type="boolean" condition="$Set12ItemCount >= 1" />
+		<variable name="%%Set12Item2Name%% Selected" sysvar="Set12Item2Selected%" type="boolean" condition="$Set12ItemCount >= 2" />
+		<variable name="%%Set12Item2Name%% NOT Selected" sysvar="Set12Item2NotSelected%" type="boolean" condition="$Set12ItemCount >= 2" />
+		<variable name="%%Set12Item3Name%% Selected" sysvar="Set12Item3Selected%" type="boolean" condition="$Set12ItemCount >= 3" />
+		<variable name="%%Set12Item3Name%% NOT Selected" sysvar="Set12Item3NotSelected%" type="boolean" condition="$Set12ItemCount >= 3" />
+		<variable name="%%Set12Item4Name%% Selected" sysvar="Set12Item4Selected%" type="boolean" condition="$Set12ItemCount >= 4" />
+		<variable name="%%Set12Item4Name%% NOT Selected" sysvar="Set12Item4NotSelected%" type="boolean" condition="$Set12ItemCount >= 4" />
+		<variable name="%%Set12Item5Name%% Selected" sysvar="Set12Item5Selected%" type="boolean" condition="$Set12ItemCount >= 5" />
+		<variable name="%%Set12Item5Name%% NOT Selected" sysvar="Set12Item5NotSelected%" type="boolean" condition="$Set12ItemCount >= 5" />
+		<variable name="%%Set12Item6Name%% Selected" sysvar="Set12Item6Selected%" type="boolean" condition="$Set12ItemCount >= 6" />
+		<variable name="%%Set12Item6Name%% NOT Selected" sysvar="Set12Item6NotSelected%" type="boolean" condition="$Set12ItemCount >= 6" />
+		<variable name="%%Set12Item7Name%% Selected" sysvar="Set12Item7Selected%" type="boolean" condition="$Set12ItemCount >= 7" />
+		<variable name="%%Set12Item7Name%% NOT Selected" sysvar="Set12Item7NotSelected%" type="boolean" condition="$Set12ItemCount >= 7" />
+		<variable name="%%Set12Item8Name%% Selected" sysvar="Set12Item8Selected%" type="boolean" condition="$Set12ItemCount >= 8" />
+		<variable name="%%Set12Item8Name%% NOT Selected" sysvar="Set12Item8NotSelected%" type="boolean" condition="$Set12ItemCount >= 8" />
+		<variable name="%%Set12Item9Name%% Selected" sysvar="Set12Item9Selected%" type="boolean" condition="$Set12ItemCount >= 9" />
+		<variable name="%%Set12Item9Name%% NOT Selected" sysvar="Set12Item9NotSelected%" type="boolean" condition="$Set12ItemCount >= 9" />
+		<variable name="%%Set12Item10Name%% Selected" sysvar="Set12Item10Selected%" type="boolean" condition="$Set12ItemCount >= 10" />
+		<variable name="%%Set12Item10Name%% NOT Selected" sysvar="Set12Item10NotSelected%" type="boolean" condition="$Set12ItemCount >= 10" />
+		<variable name="%%Set12Item11Name%% Selected" sysvar="Set12Item11Selected%" type="boolean" condition="$Set12ItemCount >= 11" />
+		<variable name="%%Set12Item11Name%% NOT Selected" sysvar="Set12Item11NotSelected%" type="boolean" condition="$Set12ItemCount >= 11" />
+		<variable name="%%Set12Item12Name%% Selected" sysvar="Set12Item12Selected%" type="boolean" condition="$Set12ItemCount >= 12" />
+		<variable name="%%Set12Item12Name%% NOT Selected" sysvar="Set12Item12NotSelected%" type="boolean" condition="$Set12ItemCount >= 12" />
+		<variable name="%%Set12Item13Name%% Selected" sysvar="Set12Item13Selected%" type="boolean" condition="$Set12ItemCount >= 13" />
+		<variable name="%%Set12Item13Name%% NOT Selected" sysvar="Set12Item13NotSelected%" type="boolean" condition="$Set12ItemCount >= 13" />
+		<variable name="%%Set12Item14Name%% Selected" sysvar="Set12Item14Selected%" type="boolean" condition="$Set12ItemCount >= 14" />
+		<variable name="%%Set12Item14Name%% NOT Selected" sysvar="Set12Item14NotSelected%" type="boolean" condition="$Set12ItemCount >= 14" />
+		<variable name="%%Set12Item15Name%% Selected" sysvar="Set12Item15Selected%" type="boolean" condition="$Set12ItemCount >= 15" />
+		<variable name="%%Set12Item15Name%% NOT Selected" sysvar="Set12Item15NotSelected%" type="boolean" condition="$Set12ItemCount >= 15" />
+		<variable name="%%Set12Item16Name%% Selected" sysvar="Set12Item16Selected%" type="boolean" condition="$Set12ItemCount >= 16" />
+		<variable name="%%Set12Item16Name%% NOT Selected" sysvar="Set12Item16NotSelected%" type="boolean" condition="$Set12ItemCount >= 16" />
+		<variable name="%%Set12Item17Name%% Selected" sysvar="Set12Item17Selected%" type="boolean" condition="$Set12ItemCount >= 17" />
+		<variable name="%%Set12Item17Name%% NOT Selected" sysvar="Set12Item17NotSelected%" type="boolean" condition="$Set12ItemCount >= 17" />
+		<variable name="%%Set12Item18Name%% Selected" sysvar="Set12Item18Selected%" type="boolean" condition="$Set12ItemCount >= 18" />
+		<variable name="%%Set12Item18Name%% NOT Selected" sysvar="Set12Item18NotSelected%" type="boolean" condition="$Set12ItemCount >= 18" />
+		<variable name="%%Set12Item19Name%% Selected" sysvar="Set12Item19Selected%" type="boolean" condition="$Set12ItemCount >= 19" />
+		<variable name="%%Set12Item19Name%% NOT Selected" sysvar="Set12Item19NotSelected%" type="boolean" condition="$Set12ItemCount >= 19" />
+		<variable name="%%Set12Item20Name%% Selected" sysvar="Set12Item20Selected%" type="boolean" condition="$Set12ItemCount >= 20" />
+		<variable name="%%Set12Item20Name%% NOT Selected" sysvar="Set12Item20NotSelected%" type="boolean" condition="$Set12ItemCount >= 20" />
+	</category>
+	<category name="%%Set13Name%% State" condition="$SetCount >= 13">
+		<variable name="Has Selection" sysvar="Set13HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set13HasNoSelection%" type="boolean" />
+		<variable name="%%Set13Item1Name%% Selected" sysvar="Set13Item1Selected%" type="boolean" condition="$Set13ItemCount >= 1" />
+		<variable name="%%Set13Item1Name%% NOT Selected" sysvar="Set13Item1NotSelected%" type="boolean" condition="$Set13ItemCount >= 1" />
+		<variable name="%%Set13Item2Name%% Selected" sysvar="Set13Item2Selected%" type="boolean" condition="$Set13ItemCount >= 2" />
+		<variable name="%%Set13Item2Name%% NOT Selected" sysvar="Set13Item2NotSelected%" type="boolean" condition="$Set13ItemCount >= 2" />
+		<variable name="%%Set13Item3Name%% Selected" sysvar="Set13Item3Selected%" type="boolean" condition="$Set13ItemCount >= 3" />
+		<variable name="%%Set13Item3Name%% NOT Selected" sysvar="Set13Item3NotSelected%" type="boolean" condition="$Set13ItemCount >= 3" />
+		<variable name="%%Set13Item4Name%% Selected" sysvar="Set13Item4Selected%" type="boolean" condition="$Set13ItemCount >= 4" />
+		<variable name="%%Set13Item4Name%% NOT Selected" sysvar="Set13Item4NotSelected%" type="boolean" condition="$Set13ItemCount >= 4" />
+		<variable name="%%Set13Item5Name%% Selected" sysvar="Set13Item5Selected%" type="boolean" condition="$Set13ItemCount >= 5" />
+		<variable name="%%Set13Item5Name%% NOT Selected" sysvar="Set13Item5NotSelected%" type="boolean" condition="$Set13ItemCount >= 5" />
+		<variable name="%%Set13Item6Name%% Selected" sysvar="Set13Item6Selected%" type="boolean" condition="$Set13ItemCount >= 6" />
+		<variable name="%%Set13Item6Name%% NOT Selected" sysvar="Set13Item6NotSelected%" type="boolean" condition="$Set13ItemCount >= 6" />
+		<variable name="%%Set13Item7Name%% Selected" sysvar="Set13Item7Selected%" type="boolean" condition="$Set13ItemCount >= 7" />
+		<variable name="%%Set13Item7Name%% NOT Selected" sysvar="Set13Item7NotSelected%" type="boolean" condition="$Set13ItemCount >= 7" />
+		<variable name="%%Set13Item8Name%% Selected" sysvar="Set13Item8Selected%" type="boolean" condition="$Set13ItemCount >= 8" />
+		<variable name="%%Set13Item8Name%% NOT Selected" sysvar="Set13Item8NotSelected%" type="boolean" condition="$Set13ItemCount >= 8" />
+		<variable name="%%Set13Item9Name%% Selected" sysvar="Set13Item9Selected%" type="boolean" condition="$Set13ItemCount >= 9" />
+		<variable name="%%Set13Item9Name%% NOT Selected" sysvar="Set13Item9NotSelected%" type="boolean" condition="$Set13ItemCount >= 9" />
+		<variable name="%%Set13Item10Name%% Selected" sysvar="Set13Item10Selected%" type="boolean" condition="$Set13ItemCount >= 10" />
+		<variable name="%%Set13Item10Name%% NOT Selected" sysvar="Set13Item10NotSelected%" type="boolean" condition="$Set13ItemCount >= 10" />
+		<variable name="%%Set13Item11Name%% Selected" sysvar="Set13Item11Selected%" type="boolean" condition="$Set13ItemCount >= 11" />
+		<variable name="%%Set13Item11Name%% NOT Selected" sysvar="Set13Item11NotSelected%" type="boolean" condition="$Set13ItemCount >= 11" />
+		<variable name="%%Set13Item12Name%% Selected" sysvar="Set13Item12Selected%" type="boolean" condition="$Set13ItemCount >= 12" />
+		<variable name="%%Set13Item12Name%% NOT Selected" sysvar="Set13Item12NotSelected%" type="boolean" condition="$Set13ItemCount >= 12" />
+		<variable name="%%Set13Item13Name%% Selected" sysvar="Set13Item13Selected%" type="boolean" condition="$Set13ItemCount >= 13" />
+		<variable name="%%Set13Item13Name%% NOT Selected" sysvar="Set13Item13NotSelected%" type="boolean" condition="$Set13ItemCount >= 13" />
+		<variable name="%%Set13Item14Name%% Selected" sysvar="Set13Item14Selected%" type="boolean" condition="$Set13ItemCount >= 14" />
+		<variable name="%%Set13Item14Name%% NOT Selected" sysvar="Set13Item14NotSelected%" type="boolean" condition="$Set13ItemCount >= 14" />
+		<variable name="%%Set13Item15Name%% Selected" sysvar="Set13Item15Selected%" type="boolean" condition="$Set13ItemCount >= 15" />
+		<variable name="%%Set13Item15Name%% NOT Selected" sysvar="Set13Item15NotSelected%" type="boolean" condition="$Set13ItemCount >= 15" />
+		<variable name="%%Set13Item16Name%% Selected" sysvar="Set13Item16Selected%" type="boolean" condition="$Set13ItemCount >= 16" />
+		<variable name="%%Set13Item16Name%% NOT Selected" sysvar="Set13Item16NotSelected%" type="boolean" condition="$Set13ItemCount >= 16" />
+		<variable name="%%Set13Item17Name%% Selected" sysvar="Set13Item17Selected%" type="boolean" condition="$Set13ItemCount >= 17" />
+		<variable name="%%Set13Item17Name%% NOT Selected" sysvar="Set13Item17NotSelected%" type="boolean" condition="$Set13ItemCount >= 17" />
+		<variable name="%%Set13Item18Name%% Selected" sysvar="Set13Item18Selected%" type="boolean" condition="$Set13ItemCount >= 18" />
+		<variable name="%%Set13Item18Name%% NOT Selected" sysvar="Set13Item18NotSelected%" type="boolean" condition="$Set13ItemCount >= 18" />
+		<variable name="%%Set13Item19Name%% Selected" sysvar="Set13Item19Selected%" type="boolean" condition="$Set13ItemCount >= 19" />
+		<variable name="%%Set13Item19Name%% NOT Selected" sysvar="Set13Item19NotSelected%" type="boolean" condition="$Set13ItemCount >= 19" />
+		<variable name="%%Set13Item20Name%% Selected" sysvar="Set13Item20Selected%" type="boolean" condition="$Set13ItemCount >= 20" />
+		<variable name="%%Set13Item20Name%% NOT Selected" sysvar="Set13Item20NotSelected%" type="boolean" condition="$Set13ItemCount >= 20" />
+	</category>
+	<category name="%%Set14Name%% State" condition="$SetCount >= 14">
+		<variable name="Has Selection" sysvar="Set14HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set14HasNoSelection%" type="boolean" />
+		<variable name="%%Set14Item1Name%% Selected" sysvar="Set14Item1Selected%" type="boolean" condition="$Set14ItemCount >= 1" />
+		<variable name="%%Set14Item1Name%% NOT Selected" sysvar="Set14Item1NotSelected%" type="boolean" condition="$Set14ItemCount >= 1" />
+		<variable name="%%Set14Item2Name%% Selected" sysvar="Set14Item2Selected%" type="boolean" condition="$Set14ItemCount >= 2" />
+		<variable name="%%Set14Item2Name%% NOT Selected" sysvar="Set14Item2NotSelected%" type="boolean" condition="$Set14ItemCount >= 2" />
+		<variable name="%%Set14Item3Name%% Selected" sysvar="Set14Item3Selected%" type="boolean" condition="$Set14ItemCount >= 3" />
+		<variable name="%%Set14Item3Name%% NOT Selected" sysvar="Set14Item3NotSelected%" type="boolean" condition="$Set14ItemCount >= 3" />
+		<variable name="%%Set14Item4Name%% Selected" sysvar="Set14Item4Selected%" type="boolean" condition="$Set14ItemCount >= 4" />
+		<variable name="%%Set14Item4Name%% NOT Selected" sysvar="Set14Item4NotSelected%" type="boolean" condition="$Set14ItemCount >= 4" />
+		<variable name="%%Set14Item5Name%% Selected" sysvar="Set14Item5Selected%" type="boolean" condition="$Set14ItemCount >= 5" />
+		<variable name="%%Set14Item5Name%% NOT Selected" sysvar="Set14Item5NotSelected%" type="boolean" condition="$Set14ItemCount >= 5" />
+		<variable name="%%Set14Item6Name%% Selected" sysvar="Set14Item6Selected%" type="boolean" condition="$Set14ItemCount >= 6" />
+		<variable name="%%Set14Item6Name%% NOT Selected" sysvar="Set14Item6NotSelected%" type="boolean" condition="$Set14ItemCount >= 6" />
+		<variable name="%%Set14Item7Name%% Selected" sysvar="Set14Item7Selected%" type="boolean" condition="$Set14ItemCount >= 7" />
+		<variable name="%%Set14Item7Name%% NOT Selected" sysvar="Set14Item7NotSelected%" type="boolean" condition="$Set14ItemCount >= 7" />
+		<variable name="%%Set14Item8Name%% Selected" sysvar="Set14Item8Selected%" type="boolean" condition="$Set14ItemCount >= 8" />
+		<variable name="%%Set14Item8Name%% NOT Selected" sysvar="Set14Item8NotSelected%" type="boolean" condition="$Set14ItemCount >= 8" />
+		<variable name="%%Set14Item9Name%% Selected" sysvar="Set14Item9Selected%" type="boolean" condition="$Set14ItemCount >= 9" />
+		<variable name="%%Set14Item9Name%% NOT Selected" sysvar="Set14Item9NotSelected%" type="boolean" condition="$Set14ItemCount >= 9" />
+		<variable name="%%Set14Item10Name%% Selected" sysvar="Set14Item10Selected%" type="boolean" condition="$Set14ItemCount >= 10" />
+		<variable name="%%Set14Item10Name%% NOT Selected" sysvar="Set14Item10NotSelected%" type="boolean" condition="$Set14ItemCount >= 10" />
+		<variable name="%%Set14Item11Name%% Selected" sysvar="Set14Item11Selected%" type="boolean" condition="$Set14ItemCount >= 11" />
+		<variable name="%%Set14Item11Name%% NOT Selected" sysvar="Set14Item11NotSelected%" type="boolean" condition="$Set14ItemCount >= 11" />
+		<variable name="%%Set14Item12Name%% Selected" sysvar="Set14Item12Selected%" type="boolean" condition="$Set14ItemCount >= 12" />
+		<variable name="%%Set14Item12Name%% NOT Selected" sysvar="Set14Item12NotSelected%" type="boolean" condition="$Set14ItemCount >= 12" />
+		<variable name="%%Set14Item13Name%% Selected" sysvar="Set14Item13Selected%" type="boolean" condition="$Set14ItemCount >= 13" />
+		<variable name="%%Set14Item13Name%% NOT Selected" sysvar="Set14Item13NotSelected%" type="boolean" condition="$Set14ItemCount >= 13" />
+		<variable name="%%Set14Item14Name%% Selected" sysvar="Set14Item14Selected%" type="boolean" condition="$Set14ItemCount >= 14" />
+		<variable name="%%Set14Item14Name%% NOT Selected" sysvar="Set14Item14NotSelected%" type="boolean" condition="$Set14ItemCount >= 14" />
+		<variable name="%%Set14Item15Name%% Selected" sysvar="Set14Item15Selected%" type="boolean" condition="$Set14ItemCount >= 15" />
+		<variable name="%%Set14Item15Name%% NOT Selected" sysvar="Set14Item15NotSelected%" type="boolean" condition="$Set14ItemCount >= 15" />
+		<variable name="%%Set14Item16Name%% Selected" sysvar="Set14Item16Selected%" type="boolean" condition="$Set14ItemCount >= 16" />
+		<variable name="%%Set14Item16Name%% NOT Selected" sysvar="Set14Item16NotSelected%" type="boolean" condition="$Set14ItemCount >= 16" />
+		<variable name="%%Set14Item17Name%% Selected" sysvar="Set14Item17Selected%" type="boolean" condition="$Set14ItemCount >= 17" />
+		<variable name="%%Set14Item17Name%% NOT Selected" sysvar="Set14Item17NotSelected%" type="boolean" condition="$Set14ItemCount >= 17" />
+		<variable name="%%Set14Item18Name%% Selected" sysvar="Set14Item18Selected%" type="boolean" condition="$Set14ItemCount >= 18" />
+		<variable name="%%Set14Item18Name%% NOT Selected" sysvar="Set14Item18NotSelected%" type="boolean" condition="$Set14ItemCount >= 18" />
+		<variable name="%%Set14Item19Name%% Selected" sysvar="Set14Item19Selected%" type="boolean" condition="$Set14ItemCount >= 19" />
+		<variable name="%%Set14Item19Name%% NOT Selected" sysvar="Set14Item19NotSelected%" type="boolean" condition="$Set14ItemCount >= 19" />
+		<variable name="%%Set14Item20Name%% Selected" sysvar="Set14Item20Selected%" type="boolean" condition="$Set14ItemCount >= 20" />
+		<variable name="%%Set14Item20Name%% NOT Selected" sysvar="Set14Item20NotSelected%" type="boolean" condition="$Set14ItemCount >= 20" />
+	</category>
+	<category name="%%Set15Name%% State" condition="$SetCount >= 15">
+		<variable name="Has Selection" sysvar="Set15HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set15HasNoSelection%" type="boolean" />
+		<variable name="%%Set15Item1Name%% Selected" sysvar="Set15Item1Selected%" type="boolean" condition="$Set15ItemCount >= 1" />
+		<variable name="%%Set15Item1Name%% NOT Selected" sysvar="Set15Item1NotSelected%" type="boolean" condition="$Set15ItemCount >= 1" />
+		<variable name="%%Set15Item2Name%% Selected" sysvar="Set15Item2Selected%" type="boolean" condition="$Set15ItemCount >= 2" />
+		<variable name="%%Set15Item2Name%% NOT Selected" sysvar="Set15Item2NotSelected%" type="boolean" condition="$Set15ItemCount >= 2" />
+		<variable name="%%Set15Item3Name%% Selected" sysvar="Set15Item3Selected%" type="boolean" condition="$Set15ItemCount >= 3" />
+		<variable name="%%Set15Item3Name%% NOT Selected" sysvar="Set15Item3NotSelected%" type="boolean" condition="$Set15ItemCount >= 3" />
+		<variable name="%%Set15Item4Name%% Selected" sysvar="Set15Item4Selected%" type="boolean" condition="$Set15ItemCount >= 4" />
+		<variable name="%%Set15Item4Name%% NOT Selected" sysvar="Set15Item4NotSelected%" type="boolean" condition="$Set15ItemCount >= 4" />
+		<variable name="%%Set15Item5Name%% Selected" sysvar="Set15Item5Selected%" type="boolean" condition="$Set15ItemCount >= 5" />
+		<variable name="%%Set15Item5Name%% NOT Selected" sysvar="Set15Item5NotSelected%" type="boolean" condition="$Set15ItemCount >= 5" />
+		<variable name="%%Set15Item6Name%% Selected" sysvar="Set15Item6Selected%" type="boolean" condition="$Set15ItemCount >= 6" />
+		<variable name="%%Set15Item6Name%% NOT Selected" sysvar="Set15Item6NotSelected%" type="boolean" condition="$Set15ItemCount >= 6" />
+		<variable name="%%Set15Item7Name%% Selected" sysvar="Set15Item7Selected%" type="boolean" condition="$Set15ItemCount >= 7" />
+		<variable name="%%Set15Item7Name%% NOT Selected" sysvar="Set15Item7NotSelected%" type="boolean" condition="$Set15ItemCount >= 7" />
+		<variable name="%%Set15Item8Name%% Selected" sysvar="Set15Item8Selected%" type="boolean" condition="$Set15ItemCount >= 8" />
+		<variable name="%%Set15Item8Name%% NOT Selected" sysvar="Set15Item8NotSelected%" type="boolean" condition="$Set15ItemCount >= 8" />
+		<variable name="%%Set15Item9Name%% Selected" sysvar="Set15Item9Selected%" type="boolean" condition="$Set15ItemCount >= 9" />
+		<variable name="%%Set15Item9Name%% NOT Selected" sysvar="Set15Item9NotSelected%" type="boolean" condition="$Set15ItemCount >= 9" />
+		<variable name="%%Set15Item10Name%% Selected" sysvar="Set15Item10Selected%" type="boolean" condition="$Set15ItemCount >= 10" />
+		<variable name="%%Set15Item10Name%% NOT Selected" sysvar="Set15Item10NotSelected%" type="boolean" condition="$Set15ItemCount >= 10" />
+		<variable name="%%Set15Item11Name%% Selected" sysvar="Set15Item11Selected%" type="boolean" condition="$Set15ItemCount >= 11" />
+		<variable name="%%Set15Item11Name%% NOT Selected" sysvar="Set15Item11NotSelected%" type="boolean" condition="$Set15ItemCount >= 11" />
+		<variable name="%%Set15Item12Name%% Selected" sysvar="Set15Item12Selected%" type="boolean" condition="$Set15ItemCount >= 12" />
+		<variable name="%%Set15Item12Name%% NOT Selected" sysvar="Set15Item12NotSelected%" type="boolean" condition="$Set15ItemCount >= 12" />
+		<variable name="%%Set15Item13Name%% Selected" sysvar="Set15Item13Selected%" type="boolean" condition="$Set15ItemCount >= 13" />
+		<variable name="%%Set15Item13Name%% NOT Selected" sysvar="Set15Item13NotSelected%" type="boolean" condition="$Set15ItemCount >= 13" />
+		<variable name="%%Set15Item14Name%% Selected" sysvar="Set15Item14Selected%" type="boolean" condition="$Set15ItemCount >= 14" />
+		<variable name="%%Set15Item14Name%% NOT Selected" sysvar="Set15Item14NotSelected%" type="boolean" condition="$Set15ItemCount >= 14" />
+		<variable name="%%Set15Item15Name%% Selected" sysvar="Set15Item15Selected%" type="boolean" condition="$Set15ItemCount >= 15" />
+		<variable name="%%Set15Item15Name%% NOT Selected" sysvar="Set15Item15NotSelected%" type="boolean" condition="$Set15ItemCount >= 15" />
+		<variable name="%%Set15Item16Name%% Selected" sysvar="Set15Item16Selected%" type="boolean" condition="$Set15ItemCount >= 16" />
+		<variable name="%%Set15Item16Name%% NOT Selected" sysvar="Set15Item16NotSelected%" type="boolean" condition="$Set15ItemCount >= 16" />
+		<variable name="%%Set15Item17Name%% Selected" sysvar="Set15Item17Selected%" type="boolean" condition="$Set15ItemCount >= 17" />
+		<variable name="%%Set15Item17Name%% NOT Selected" sysvar="Set15Item17NotSelected%" type="boolean" condition="$Set15ItemCount >= 17" />
+		<variable name="%%Set15Item18Name%% Selected" sysvar="Set15Item18Selected%" type="boolean" condition="$Set15ItemCount >= 18" />
+		<variable name="%%Set15Item18Name%% NOT Selected" sysvar="Set15Item18NotSelected%" type="boolean" condition="$Set15ItemCount >= 18" />
+		<variable name="%%Set15Item19Name%% Selected" sysvar="Set15Item19Selected%" type="boolean" condition="$Set15ItemCount >= 19" />
+		<variable name="%%Set15Item19Name%% NOT Selected" sysvar="Set15Item19NotSelected%" type="boolean" condition="$Set15ItemCount >= 19" />
+		<variable name="%%Set15Item20Name%% Selected" sysvar="Set15Item20Selected%" type="boolean" condition="$Set15ItemCount >= 20" />
+		<variable name="%%Set15Item20Name%% NOT Selected" sysvar="Set15Item20NotSelected%" type="boolean" condition="$Set15ItemCount >= 20" />
+	</category>
+	<category name="%%Set16Name%% State" condition="$SetCount >= 16">
+		<variable name="Has Selection" sysvar="Set16HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set16HasNoSelection%" type="boolean" />
+		<variable name="%%Set16Item1Name%% Selected" sysvar="Set16Item1Selected%" type="boolean" condition="$Set16ItemCount >= 1" />
+		<variable name="%%Set16Item1Name%% NOT Selected" sysvar="Set16Item1NotSelected%" type="boolean" condition="$Set16ItemCount >= 1" />
+		<variable name="%%Set16Item2Name%% Selected" sysvar="Set16Item2Selected%" type="boolean" condition="$Set16ItemCount >= 2" />
+		<variable name="%%Set16Item2Name%% NOT Selected" sysvar="Set16Item2NotSelected%" type="boolean" condition="$Set16ItemCount >= 2" />
+		<variable name="%%Set16Item3Name%% Selected" sysvar="Set16Item3Selected%" type="boolean" condition="$Set16ItemCount >= 3" />
+		<variable name="%%Set16Item3Name%% NOT Selected" sysvar="Set16Item3NotSelected%" type="boolean" condition="$Set16ItemCount >= 3" />
+		<variable name="%%Set16Item4Name%% Selected" sysvar="Set16Item4Selected%" type="boolean" condition="$Set16ItemCount >= 4" />
+		<variable name="%%Set16Item4Name%% NOT Selected" sysvar="Set16Item4NotSelected%" type="boolean" condition="$Set16ItemCount >= 4" />
+		<variable name="%%Set16Item5Name%% Selected" sysvar="Set16Item5Selected%" type="boolean" condition="$Set16ItemCount >= 5" />
+		<variable name="%%Set16Item5Name%% NOT Selected" sysvar="Set16Item5NotSelected%" type="boolean" condition="$Set16ItemCount >= 5" />
+		<variable name="%%Set16Item6Name%% Selected" sysvar="Set16Item6Selected%" type="boolean" condition="$Set16ItemCount >= 6" />
+		<variable name="%%Set16Item6Name%% NOT Selected" sysvar="Set16Item6NotSelected%" type="boolean" condition="$Set16ItemCount >= 6" />
+		<variable name="%%Set16Item7Name%% Selected" sysvar="Set16Item7Selected%" type="boolean" condition="$Set16ItemCount >= 7" />
+		<variable name="%%Set16Item7Name%% NOT Selected" sysvar="Set16Item7NotSelected%" type="boolean" condition="$Set16ItemCount >= 7" />
+		<variable name="%%Set16Item8Name%% Selected" sysvar="Set16Item8Selected%" type="boolean" condition="$Set16ItemCount >= 8" />
+		<variable name="%%Set16Item8Name%% NOT Selected" sysvar="Set16Item8NotSelected%" type="boolean" condition="$Set16ItemCount >= 8" />
+		<variable name="%%Set16Item9Name%% Selected" sysvar="Set16Item9Selected%" type="boolean" condition="$Set16ItemCount >= 9" />
+		<variable name="%%Set16Item9Name%% NOT Selected" sysvar="Set16Item9NotSelected%" type="boolean" condition="$Set16ItemCount >= 9" />
+		<variable name="%%Set16Item10Name%% Selected" sysvar="Set16Item10Selected%" type="boolean" condition="$Set16ItemCount >= 10" />
+		<variable name="%%Set16Item10Name%% NOT Selected" sysvar="Set16Item10NotSelected%" type="boolean" condition="$Set16ItemCount >= 10" />
+		<variable name="%%Set16Item11Name%% Selected" sysvar="Set16Item11Selected%" type="boolean" condition="$Set16ItemCount >= 11" />
+		<variable name="%%Set16Item11Name%% NOT Selected" sysvar="Set16Item11NotSelected%" type="boolean" condition="$Set16ItemCount >= 11" />
+		<variable name="%%Set16Item12Name%% Selected" sysvar="Set16Item12Selected%" type="boolean" condition="$Set16ItemCount >= 12" />
+		<variable name="%%Set16Item12Name%% NOT Selected" sysvar="Set16Item12NotSelected%" type="boolean" condition="$Set16ItemCount >= 12" />
+		<variable name="%%Set16Item13Name%% Selected" sysvar="Set16Item13Selected%" type="boolean" condition="$Set16ItemCount >= 13" />
+		<variable name="%%Set16Item13Name%% NOT Selected" sysvar="Set16Item13NotSelected%" type="boolean" condition="$Set16ItemCount >= 13" />
+		<variable name="%%Set16Item14Name%% Selected" sysvar="Set16Item14Selected%" type="boolean" condition="$Set16ItemCount >= 14" />
+		<variable name="%%Set16Item14Name%% NOT Selected" sysvar="Set16Item14NotSelected%" type="boolean" condition="$Set16ItemCount >= 14" />
+		<variable name="%%Set16Item15Name%% Selected" sysvar="Set16Item15Selected%" type="boolean" condition="$Set16ItemCount >= 15" />
+		<variable name="%%Set16Item15Name%% NOT Selected" sysvar="Set16Item15NotSelected%" type="boolean" condition="$Set16ItemCount >= 15" />
+		<variable name="%%Set16Item16Name%% Selected" sysvar="Set16Item16Selected%" type="boolean" condition="$Set16ItemCount >= 16" />
+		<variable name="%%Set16Item16Name%% NOT Selected" sysvar="Set16Item16NotSelected%" type="boolean" condition="$Set16ItemCount >= 16" />
+		<variable name="%%Set16Item17Name%% Selected" sysvar="Set16Item17Selected%" type="boolean" condition="$Set16ItemCount >= 17" />
+		<variable name="%%Set16Item17Name%% NOT Selected" sysvar="Set16Item17NotSelected%" type="boolean" condition="$Set16ItemCount >= 17" />
+		<variable name="%%Set16Item18Name%% Selected" sysvar="Set16Item18Selected%" type="boolean" condition="$Set16ItemCount >= 18" />
+		<variable name="%%Set16Item18Name%% NOT Selected" sysvar="Set16Item18NotSelected%" type="boolean" condition="$Set16ItemCount >= 18" />
+		<variable name="%%Set16Item19Name%% Selected" sysvar="Set16Item19Selected%" type="boolean" condition="$Set16ItemCount >= 19" />
+		<variable name="%%Set16Item19Name%% NOT Selected" sysvar="Set16Item19NotSelected%" type="boolean" condition="$Set16ItemCount >= 19" />
+		<variable name="%%Set16Item20Name%% Selected" sysvar="Set16Item20Selected%" type="boolean" condition="$Set16ItemCount >= 20" />
+		<variable name="%%Set16Item20Name%% NOT Selected" sysvar="Set16Item20NotSelected%" type="boolean" condition="$Set16ItemCount >= 20" />
+	</category>
+	<category name="%%Set17Name%% State" condition="$SetCount >= 17">
+		<variable name="Has Selection" sysvar="Set17HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set17HasNoSelection%" type="boolean" />
+		<variable name="%%Set17Item1Name%% Selected" sysvar="Set17Item1Selected%" type="boolean" condition="$Set17ItemCount >= 1" />
+		<variable name="%%Set17Item1Name%% NOT Selected" sysvar="Set17Item1NotSelected%" type="boolean" condition="$Set17ItemCount >= 1" />
+		<variable name="%%Set17Item2Name%% Selected" sysvar="Set17Item2Selected%" type="boolean" condition="$Set17ItemCount >= 2" />
+		<variable name="%%Set17Item2Name%% NOT Selected" sysvar="Set17Item2NotSelected%" type="boolean" condition="$Set17ItemCount >= 2" />
+		<variable name="%%Set17Item3Name%% Selected" sysvar="Set17Item3Selected%" type="boolean" condition="$Set17ItemCount >= 3" />
+		<variable name="%%Set17Item3Name%% NOT Selected" sysvar="Set17Item3NotSelected%" type="boolean" condition="$Set17ItemCount >= 3" />
+		<variable name="%%Set17Item4Name%% Selected" sysvar="Set17Item4Selected%" type="boolean" condition="$Set17ItemCount >= 4" />
+		<variable name="%%Set17Item4Name%% NOT Selected" sysvar="Set17Item4NotSelected%" type="boolean" condition="$Set17ItemCount >= 4" />
+		<variable name="%%Set17Item5Name%% Selected" sysvar="Set17Item5Selected%" type="boolean" condition="$Set17ItemCount >= 5" />
+		<variable name="%%Set17Item5Name%% NOT Selected" sysvar="Set17Item5NotSelected%" type="boolean" condition="$Set17ItemCount >= 5" />
+		<variable name="%%Set17Item6Name%% Selected" sysvar="Set17Item6Selected%" type="boolean" condition="$Set17ItemCount >= 6" />
+		<variable name="%%Set17Item6Name%% NOT Selected" sysvar="Set17Item6NotSelected%" type="boolean" condition="$Set17ItemCount >= 6" />
+		<variable name="%%Set17Item7Name%% Selected" sysvar="Set17Item7Selected%" type="boolean" condition="$Set17ItemCount >= 7" />
+		<variable name="%%Set17Item7Name%% NOT Selected" sysvar="Set17Item7NotSelected%" type="boolean" condition="$Set17ItemCount >= 7" />
+		<variable name="%%Set17Item8Name%% Selected" sysvar="Set17Item8Selected%" type="boolean" condition="$Set17ItemCount >= 8" />
+		<variable name="%%Set17Item8Name%% NOT Selected" sysvar="Set17Item8NotSelected%" type="boolean" condition="$Set17ItemCount >= 8" />
+		<variable name="%%Set17Item9Name%% Selected" sysvar="Set17Item9Selected%" type="boolean" condition="$Set17ItemCount >= 9" />
+		<variable name="%%Set17Item9Name%% NOT Selected" sysvar="Set17Item9NotSelected%" type="boolean" condition="$Set17ItemCount >= 9" />
+		<variable name="%%Set17Item10Name%% Selected" sysvar="Set17Item10Selected%" type="boolean" condition="$Set17ItemCount >= 10" />
+		<variable name="%%Set17Item10Name%% NOT Selected" sysvar="Set17Item10NotSelected%" type="boolean" condition="$Set17ItemCount >= 10" />
+		<variable name="%%Set17Item11Name%% Selected" sysvar="Set17Item11Selected%" type="boolean" condition="$Set17ItemCount >= 11" />
+		<variable name="%%Set17Item11Name%% NOT Selected" sysvar="Set17Item11NotSelected%" type="boolean" condition="$Set17ItemCount >= 11" />
+		<variable name="%%Set17Item12Name%% Selected" sysvar="Set17Item12Selected%" type="boolean" condition="$Set17ItemCount >= 12" />
+		<variable name="%%Set17Item12Name%% NOT Selected" sysvar="Set17Item12NotSelected%" type="boolean" condition="$Set17ItemCount >= 12" />
+		<variable name="%%Set17Item13Name%% Selected" sysvar="Set17Item13Selected%" type="boolean" condition="$Set17ItemCount >= 13" />
+		<variable name="%%Set17Item13Name%% NOT Selected" sysvar="Set17Item13NotSelected%" type="boolean" condition="$Set17ItemCount >= 13" />
+		<variable name="%%Set17Item14Name%% Selected" sysvar="Set17Item14Selected%" type="boolean" condition="$Set17ItemCount >= 14" />
+		<variable name="%%Set17Item14Name%% NOT Selected" sysvar="Set17Item14NotSelected%" type="boolean" condition="$Set17ItemCount >= 14" />
+		<variable name="%%Set17Item15Name%% Selected" sysvar="Set17Item15Selected%" type="boolean" condition="$Set17ItemCount >= 15" />
+		<variable name="%%Set17Item15Name%% NOT Selected" sysvar="Set17Item15NotSelected%" type="boolean" condition="$Set17ItemCount >= 15" />
+		<variable name="%%Set17Item16Name%% Selected" sysvar="Set17Item16Selected%" type="boolean" condition="$Set17ItemCount >= 16" />
+		<variable name="%%Set17Item16Name%% NOT Selected" sysvar="Set17Item16NotSelected%" type="boolean" condition="$Set17ItemCount >= 16" />
+		<variable name="%%Set17Item17Name%% Selected" sysvar="Set17Item17Selected%" type="boolean" condition="$Set17ItemCount >= 17" />
+		<variable name="%%Set17Item17Name%% NOT Selected" sysvar="Set17Item17NotSelected%" type="boolean" condition="$Set17ItemCount >= 17" />
+		<variable name="%%Set17Item18Name%% Selected" sysvar="Set17Item18Selected%" type="boolean" condition="$Set17ItemCount >= 18" />
+		<variable name="%%Set17Item18Name%% NOT Selected" sysvar="Set17Item18NotSelected%" type="boolean" condition="$Set17ItemCount >= 18" />
+		<variable name="%%Set17Item19Name%% Selected" sysvar="Set17Item19Selected%" type="boolean" condition="$Set17ItemCount >= 19" />
+		<variable name="%%Set17Item19Name%% NOT Selected" sysvar="Set17Item19NotSelected%" type="boolean" condition="$Set17ItemCount >= 19" />
+		<variable name="%%Set17Item20Name%% Selected" sysvar="Set17Item20Selected%" type="boolean" condition="$Set17ItemCount >= 20" />
+		<variable name="%%Set17Item20Name%% NOT Selected" sysvar="Set17Item20NotSelected%" type="boolean" condition="$Set17ItemCount >= 20" />
+	</category>
+	<category name="%%Set18Name%% State" condition="$SetCount >= 18">
+		<variable name="Has Selection" sysvar="Set18HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set18HasNoSelection%" type="boolean" />
+		<variable name="%%Set18Item1Name%% Selected" sysvar="Set18Item1Selected%" type="boolean" condition="$Set18ItemCount >= 1" />
+		<variable name="%%Set18Item1Name%% NOT Selected" sysvar="Set18Item1NotSelected%" type="boolean" condition="$Set18ItemCount >= 1" />
+		<variable name="%%Set18Item2Name%% Selected" sysvar="Set18Item2Selected%" type="boolean" condition="$Set18ItemCount >= 2" />
+		<variable name="%%Set18Item2Name%% NOT Selected" sysvar="Set18Item2NotSelected%" type="boolean" condition="$Set18ItemCount >= 2" />
+		<variable name="%%Set18Item3Name%% Selected" sysvar="Set18Item3Selected%" type="boolean" condition="$Set18ItemCount >= 3" />
+		<variable name="%%Set18Item3Name%% NOT Selected" sysvar="Set18Item3NotSelected%" type="boolean" condition="$Set18ItemCount >= 3" />
+		<variable name="%%Set18Item4Name%% Selected" sysvar="Set18Item4Selected%" type="boolean" condition="$Set18ItemCount >= 4" />
+		<variable name="%%Set18Item4Name%% NOT Selected" sysvar="Set18Item4NotSelected%" type="boolean" condition="$Set18ItemCount >= 4" />
+		<variable name="%%Set18Item5Name%% Selected" sysvar="Set18Item5Selected%" type="boolean" condition="$Set18ItemCount >= 5" />
+		<variable name="%%Set18Item5Name%% NOT Selected" sysvar="Set18Item5NotSelected%" type="boolean" condition="$Set18ItemCount >= 5" />
+		<variable name="%%Set18Item6Name%% Selected" sysvar="Set18Item6Selected%" type="boolean" condition="$Set18ItemCount >= 6" />
+		<variable name="%%Set18Item6Name%% NOT Selected" sysvar="Set18Item6NotSelected%" type="boolean" condition="$Set18ItemCount >= 6" />
+		<variable name="%%Set18Item7Name%% Selected" sysvar="Set18Item7Selected%" type="boolean" condition="$Set18ItemCount >= 7" />
+		<variable name="%%Set18Item7Name%% NOT Selected" sysvar="Set18Item7NotSelected%" type="boolean" condition="$Set18ItemCount >= 7" />
+		<variable name="%%Set18Item8Name%% Selected" sysvar="Set18Item8Selected%" type="boolean" condition="$Set18ItemCount >= 8" />
+		<variable name="%%Set18Item8Name%% NOT Selected" sysvar="Set18Item8NotSelected%" type="boolean" condition="$Set18ItemCount >= 8" />
+		<variable name="%%Set18Item9Name%% Selected" sysvar="Set18Item9Selected%" type="boolean" condition="$Set18ItemCount >= 9" />
+		<variable name="%%Set18Item9Name%% NOT Selected" sysvar="Set18Item9NotSelected%" type="boolean" condition="$Set18ItemCount >= 9" />
+		<variable name="%%Set18Item10Name%% Selected" sysvar="Set18Item10Selected%" type="boolean" condition="$Set18ItemCount >= 10" />
+		<variable name="%%Set18Item10Name%% NOT Selected" sysvar="Set18Item10NotSelected%" type="boolean" condition="$Set18ItemCount >= 10" />
+		<variable name="%%Set18Item11Name%% Selected" sysvar="Set18Item11Selected%" type="boolean" condition="$Set18ItemCount >= 11" />
+		<variable name="%%Set18Item11Name%% NOT Selected" sysvar="Set18Item11NotSelected%" type="boolean" condition="$Set18ItemCount >= 11" />
+		<variable name="%%Set18Item12Name%% Selected" sysvar="Set18Item12Selected%" type="boolean" condition="$Set18ItemCount >= 12" />
+		<variable name="%%Set18Item12Name%% NOT Selected" sysvar="Set18Item12NotSelected%" type="boolean" condition="$Set18ItemCount >= 12" />
+		<variable name="%%Set18Item13Name%% Selected" sysvar="Set18Item13Selected%" type="boolean" condition="$Set18ItemCount >= 13" />
+		<variable name="%%Set18Item13Name%% NOT Selected" sysvar="Set18Item13NotSelected%" type="boolean" condition="$Set18ItemCount >= 13" />
+		<variable name="%%Set18Item14Name%% Selected" sysvar="Set18Item14Selected%" type="boolean" condition="$Set18ItemCount >= 14" />
+		<variable name="%%Set18Item14Name%% NOT Selected" sysvar="Set18Item14NotSelected%" type="boolean" condition="$Set18ItemCount >= 14" />
+		<variable name="%%Set18Item15Name%% Selected" sysvar="Set18Item15Selected%" type="boolean" condition="$Set18ItemCount >= 15" />
+		<variable name="%%Set18Item15Name%% NOT Selected" sysvar="Set18Item15NotSelected%" type="boolean" condition="$Set18ItemCount >= 15" />
+		<variable name="%%Set18Item16Name%% Selected" sysvar="Set18Item16Selected%" type="boolean" condition="$Set18ItemCount >= 16" />
+		<variable name="%%Set18Item16Name%% NOT Selected" sysvar="Set18Item16NotSelected%" type="boolean" condition="$Set18ItemCount >= 16" />
+		<variable name="%%Set18Item17Name%% Selected" sysvar="Set18Item17Selected%" type="boolean" condition="$Set18ItemCount >= 17" />
+		<variable name="%%Set18Item17Name%% NOT Selected" sysvar="Set18Item17NotSelected%" type="boolean" condition="$Set18ItemCount >= 17" />
+		<variable name="%%Set18Item18Name%% Selected" sysvar="Set18Item18Selected%" type="boolean" condition="$Set18ItemCount >= 18" />
+		<variable name="%%Set18Item18Name%% NOT Selected" sysvar="Set18Item18NotSelected%" type="boolean" condition="$Set18ItemCount >= 18" />
+		<variable name="%%Set18Item19Name%% Selected" sysvar="Set18Item19Selected%" type="boolean" condition="$Set18ItemCount >= 19" />
+		<variable name="%%Set18Item19Name%% NOT Selected" sysvar="Set18Item19NotSelected%" type="boolean" condition="$Set18ItemCount >= 19" />
+		<variable name="%%Set18Item20Name%% Selected" sysvar="Set18Item20Selected%" type="boolean" condition="$Set18ItemCount >= 20" />
+		<variable name="%%Set18Item20Name%% NOT Selected" sysvar="Set18Item20NotSelected%" type="boolean" condition="$Set18ItemCount >= 20" />
+	</category>
+	<category name="%%Set19Name%% State" condition="$SetCount >= 19">
+		<variable name="Has Selection" sysvar="Set19HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set19HasNoSelection%" type="boolean" />
+		<variable name="%%Set19Item1Name%% Selected" sysvar="Set19Item1Selected%" type="boolean" condition="$Set19ItemCount >= 1" />
+		<variable name="%%Set19Item1Name%% NOT Selected" sysvar="Set19Item1NotSelected%" type="boolean" condition="$Set19ItemCount >= 1" />
+		<variable name="%%Set19Item2Name%% Selected" sysvar="Set19Item2Selected%" type="boolean" condition="$Set19ItemCount >= 2" />
+		<variable name="%%Set19Item2Name%% NOT Selected" sysvar="Set19Item2NotSelected%" type="boolean" condition="$Set19ItemCount >= 2" />
+		<variable name="%%Set19Item3Name%% Selected" sysvar="Set19Item3Selected%" type="boolean" condition="$Set19ItemCount >= 3" />
+		<variable name="%%Set19Item3Name%% NOT Selected" sysvar="Set19Item3NotSelected%" type="boolean" condition="$Set19ItemCount >= 3" />
+		<variable name="%%Set19Item4Name%% Selected" sysvar="Set19Item4Selected%" type="boolean" condition="$Set19ItemCount >= 4" />
+		<variable name="%%Set19Item4Name%% NOT Selected" sysvar="Set19Item4NotSelected%" type="boolean" condition="$Set19ItemCount >= 4" />
+		<variable name="%%Set19Item5Name%% Selected" sysvar="Set19Item5Selected%" type="boolean" condition="$Set19ItemCount >= 5" />
+		<variable name="%%Set19Item5Name%% NOT Selected" sysvar="Set19Item5NotSelected%" type="boolean" condition="$Set19ItemCount >= 5" />
+		<variable name="%%Set19Item6Name%% Selected" sysvar="Set19Item6Selected%" type="boolean" condition="$Set19ItemCount >= 6" />
+		<variable name="%%Set19Item6Name%% NOT Selected" sysvar="Set19Item6NotSelected%" type="boolean" condition="$Set19ItemCount >= 6" />
+		<variable name="%%Set19Item7Name%% Selected" sysvar="Set19Item7Selected%" type="boolean" condition="$Set19ItemCount >= 7" />
+		<variable name="%%Set19Item7Name%% NOT Selected" sysvar="Set19Item7NotSelected%" type="boolean" condition="$Set19ItemCount >= 7" />
+		<variable name="%%Set19Item8Name%% Selected" sysvar="Set19Item8Selected%" type="boolean" condition="$Set19ItemCount >= 8" />
+		<variable name="%%Set19Item8Name%% NOT Selected" sysvar="Set19Item8NotSelected%" type="boolean" condition="$Set19ItemCount >= 8" />
+		<variable name="%%Set19Item9Name%% Selected" sysvar="Set19Item9Selected%" type="boolean" condition="$Set19ItemCount >= 9" />
+		<variable name="%%Set19Item9Name%% NOT Selected" sysvar="Set19Item9NotSelected%" type="boolean" condition="$Set19ItemCount >= 9" />
+		<variable name="%%Set19Item10Name%% Selected" sysvar="Set19Item10Selected%" type="boolean" condition="$Set19ItemCount >= 10" />
+		<variable name="%%Set19Item10Name%% NOT Selected" sysvar="Set19Item10NotSelected%" type="boolean" condition="$Set19ItemCount >= 10" />
+		<variable name="%%Set19Item11Name%% Selected" sysvar="Set19Item11Selected%" type="boolean" condition="$Set19ItemCount >= 11" />
+		<variable name="%%Set19Item11Name%% NOT Selected" sysvar="Set19Item11NotSelected%" type="boolean" condition="$Set19ItemCount >= 11" />
+		<variable name="%%Set19Item12Name%% Selected" sysvar="Set19Item12Selected%" type="boolean" condition="$Set19ItemCount >= 12" />
+		<variable name="%%Set19Item12Name%% NOT Selected" sysvar="Set19Item12NotSelected%" type="boolean" condition="$Set19ItemCount >= 12" />
+		<variable name="%%Set19Item13Name%% Selected" sysvar="Set19Item13Selected%" type="boolean" condition="$Set19ItemCount >= 13" />
+		<variable name="%%Set19Item13Name%% NOT Selected" sysvar="Set19Item13NotSelected%" type="boolean" condition="$Set19ItemCount >= 13" />
+		<variable name="%%Set19Item14Name%% Selected" sysvar="Set19Item14Selected%" type="boolean" condition="$Set19ItemCount >= 14" />
+		<variable name="%%Set19Item14Name%% NOT Selected" sysvar="Set19Item14NotSelected%" type="boolean" condition="$Set19ItemCount >= 14" />
+		<variable name="%%Set19Item15Name%% Selected" sysvar="Set19Item15Selected%" type="boolean" condition="$Set19ItemCount >= 15" />
+		<variable name="%%Set19Item15Name%% NOT Selected" sysvar="Set19Item15NotSelected%" type="boolean" condition="$Set19ItemCount >= 15" />
+		<variable name="%%Set19Item16Name%% Selected" sysvar="Set19Item16Selected%" type="boolean" condition="$Set19ItemCount >= 16" />
+		<variable name="%%Set19Item16Name%% NOT Selected" sysvar="Set19Item16NotSelected%" type="boolean" condition="$Set19ItemCount >= 16" />
+		<variable name="%%Set19Item17Name%% Selected" sysvar="Set19Item17Selected%" type="boolean" condition="$Set19ItemCount >= 17" />
+		<variable name="%%Set19Item17Name%% NOT Selected" sysvar="Set19Item17NotSelected%" type="boolean" condition="$Set19ItemCount >= 17" />
+		<variable name="%%Set19Item18Name%% Selected" sysvar="Set19Item18Selected%" type="boolean" condition="$Set19ItemCount >= 18" />
+		<variable name="%%Set19Item18Name%% NOT Selected" sysvar="Set19Item18NotSelected%" type="boolean" condition="$Set19ItemCount >= 18" />
+		<variable name="%%Set19Item19Name%% Selected" sysvar="Set19Item19Selected%" type="boolean" condition="$Set19ItemCount >= 19" />
+		<variable name="%%Set19Item19Name%% NOT Selected" sysvar="Set19Item19NotSelected%" type="boolean" condition="$Set19ItemCount >= 19" />
+		<variable name="%%Set19Item20Name%% Selected" sysvar="Set19Item20Selected%" type="boolean" condition="$Set19ItemCount >= 20" />
+		<variable name="%%Set19Item20Name%% NOT Selected" sysvar="Set19Item20NotSelected%" type="boolean" condition="$Set19ItemCount >= 20" />
+	</category>
+	<category name="%%Set20Name%% State" condition="$SetCount >= 20">
+		<variable name="Has Selection" sysvar="Set20HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set20HasNoSelection%" type="boolean" />
+		<variable name="%%Set20Item1Name%% Selected" sysvar="Set20Item1Selected%" type="boolean" condition="$Set20ItemCount >= 1" />
+		<variable name="%%Set20Item1Name%% NOT Selected" sysvar="Set20Item1NotSelected%" type="boolean" condition="$Set20ItemCount >= 1" />
+		<variable name="%%Set20Item2Name%% Selected" sysvar="Set20Item2Selected%" type="boolean" condition="$Set20ItemCount >= 2" />
+		<variable name="%%Set20Item2Name%% NOT Selected" sysvar="Set20Item2NotSelected%" type="boolean" condition="$Set20ItemCount >= 2" />
+		<variable name="%%Set20Item3Name%% Selected" sysvar="Set20Item3Selected%" type="boolean" condition="$Set20ItemCount >= 3" />
+		<variable name="%%Set20Item3Name%% NOT Selected" sysvar="Set20Item3NotSelected%" type="boolean" condition="$Set20ItemCount >= 3" />
+		<variable name="%%Set20Item4Name%% Selected" sysvar="Set20Item4Selected%" type="boolean" condition="$Set20ItemCount >= 4" />
+		<variable name="%%Set20Item4Name%% NOT Selected" sysvar="Set20Item4NotSelected%" type="boolean" condition="$Set20ItemCount >= 4" />
+		<variable name="%%Set20Item5Name%% Selected" sysvar="Set20Item5Selected%" type="boolean" condition="$Set20ItemCount >= 5" />
+		<variable name="%%Set20Item5Name%% NOT Selected" sysvar="Set20Item5NotSelected%" type="boolean" condition="$Set20ItemCount >= 5" />
+		<variable name="%%Set20Item6Name%% Selected" sysvar="Set20Item6Selected%" type="boolean" condition="$Set20ItemCount >= 6" />
+		<variable name="%%Set20Item6Name%% NOT Selected" sysvar="Set20Item6NotSelected%" type="boolean" condition="$Set20ItemCount >= 6" />
+		<variable name="%%Set20Item7Name%% Selected" sysvar="Set20Item7Selected%" type="boolean" condition="$Set20ItemCount >= 7" />
+		<variable name="%%Set20Item7Name%% NOT Selected" sysvar="Set20Item7NotSelected%" type="boolean" condition="$Set20ItemCount >= 7" />
+		<variable name="%%Set20Item8Name%% Selected" sysvar="Set20Item8Selected%" type="boolean" condition="$Set20ItemCount >= 8" />
+		<variable name="%%Set20Item8Name%% NOT Selected" sysvar="Set20Item8NotSelected%" type="boolean" condition="$Set20ItemCount >= 8" />
+		<variable name="%%Set20Item9Name%% Selected" sysvar="Set20Item9Selected%" type="boolean" condition="$Set20ItemCount >= 9" />
+		<variable name="%%Set20Item9Name%% NOT Selected" sysvar="Set20Item9NotSelected%" type="boolean" condition="$Set20ItemCount >= 9" />
+		<variable name="%%Set20Item10Name%% Selected" sysvar="Set20Item10Selected%" type="boolean" condition="$Set20ItemCount >= 10" />
+		<variable name="%%Set20Item10Name%% NOT Selected" sysvar="Set20Item10NotSelected%" type="boolean" condition="$Set20ItemCount >= 10" />
+		<variable name="%%Set20Item11Name%% Selected" sysvar="Set20Item11Selected%" type="boolean" condition="$Set20ItemCount >= 11" />
+		<variable name="%%Set20Item11Name%% NOT Selected" sysvar="Set20Item11NotSelected%" type="boolean" condition="$Set20ItemCount >= 11" />
+		<variable name="%%Set20Item12Name%% Selected" sysvar="Set20Item12Selected%" type="boolean" condition="$Set20ItemCount >= 12" />
+		<variable name="%%Set20Item12Name%% NOT Selected" sysvar="Set20Item12NotSelected%" type="boolean" condition="$Set20ItemCount >= 12" />
+		<variable name="%%Set20Item13Name%% Selected" sysvar="Set20Item13Selected%" type="boolean" condition="$Set20ItemCount >= 13" />
+		<variable name="%%Set20Item13Name%% NOT Selected" sysvar="Set20Item13NotSelected%" type="boolean" condition="$Set20ItemCount >= 13" />
+		<variable name="%%Set20Item14Name%% Selected" sysvar="Set20Item14Selected%" type="boolean" condition="$Set20ItemCount >= 14" />
+		<variable name="%%Set20Item14Name%% NOT Selected" sysvar="Set20Item14NotSelected%" type="boolean" condition="$Set20ItemCount >= 14" />
+		<variable name="%%Set20Item15Name%% Selected" sysvar="Set20Item15Selected%" type="boolean" condition="$Set20ItemCount >= 15" />
+		<variable name="%%Set20Item15Name%% NOT Selected" sysvar="Set20Item15NotSelected%" type="boolean" condition="$Set20ItemCount >= 15" />
+		<variable name="%%Set20Item16Name%% Selected" sysvar="Set20Item16Selected%" type="boolean" condition="$Set20ItemCount >= 16" />
+		<variable name="%%Set20Item16Name%% NOT Selected" sysvar="Set20Item16NotSelected%" type="boolean" condition="$Set20ItemCount >= 16" />
+		<variable name="%%Set20Item17Name%% Selected" sysvar="Set20Item17Selected%" type="boolean" condition="$Set20ItemCount >= 17" />
+		<variable name="%%Set20Item17Name%% NOT Selected" sysvar="Set20Item17NotSelected%" type="boolean" condition="$Set20ItemCount >= 17" />
+		<variable name="%%Set20Item18Name%% Selected" sysvar="Set20Item18Selected%" type="boolean" condition="$Set20ItemCount >= 18" />
+		<variable name="%%Set20Item18Name%% NOT Selected" sysvar="Set20Item18NotSelected%" type="boolean" condition="$Set20ItemCount >= 18" />
+		<variable name="%%Set20Item19Name%% Selected" sysvar="Set20Item19Selected%" type="boolean" condition="$Set20ItemCount >= 19" />
+		<variable name="%%Set20Item19Name%% NOT Selected" sysvar="Set20Item19NotSelected%" type="boolean" condition="$Set20ItemCount >= 19" />
+		<variable name="%%Set20Item20Name%% Selected" sysvar="Set20Item20Selected%" type="boolean" condition="$Set20ItemCount >= 20" />
+		<variable name="%%Set20Item20Name%% NOT Selected" sysvar="Set20Item20NotSelected%" type="boolean" condition="$Set20ItemCount >= 20" />
+	</category>
+</variables>

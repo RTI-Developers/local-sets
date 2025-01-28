@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<driverManifest>
+	<driver
+		id="{89fb5533-c64b-4ad6-8846-3c0236892568}"
+		name="Local Sets"
+		author="Noesis Labs LLC"
+		copyright="Copyright 2025 - Noesis Labs LLC"
+		deviceManufacturer=""
+		deviceModel=""
+		driverVersion="1.0"
+		minimumSoftwareVersion="9.0"
+		minimumApexVersion="10.0"
+		processorType="XP-8"
+		configSettingsStream="ConfigSettings.xml"
+		deviceDescriptionStream="DeviceDescription.xml"
+		systemVariablesStream="SystemVariables.xml"
+		systemFunctionsStream="SystemFunctions.xml"
+		systemEventsStream="SystemEvents.xml"
+		helpTextStream="instructions.rtf"
+	>
+	<processorScript stream="index.js" />
+	<package>
+    	<output filename="LocalSets" public="true"/>
+    </package>
+	</driver>
+</driverManifest>

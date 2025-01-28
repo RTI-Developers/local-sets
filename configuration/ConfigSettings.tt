@@ -1,0 +1,42 @@
+<#@ output extension=".xml" #>
+<#@ include file=".\..\Variables.t4" #>
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<category name="Hidden" hidden="true">
+        <setting type="integer" name="Local Set Count" variable="SetCount" countsourceid="Set" />
+    </category>
+<#
+for (int i = 1; i <= setCount; i++)
+{
+	string paddedSetIndex = i.ToString().PadLeft(2, '0');
+    string sourceId = "Set" + i.ToString();
+#>
+	<category name="Set <#= i #>" sourceid="<#= sourceId #>" condition="$SetCount >= <#= i #>">
+		<setting name="Name" variable="Set<#= i #>Name" type="string" description="Set name" default="Set <#= paddedSetIndex #>" />
+		<setting name="Item Count" variable="Set<#= i #>ItemCount" type="mcinteger" default="3">
+<#
+	for (int j = 1; j <= itemCount; j++)
+	{
+#>
+		  <choice name="<#= j #>" value="<#= j #>"></choice>
+<#
+	}
+#>
+    	</setting>
+<#
+	for (int j = 1; j <= itemCount; j++)
+	{
+		string paddedItemIndex = j.ToString().PadLeft(2, '0');
+#>
+		<setting name="Item Name" variable="Set<#= i #>Item<#= j #>Name" type="string" description="Item name" default="Item <#= paddedItemIndex #>" condition="$Set<#= i #>ItemCount >= <#= j #>" />
+<#
+	}
+#>
+	</category>
+<#
+}
+#>
+	<category name="Debug Settings" description="Driver debug options" hidden="true">
+		<setting type="boolean" name="Enable Trace" variable="DebugTrace" description="Enable verbose debug output" />
+	</category>
+</configuration>

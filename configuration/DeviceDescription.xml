@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<device>
+  <sources>
+    <source maxitems="20" sourceid="Set" name="Set">
+      <templates>
+        <template name="Set"/>
+      </templates>
+    </source>
+  </sources>
+</device>

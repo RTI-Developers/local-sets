@@ -1,0 +1,25 @@
+<#@ output extension=".xml" #>
+<#@ include file=".\..\Variables.t4" #>
+<?xml version="1.0" encoding="utf-8"?>
+<variables>
+<#
+for (var i = 1; i <= setCount; i++)
+{
+#>
+	<category name="%%Set<#= i #>Name%% State" condition="$SetCount >= <#= i #>">
+		<variable name="Has Selection" sysvar="Set<#= i #>HasSelection%" type="boolean" />
+		<variable name="Has NO Selection" sysvar="Set<#= i #>HasNoSelection%" type="boolean" />
+<#
+	for (var j = 1; j <= itemCount; j++)
+	{
+#>
+		<variable name="%%Set<#= i #>Item<#= j #>Name%% Selected" sysvar="Set<#= i #>Item<#= j #>Selected%" type="boolean" condition="$Set<#= i #>ItemCount >= <#= j #>" />
+		<variable name="%%Set<#= i #>Item<#= j #>Name%% NOT Selected" sysvar="Set<#= i #>Item<#= j #>NotSelected%" type="boolean" condition="$Set<#= i #>ItemCount >= <#= j #>" />
+<#
+	}
+#>
+	</category>
+<#
+}
+#>
+</variables>
