@@ -2,8 +2,8 @@
 <#@ include file=".\..\Variables.t4" #>
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
-	<category name="Hidden" hidden="true">
-        <setting type="integer" name="Local Set Count" variable="SetCount" countsourceid="Set" />
+	<category name="General">
+        <setting type="integer" name="Local Set Count" variable="SetCount" />
     </category>
 <#
 for (int i = 1; i <= setCount; i++)
@@ -11,7 +11,7 @@ for (int i = 1; i <= setCount; i++)
 	string paddedSetIndex = i.ToString().PadLeft(2, '0');
     string sourceId = "Set" + i.ToString();
 #>
-	<category name="Set <#= i #>" sourceid="<#= sourceId #>" condition="$SetCount >= <#= i #>">
+	<category name="Set <#= i #>" condition="$SetCount >= <#= i #>">
 		<setting name="Name" variable="Set<#= i #>Name" type="string" description="Set name" default="Set <#= paddedSetIndex #>" />
 		<setting name="Item Count" variable="Set<#= i #>ItemCount" type="mcinteger" default="3">
 <#

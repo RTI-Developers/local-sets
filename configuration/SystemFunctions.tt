@@ -8,7 +8,7 @@ for (var i = 1; i <= setCount; i++)
 	string paddedIndex = i.ToString().PadLeft(2, '0');
     string sourceId = "Set" + i.ToString();
 #>
-	<category name="%%Set<#= i #>Name%% Controls" sourceid="<#= sourceId #>" condition="$SetCount >= <#= i #>">
+	<category name="%%Set<#= i #>Name%% Controls" condition="$SetCount >= <#= i #>">
 		<function name="Clear Selection" export="clearSelection:<#= i #>" buttontag="Clear" repeatrate="0" >
 			<parameter name="setIndex" type="integer" default="<#= i - 1 #>" hidden="true" />
 			<parameter name="view" type="deviceid" hidden="true" />

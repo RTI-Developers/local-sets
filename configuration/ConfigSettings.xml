@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
-	<category name="Hidden" hidden="true">
-        <setting type="integer" name="Local Set Count" variable="SetCount" countsourceid="Set" />
+	<category name="General">
+        <setting type="integer" name="Local Set Count" variable="SetCount" />
     </category>
-	<category name="Set 1" sourceid="Set1" condition="$SetCount >= 1">
+	<category name="Set 1" condition="$SetCount >= 1">
 		<setting name="Name" variable="Set1Name" type="string" description="Set name" default="Set 01" />
 		<setting name="Item Count" variable="Set1ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -48,7 +48,7 @@
 		<setting name="Item Name" variable="Set1Item19Name" type="string" description="Item name" default="Item 19" condition="$Set1ItemCount >= 19" />
 		<setting name="Item Name" variable="Set1Item20Name" type="string" description="Item name" default="Item 20" condition="$Set1ItemCount >= 20" />
 	</category>
-	<category name="Set 2" sourceid="Set2" condition="$SetCount >= 2">
+	<category name="Set 2" condition="$SetCount >= 2">
 		<setting name="Name" variable="Set2Name" type="string" description="Set name" default="Set 02" />
 		<setting name="Item Count" variable="Set2ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -93,7 +93,7 @@
 		<setting name="Item Name" variable="Set2Item19Name" type="string" description="Item name" default="Item 19" condition="$Set2ItemCount >= 19" />
 		<setting name="Item Name" variable="Set2Item20Name" type="string" description="Item name" default="Item 20" condition="$Set2ItemCount >= 20" />
 	</category>
-	<category name="Set 3" sourceid="Set3" condition="$SetCount >= 3">
+	<category name="Set 3" condition="$SetCount >= 3">
 		<setting name="Name" variable="Set3Name" type="string" description="Set name" default="Set 03" />
 		<setting name="Item Count" variable="Set3ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -138,7 +138,7 @@
 		<setting name="Item Name" variable="Set3Item19Name" type="string" description="Item name" default="Item 19" condition="$Set3ItemCount >= 19" />
 		<setting name="Item Name" variable="Set3Item20Name" type="string" description="Item name" default="Item 20" condition="$Set3ItemCount >= 20" />
 	</category>
-	<category name="Set 4" sourceid="Set4" condition="$SetCount >= 4">
+	<category name="Set 4" condition="$SetCount >= 4">
 		<setting name="Name" variable="Set4Name" type="string" description="Set name" default="Set 04" />
 		<setting name="Item Count" variable="Set4ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -183,7 +183,7 @@
 		<setting name="Item Name" variable="Set4Item19Name" type="string" description="Item name" default="Item 19" condition="$Set4ItemCount >= 19" />
 		<setting name="Item Name" variable="Set4Item20Name" type="string" description="Item name" default="Item 20" condition="$Set4ItemCount >= 20" />
 	</category>
-	<category name="Set 5" sourceid="Set5" condition="$SetCount >= 5">
+	<category name="Set 5" condition="$SetCount >= 5">
 		<setting name="Name" variable="Set5Name" type="string" description="Set name" default="Set 05" />
 		<setting name="Item Count" variable="Set5ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -228,7 +228,7 @@
 		<setting name="Item Name" variable="Set5Item19Name" type="string" description="Item name" default="Item 19" condition="$Set5ItemCount >= 19" />
 		<setting name="Item Name" variable="Set5Item20Name" type="string" description="Item name" default="Item 20" condition="$Set5ItemCount >= 20" />
 	</category>
-	<category name="Set 6" sourceid="Set6" condition="$SetCount >= 6">
+	<category name="Set 6" condition="$SetCount >= 6">
 		<setting name="Name" variable="Set6Name" type="string" description="Set name" default="Set 06" />
 		<setting name="Item Count" variable="Set6ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -273,7 +273,7 @@
 		<setting name="Item Name" variable="Set6Item19Name" type="string" description="Item name" default="Item 19" condition="$Set6ItemCount >= 19" />
 		<setting name="Item Name" variable="Set6Item20Name" type="string" description="Item name" default="Item 20" condition="$Set6ItemCount >= 20" />
 	</category>
-	<category name="Set 7" sourceid="Set7" condition="$SetCount >= 7">
+	<category name="Set 7" condition="$SetCount >= 7">
 		<setting name="Name" variable="Set7Name" type="string" description="Set name" default="Set 07" />
 		<setting name="Item Count" variable="Set7ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -318,7 +318,7 @@
 		<setting name="Item Name" variable="Set7Item19Name" type="string" description="Item name" default="Item 19" condition="$Set7ItemCount >= 19" />
 		<setting name="Item Name" variable="Set7Item20Name" type="string" description="Item name" default="Item 20" condition="$Set7ItemCount >= 20" />
 	</category>
-	<category name="Set 8" sourceid="Set8" condition="$SetCount >= 8">
+	<category name="Set 8" condition="$SetCount >= 8">
 		<setting name="Name" variable="Set8Name" type="string" description="Set name" default="Set 08" />
 		<setting name="Item Count" variable="Set8ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -363,7 +363,7 @@
 		<setting name="Item Name" variable="Set8Item19Name" type="string" description="Item name" default="Item 19" condition="$Set8ItemCount >= 19" />
 		<setting name="Item Name" variable="Set8Item20Name" type="string" description="Item name" default="Item 20" condition="$Set8ItemCount >= 20" />
 	</category>
-	<category name="Set 9" sourceid="Set9" condition="$SetCount >= 9">
+	<category name="Set 9" condition="$SetCount >= 9">
 		<setting name="Name" variable="Set9Name" type="string" description="Set name" default="Set 09" />
 		<setting name="Item Count" variable="Set9ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -408,7 +408,7 @@
 		<setting name="Item Name" variable="Set9Item19Name" type="string" description="Item name" default="Item 19" condition="$Set9ItemCount >= 19" />
 		<setting name="Item Name" variable="Set9Item20Name" type="string" description="Item name" default="Item 20" condition="$Set9ItemCount >= 20" />
 	</category>
-	<category name="Set 10" sourceid="Set10" condition="$SetCount >= 10">
+	<category name="Set 10" condition="$SetCount >= 10">
 		<setting name="Name" variable="Set10Name" type="string" description="Set name" default="Set 10" />
 		<setting name="Item Count" variable="Set10ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -453,7 +453,7 @@
 		<setting name="Item Name" variable="Set10Item19Name" type="string" description="Item name" default="Item 19" condition="$Set10ItemCount >= 19" />
 		<setting name="Item Name" variable="Set10Item20Name" type="string" description="Item name" default="Item 20" condition="$Set10ItemCount >= 20" />
 	</category>
-	<category name="Set 11" sourceid="Set11" condition="$SetCount >= 11">
+	<category name="Set 11" condition="$SetCount >= 11">
 		<setting name="Name" variable="Set11Name" type="string" description="Set name" default="Set 11" />
 		<setting name="Item Count" variable="Set11ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -498,7 +498,7 @@
 		<setting name="Item Name" variable="Set11Item19Name" type="string" description="Item name" default="Item 19" condition="$Set11ItemCount >= 19" />
 		<setting name="Item Name" variable="Set11Item20Name" type="string" description="Item name" default="Item 20" condition="$Set11ItemCount >= 20" />
 	</category>
-	<category name="Set 12" sourceid="Set12" condition="$SetCount >= 12">
+	<category name="Set 12" condition="$SetCount >= 12">
 		<setting name="Name" variable="Set12Name" type="string" description="Set name" default="Set 12" />
 		<setting name="Item Count" variable="Set12ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -543,7 +543,7 @@
 		<setting name="Item Name" variable="Set12Item19Name" type="string" description="Item name" default="Item 19" condition="$Set12ItemCount >= 19" />
 		<setting name="Item Name" variable="Set12Item20Name" type="string" description="Item name" default="Item 20" condition="$Set12ItemCount >= 20" />
 	</category>
-	<category name="Set 13" sourceid="Set13" condition="$SetCount >= 13">
+	<category name="Set 13" condition="$SetCount >= 13">
 		<setting name="Name" variable="Set13Name" type="string" description="Set name" default="Set 13" />
 		<setting name="Item Count" variable="Set13ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -588,7 +588,7 @@
 		<setting name="Item Name" variable="Set13Item19Name" type="string" description="Item name" default="Item 19" condition="$Set13ItemCount >= 19" />
 		<setting name="Item Name" variable="Set13Item20Name" type="string" description="Item name" default="Item 20" condition="$Set13ItemCount >= 20" />
 	</category>
-	<category name="Set 14" sourceid="Set14" condition="$SetCount >= 14">
+	<category name="Set 14" condition="$SetCount >= 14">
 		<setting name="Name" variable="Set14Name" type="string" description="Set name" default="Set 14" />
 		<setting name="Item Count" variable="Set14ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -633,7 +633,7 @@
 		<setting name="Item Name" variable="Set14Item19Name" type="string" description="Item name" default="Item 19" condition="$Set14ItemCount >= 19" />
 		<setting name="Item Name" variable="Set14Item20Name" type="string" description="Item name" default="Item 20" condition="$Set14ItemCount >= 20" />
 	</category>
-	<category name="Set 15" sourceid="Set15" condition="$SetCount >= 15">
+	<category name="Set 15" condition="$SetCount >= 15">
 		<setting name="Name" variable="Set15Name" type="string" description="Set name" default="Set 15" />
 		<setting name="Item Count" variable="Set15ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -678,7 +678,7 @@
 		<setting name="Item Name" variable="Set15Item19Name" type="string" description="Item name" default="Item 19" condition="$Set15ItemCount >= 19" />
 		<setting name="Item Name" variable="Set15Item20Name" type="string" description="Item name" default="Item 20" condition="$Set15ItemCount >= 20" />
 	</category>
-	<category name="Set 16" sourceid="Set16" condition="$SetCount >= 16">
+	<category name="Set 16" condition="$SetCount >= 16">
 		<setting name="Name" variable="Set16Name" type="string" description="Set name" default="Set 16" />
 		<setting name="Item Count" variable="Set16ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -723,7 +723,7 @@
 		<setting name="Item Name" variable="Set16Item19Name" type="string" description="Item name" default="Item 19" condition="$Set16ItemCount >= 19" />
 		<setting name="Item Name" variable="Set16Item20Name" type="string" description="Item name" default="Item 20" condition="$Set16ItemCount >= 20" />
 	</category>
-	<category name="Set 17" sourceid="Set17" condition="$SetCount >= 17">
+	<category name="Set 17" condition="$SetCount >= 17">
 		<setting name="Name" variable="Set17Name" type="string" description="Set name" default="Set 17" />
 		<setting name="Item Count" variable="Set17ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -768,7 +768,7 @@
 		<setting name="Item Name" variable="Set17Item19Name" type="string" description="Item name" default="Item 19" condition="$Set17ItemCount >= 19" />
 		<setting name="Item Name" variable="Set17Item20Name" type="string" description="Item name" default="Item 20" condition="$Set17ItemCount >= 20" />
 	</category>
-	<category name="Set 18" sourceid="Set18" condition="$SetCount >= 18">
+	<category name="Set 18" condition="$SetCount >= 18">
 		<setting name="Name" variable="Set18Name" type="string" description="Set name" default="Set 18" />
 		<setting name="Item Count" variable="Set18ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -813,7 +813,7 @@
 		<setting name="Item Name" variable="Set18Item19Name" type="string" description="Item name" default="Item 19" condition="$Set18ItemCount >= 19" />
 		<setting name="Item Name" variable="Set18Item20Name" type="string" description="Item name" default="Item 20" condition="$Set18ItemCount >= 20" />
 	</category>
-	<category name="Set 19" sourceid="Set19" condition="$SetCount >= 19">
+	<category name="Set 19" condition="$SetCount >= 19">
 		<setting name="Name" variable="Set19Name" type="string" description="Set name" default="Set 19" />
 		<setting name="Item Count" variable="Set19ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
@@ -858,7 +858,7 @@
 		<setting name="Item Name" variable="Set19Item19Name" type="string" description="Item name" default="Item 19" condition="$Set19ItemCount >= 19" />
 		<setting name="Item Name" variable="Set19Item20Name" type="string" description="Item name" default="Item 20" condition="$Set19ItemCount >= 20" />
 	</category>
-	<category name="Set 20" sourceid="Set20" condition="$SetCount >= 20">
+	<category name="Set 20" condition="$SetCount >= 20">
 		<setting name="Name" variable="Set20Name" type="string" description="Set name" default="Set 20" />
 		<setting name="Item Count" variable="Set20ItemCount" type="mcinteger" default="3">
 		  <choice name="1" value="1"></choice>
