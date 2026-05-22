@@ -18,7 +18,7 @@ function clearSelection(setIndex: number, deviceId: number) {
 	g_logger.logTrace(`clearSelection, setIndex: [${setIndex}], deviceId: [${deviceId}]`, g_loggerContext);
 	
 	if (!g_sets[setIndex]) {
-        g_logger.logTrace(`clearSelection: Invalid setIndex [${setIndex}]`, g_loggerContext);
+        g_logger.logError(`clearSelection: Invalid setIndex [${setIndex}]`, g_loggerContext);
         return;
     }
 
@@ -29,7 +29,7 @@ function selectItem(setIndex: number, itemIndex: number, deviceId: number) {
 	g_logger.logTrace(`selectItem, setIndex: [${setIndex}], itemIndex: [${itemIndex}], deviceId: [${deviceId}]`, g_loggerContext);
 	
 	if (!g_sets[setIndex]) {
-        g_logger.logTrace(`selectItem: Invalid setIndex [${setIndex}]`, g_loggerContext);
+        g_logger.logError(`selectItem: Invalid setIndex [${setIndex}]`, g_loggerContext);
         return;
     }
 

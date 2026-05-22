@@ -6,8 +6,6 @@ class Set {
     private readonly _loggerContext: string;
     private readonly _name: string;   
 
-    private _selectedItemIndex: number | undefined = undefined;
-
     constructor(index: number, logger: Logger) {
         this._index = index;
         this._logger = logger;
@@ -25,23 +23,19 @@ class Set {
     public clearSelection(deviceId: number) {
         this._logger.logTrace(`clearSelection, deviceId: [${deviceId}]`, this._loggerContext);
 
-        this._selectedItemIndex = undefined;
-
-        this.updateVariables(deviceId);
+        this.updateVariables(deviceId, undefined);
     }
 
     public selectItem(itemIndex: number, deviceId: number) {
         this._logger.logTrace(`selectItem, itemIndex: [${itemIndex}], deviceId: [${deviceId}]`, this._loggerContext);
 
-        this._selectedItemIndex = itemIndex;
-
-        this.updateVariables(deviceId);
+        this.updateVariables(deviceId, itemIndex);
 	}
 
-    private updateVariables(deviceId: number) {
+    private updateVariables(deviceId: number, selectedItemIndex: number | undefined) {
         this._logger.logTrace(`updateVariables, deviceId: [${deviceId}]`, this._loggerContext);
 
-        const hasSelection = (this._selectedItemIndex != undefined);
+        const hasSelection = (selectedItemIndex != undefined);
 
         this._logger.logTrace(`updateVariables, writing ${hasSelection} to Set${this._index + 1}HasSelection%${deviceId}`, this._loggerContext);
 		SystemVars.Write(`Set${this._index + 1}HasSelection%${deviceId}`, hasSelection);
@@ -49,7 +43,7 @@ class Set {
 		SystemVars.Write(`Set${this._index + 1}HasNoSelection%${deviceId}`, !hasSelection);
 
         for (let i = 0; i < this._itemCount; i++) {
-            const isItemSelected = (this._selectedItemIndex == i);
+            const isItemSelected = (selectedItemIndex == i);
 
             this._logger.logTrace(`updateVariables, writing ${isItemSelected} to Set${this._index + 1}Item${i + 1}Selected%${deviceId}`, this._loggerContext);
             SystemVars.Write(`Set${this._index + 1}Item${i + 1}Selected%${deviceId}`, isItemSelected);
