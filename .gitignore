@@ -1,4 +1,9 @@
 .cluade/
+configuration/ConfigSettings.xml
+configuration/DeviceDescription.xml
+configuration/SystemEvents.xml
+configuration/SystemFunctions.xml
+configuration/SystemVariables.xml
 dist/
 node_modules/
 tools/*
